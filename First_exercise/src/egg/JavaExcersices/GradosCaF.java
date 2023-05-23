@@ -18,7 +18,7 @@ public class GradosCaF {
 
         converse = 32 + (9 * degrees / 5);
 
-        System.out.println("Los " + degrees + "℃ equivalen a " + converse + "℉" );
+        System.out.println("Los " + degrees + "℃ equivalen a " + converse + "℉");
 
     }
 }

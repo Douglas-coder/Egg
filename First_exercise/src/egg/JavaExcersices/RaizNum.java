@@ -16,8 +16,8 @@ public class RaizNum {
         System.out.println("Por favor ingrese un numero");
         num = leer.nextInt();
 
-        System.out.println("El numero: " + num + "² = " + (num * num));
-        System.out.println("El numero: " + num + "³ = " + (num * num * num));
+        System.out.println("El numero: " + num + "² = " + Math.pow(num, 2));
+        System.out.println("El numero: " + num + "³ = " + Math.pow(num, 3));
         System.out.println("La √" + num + " = " + Math.sqrt(num));
 
     }

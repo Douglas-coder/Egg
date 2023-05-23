@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Se vuelve a colocar como Suma">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/GradosCaF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MayusMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/RaizNum.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicios hasta el 9 completados">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/Eureka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/LongitudPalabra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/ParImpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Eureka.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/GradosCaF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/LongitudPalabra.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MayusMin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Name.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ParImpar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/RaizNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/SubstringA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/GradosCaF.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/GradosCaF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/RaizNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/RaizNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/Suma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Suma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Suma.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684849471532</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5 ejercicios completados">
+      <created>1684856494223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684856494223</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +121,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="se cambia por un menos" />
     <MESSAGE value="Se vuelve a colocar como Suma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se vuelve a colocar como Suma" />
+    <MESSAGE value="5 ejercicios completados" />
+    <MESSAGE value="Ejercicios hasta el 9 completados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios hasta el 9 completados" />
   </component>
 </project>

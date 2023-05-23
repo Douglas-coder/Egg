@@ -7,7 +7,7 @@ dos. El programa deberá después mostrar el resultado de la suma*/
 
 public class Suma {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in);
         int num1;
@@ -21,7 +21,7 @@ public class Suma {
 
         sum = num1 + num2;
 
-        System.out.println("El resultado de la suma de los numeros [" + num1 + "] + [" + num2 + "] es: " +sum);
+        System.out.println("El resultado de la suma de los numeros [" + num1 + "] + [" + num2 + "] es: " + sum);
 
     }
 
