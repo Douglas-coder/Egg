@@ -1,0 +1,105 @@
+******** Creacion de la carpeta Git para poder iniciar cualquier proyecto en la nuve ********
+
+git init
+	↪ ( Crea la carpeta .git para 
+	comenzar a subir los archivos 
+	al repositorio remoto de github )
+
+
+******** Se agrega la carpeta del Repositorio remoto a nuestro pc ********
+
+		↱ Los signos # no van; se colocan para señalar que lo que va dentro de estos se puede colocar cualquier cosa pero se sugiere que sea siempre origin
+		⇡
+git remote add #origin# "URL repositorio remoto"
+	↪ ( Crea un enlace al repositorio remoto
+	para poder trabajar con los archivos locales
+	como los archivos del repositorio )
+
+git remote -v
+	↪ ( Muestra la informacion del repositorio
+	remoto al cual estamos conectados )
+
+
+git status
+	↪ ( Muestra el estado de los archivos dentro
+	de nuestros archivos locales )
+
+
+		↱ Se utiliza el (add .) para agregar todos los archivos y cambios que se realicen a la cola de espera
+git add "."
+	↪ ( Comando para agregar archivos
+	y cambios a la cola de espera;
+	dentro de las comillas va el nombre
+	del archivo que se quiere añadir )
+
+
+				↱ Este mensaje siempre se debe de colocar; sino te lleva a otra ventana donde te exigen colocar el mensaje
+gti commit -m "Mensaje del commit a agregar"
+	↪( Comando necesario para aceptar
+	los archivos o cambios que esten en
+	la cola de espera)
+
+
+	↱ ‼‼‼ Importante antes de hacer un push, siempre se hace un pull antes de la rama en la que nos encontremos ‼‼‼
+git pull & git push
+	⇂
+	⇂ 					↱ Aqui se coloca el nombre de la rama a la cual se le va a pedir los archivos del repositorio remoto
+	⇂⇒ git pull origin "master"
+	⇂		↪ ( Comando para traer los archivos 
+	⇂		que estan en el repositorio remoto )
+	⇂
+	⇂					↱ Aqui se coloca el nombre de la rama a la cual se le va a enviar los archivos locales al repositorio remoto
+	⇂⇒ git push origin "master"
+			↪ ( Comando para enviar los archivos
+			locales al reposirotio remoto)
+
+
+			↱ En esta variacion se agregan los archivos y cambios a la cola de espera y se hace el commit directamente 
+			⇡	( Se debe de hacer un "add" previamente a los archivos nuevos ya que esta variacion solo sirve con los archivos previamente añadidos )
+git commit -am "Mensaje del commit a agregar"
+	↪ ( Comando para agilizar el proceso
+	del "add" y el "commit")
+
+git commit
+	↪( Si se agrega un commit sin mensaje,
+	se debe agregar uno ya que la misma consola lo pide 
+	y luego tendremos que copiar [:wq] para salir de la ventana en la que nos encontramos )
+
+
+			↱ Se coloca el nombre de la rama a crear
+git branch "Nombre de la rama"
+	↪ ( Comando para crear una rama
+	en la cual trabajar )
+
+
+git branch -a
+	↪ ( Comando que muestra una lista
+	de las ramas tanto locales como remotas
+	que se encuentran )
+
+
+				↱ Se coloca el nombre de una rama ya creada previamente
+git checkout "Nombre de la rama"
+	↪ ( Comando que nos sirve para movernos
+	entre las ramas que tenemos)
+
+
+							↱ Dentro de las primeras comillas va el nombre del alias que queremos crear; y en las segundas comillas va el codigo al cual el queremos colocar el alias
+git config --global alias."stats" "shortlog -sn --all --no-merges"
+	↪ ( Comando para establecer un alias
+	a otro comando y asi poder usarlo solo
+	colocando el alias)
+
+
+git config --global --unset alias.trololo
+	↪ ( Comando para eliminar alias )
+
+git cpmfig --global user.name "Nombre Generico"
+	↪(Comando para agregarle el nombre
+	a todos los commit que se hagan
+	y asi poder saber quien hizo que cosa)\
+
+git cpmfig --global user.email "Correo@Generico"
+	↪(Comando para agregarle el correo
+	a todos los commit que se hagan
+	y asi poder saber quien hizo que cosa)

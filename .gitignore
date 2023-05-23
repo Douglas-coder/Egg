@@ -1,0 +1,7 @@
+/node_modules
+/img
+*.png
+*.ai
+*.jpeg
+*.pdf
+*.docx
