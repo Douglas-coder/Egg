@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicios hasta el 9 completados">
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Se mejora la captura de datos">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/BuclePositivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MenuOperadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/SubstringA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/SubstringA.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "E:/QA/java/Egg2/Egg",
+    "last_opened_file_path": "E:/QA/java/FigurasGeometricas2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684863936178</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se mejora la captura de datos">
+      <created>1684864311272</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684864311272</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,32 +124,7 @@
     <MESSAGE value="Se vuelve a colocar como Suma" />
     <MESSAGE value="5 ejercicios completados" />
     <MESSAGE value="Ejercicios hasta el 9 completados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios hasta el 9 completados" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SubstringA.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Se mejora la captura de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se mejora la captura de datos" />
   </component>
 </project>
