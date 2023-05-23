@@ -29,7 +29,7 @@ public class SubstringA {
             } else {
                 System.out.println("Incorrecto 2");
             }
-        } catch (Exception ex) {
+        } catch (StringIndexOutOfBoundsException ex) {
             System.out.println("No se ingreso ningun valor");
         }
 
