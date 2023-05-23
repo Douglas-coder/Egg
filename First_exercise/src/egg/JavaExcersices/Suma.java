@@ -18,7 +18,7 @@ public class Suma {
         System.out.println("Por favor ingrese el segundo numero");
         num2 = leer.nextInt();
 
-        sum = num1 + num2;
+        sum = num1 - num2;
 
         System.out.println("El resultado de la suma de los numeros [" + num1 + "] + [" + num2 + "] es: " +sum);
 
