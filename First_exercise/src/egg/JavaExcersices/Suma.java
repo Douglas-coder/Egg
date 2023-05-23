@@ -16,27 +16,5 @@ public class Suma {
         this.num2 = num2;
     }
 
-    public Scanner getLeer() {
-        return leer;
-    }
 
-    public void setLeer(Scanner leer) {
-        this.leer = leer;
-    }
-
-    public int getMun1() {
-        return mun1;
-    }
-
-    public void setMun1(int mun1) {
-        this.mun1 = mun1;
-    }
-
-    public int getNum2() {
-        return num2;
-    }
-
-    public void setNum2(int num2) {
-        this.num2 = num2;
-    }
 }
