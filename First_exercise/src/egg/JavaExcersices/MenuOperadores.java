@@ -1,6 +1,5 @@
 package egg.JavaExcersices;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /*Realizar un programa que pida dos números enteros positivos por teclado y muestre por

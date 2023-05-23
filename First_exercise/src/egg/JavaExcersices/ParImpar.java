@@ -1,6 +1,5 @@
 package egg.JavaExcersices;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /*Crear un programa que dado un numero determine si es par o impar.*/

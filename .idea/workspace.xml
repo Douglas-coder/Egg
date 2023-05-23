@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Se mejora la captura de datos">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/BuclePositivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MenuOperadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio 11 completado">
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MenuOperadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MenuOperadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/ParImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/ParImpar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684864311272</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ejercicio 11 completado">
+      <created>1684879996628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684879996628</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +131,7 @@
     <MESSAGE value="5 ejercicios completados" />
     <MESSAGE value="Ejercicios hasta el 9 completados" />
     <MESSAGE value="Se mejora la captura de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se mejora la captura de datos" />
+    <MESSAGE value="Ejercicio 11 completado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 11 completado" />
   </component>
 </project>
