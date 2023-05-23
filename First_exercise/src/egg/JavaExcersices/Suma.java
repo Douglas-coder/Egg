@@ -6,15 +6,22 @@ import java.util.Scanner;
 dos. El programa deberá después mostrar el resultado de la suma*/
 public class Suma {
 
-    Scanner leer = new Scanner(System.in);
-    int mun1;
-    int num2;
+    public static void main(String[] args){
 
-    public Suma(Scanner leer, int mun1, int num2) {
-        this.leer = leer;
-        this.mun1 = mun1;
-        this.num2 = num2;
+        Scanner leer = new Scanner(System.in);
+        int num1;
+        int num2;
+        int sum;
+
+        System.out.println("Por favor ingrese el primer numero");
+        num1 = leer.nextInt();
+        System.out.println("Por favor ingrese el segundo numero");
+        num2 = leer.nextInt();
+
+        sum = num1 + num2;
+
+        System.out.println("El resultado de la suma de los numeros [" + num1 + "] + [" + num2 + "] es: " +sum);
+
     }
-
 
 }
