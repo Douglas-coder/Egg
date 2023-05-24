@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio cuadrados asteriscos">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/BuscadorVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/ContNumVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/ContadorNumVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/ConversorMoneda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/NumerosDecendente.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Contador numeros en vector solucionado">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/CuadradoMagico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MatrizAntiSimetrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MatrizTranspuesta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684884086828</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Contador numeros en vector solucionado">
+      <created>1684951194716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684951194716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +149,18 @@
     <MESSAGE value="Se mejora la captura de datos" />
     <MESSAGE value="Ejercicio 11 completado" />
     <MESSAGE value="Ejercicio cuadrados asteriscos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio cuadrados asteriscos" />
+    <MESSAGE value="Contador numeros en vector solucionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contador numeros en vector solucionado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MatrizAntiSimetrica.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
