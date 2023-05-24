@@ -14,13 +14,13 @@ public class CuadradoAsteriscos {
         System.out.println("Por favor ingrese el tamaño del cuadrado");
         num = sc.nextInt();
 
-        for (i = 1; i <= num; i++ ) {
-            for (j = 1; j <= num; j++ ) {
+        for (i = 1; i <= num; i++) {
+            for (j = 1; j <= num; j++) {
                 if (i == 1 || i == num) {
                     System.out.print("[*]");
                 } else if (j == 1 || j == num) {
                     System.out.print("[*]");
-                }else {
+                } else {
                     System.out.print("   ");
                 }
             }

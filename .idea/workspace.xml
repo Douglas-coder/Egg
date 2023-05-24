@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio 11 completado">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/CuadradoAsteriscos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/SecuenciaFDE.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio cuadrados asteriscos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MenuOperadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MenuOperadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ParImpar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ParImpar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/CuadradoAsteriscos.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/CuadradoAsteriscos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "20",
     "last_opened_file_path": "E:/QA/java/FigurasGeometricas2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684879996628</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ejercicio cuadrados asteriscos">
+      <created>1684884086828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684884086828</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +139,7 @@
     <MESSAGE value="Ejercicios hasta el 9 completados" />
     <MESSAGE value="Se mejora la captura de datos" />
     <MESSAGE value="Ejercicio 11 completado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 11 completado" />
+    <MESSAGE value="Ejercicio cuadrados asteriscos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio cuadrados asteriscos" />
   </component>
 </project>
