@@ -35,7 +35,7 @@ public class CuadradoMagico {
         for (x = 0; x < matriz.length; x++) {
             for (z = 0; z < matriz.length; z++) {
                 System.out.print("Ingrese los valores de la matriz [" + x + "," + z + "]: ");
-                num[x][z] = sc.nextInt();
+//                num[x][z] = sc.nextInt();
             }
         }
 
