@@ -1,4 +1,4 @@
-package egg.JavaExcersices;
+package egg.JavaExercises;
  import java.util.Scanner;
  public class MagicSquare {
      // Constantes que definen el tamaño mínimo y máximo del cuadrado mágico
