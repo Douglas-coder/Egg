@@ -17,12 +17,14 @@ public class SecuenciaFDE {
 
     public static void main(String[] args) {
 
+        //Se crean variables necesarias
         Scanner sc = new Scanner(System.in);
         int correct = 0;
         int incorrect = 0;
 
-        System.out.println("Por favor ingrese las cadenas (maximo 5 caracteres), ingrese '&&&&&' para finalizar:");
+        System.out.println("Por favor ingrese las cadenas (maximo 5 caracteres), que inicie con 'X' y terminen con 'O'. Ingrese '&&&&&' para finalizar:");
 
+        //Bloque de codigo que permite validar cuales cadenas son correctas e incorrectas.
         while (true) {
 
             String cadena = sc.nextLine();
@@ -39,6 +41,7 @@ public class SecuenciaFDE {
 
         }
 
+        //Se imprime la informacion final por pantalla para indicar resultados
         System.out.println("Informe");
         System.out.println("Cadenas correctas: " + correct);
         System.out.println("Cadenas incorrectas: " + incorrect);
