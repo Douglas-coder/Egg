@@ -4,15 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio 19 terminado">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizTranspuestaAleatoria.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Se cambia de pakage los ejercicios">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/Exercise21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizDentroMatriz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExample/CambioVocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExample/CambioVocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/CuadradoMagico.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/CuadradoMagico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MagicSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MatrizTranspuesta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/CuadradoMagico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/CuadradoMagico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MagicSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MagicSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MagicSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizTranspuestaAleatoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizTranspuestaAleatoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExample/CambioVocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExample/CambioVocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/BuclePositivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/BuscadorVector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ContNumVector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ContadorNumVector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ConversorMoneda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/CuadradoAsteriscos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/CuadradoMagico.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Eureka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/GradosCaF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/LongitudPalabra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MagicSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MatrizAntiSimetrica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MayusMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/MenuOperadores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/NumerosDecendente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/ParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/RaizNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/SecuenciaFDE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/SubstringA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExcersices/Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizTranspuestaAleatoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizTranspuestaAleatoria.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +83,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "20",
     "last_opened_file_path": "E:/QA/java/FigurasGeometricas2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -151,7 +172,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685454331226</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creacion de cambio de vocales">
+      <created>1685483310051</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685483310051</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Cambios significativos en la matrizTranspuesta">
+      <created>1685483349007</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685483349008</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Se cambia de pakage los ejercicios">
+      <created>1685483608777</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685483608777</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,13 +218,16 @@
     <MESSAGE value="Ejercicio cuadrados asteriscos" />
     <MESSAGE value="Contador numeros en vector solucionado" />
     <MESSAGE value="Ejercicio 19 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 19 terminado" />
+    <MESSAGE value="Creacion de cambio de vocales" />
+    <MESSAGE value="Cambios significativos en la matrizTranspuesta" />
+    <MESSAGE value="Se cambia de pakage los ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se cambia de pakage los ejercicios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExcersices/MatrizAntiSimetrica.java</url>
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizAntiSimetrica.java</url>
           <line>35</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>

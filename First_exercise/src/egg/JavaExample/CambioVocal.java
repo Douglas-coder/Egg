@@ -6,7 +6,6 @@ public class CambioVocal {
 
     public static void main(String[] args) {
 
-
         Scanner sc = new Scanner(System.in);
         String text;
 
@@ -24,7 +23,6 @@ public class CambioVocal {
         String codificado = "";
 
         text = text.toLowerCase();
-
 
         for (int x = 0; x < text.length(); x++) {
 
