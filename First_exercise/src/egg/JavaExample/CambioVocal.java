@@ -9,8 +9,10 @@ public class CambioVocal {
         Scanner sc = new Scanner(System.in);
         String text;
 
-        System.out.println("Por favor ingrese texto a codificar:");
-        text = sc.nextLine();
+        do {
+            System.out.println("Por favor ingrese texto a codificar que termine en '.':");
+            text = sc.nextLine();
+        } while (!text.substring(text.length() - 1, text.length()).equals("."));
 
         codificar(text);
 
@@ -26,27 +28,27 @@ public class CambioVocal {
 
         for (int x = 0; x < text.length(); x++) {
 
-            switch (text.charAt(x)) {
-                case 'a':
-                    codificado += ("@");
-                    break;
-                case 'e':
-                    codificado += ("#");
-                    break;
-                case 'i':
-                    codificado += ("$");
-                    break;
-                case 'o':
-                    codificado += ("%");
-                    break;
-                case 'u':
-                    codificado += ("*");
-                    break;
-                default:
-                    codificado += (text.charAt(x));
-                    break;
+                switch (text.charAt(x)) {
+                    case 'a':
+                        codificado += ("@");
+                        break;
+                    case 'e':
+                        codificado += ("#");
+                        break;
+                    case 'i':
+                        codificado += ("$");
+                        break;
+                    case 'o':
+                        codificado += ("%");
+                        break;
+                    case 'u':
+                        codificado += ("*");
+                        break;
+                    default:
+                        codificado += (text.charAt(x));
+                        break;
+                }
             }
-        }
 
         return codificado;
     }

@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="SOPA DE LETRAS TERMINADO">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/CambioDeValor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/DeteccionVocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/UnitConverter.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Actualizacion en comentarios.">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/NumerosRomanos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/PromedioEstaturas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/TipoDeSocios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExample/CambioVocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExample/CambioVocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/NumerosDecendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/NumerosDecendente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExample/CambioVocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExample/CambioVocal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685574226870</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Actualizacion en comentarios.">
+      <created>1685655840609</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685655840609</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +230,8 @@
     <MESSAGE value="Se cambia de pakage los ejercicios" />
     <MESSAGE value="Ejercicio 21 resuelto" />
     <MESSAGE value="SOPA DE LETRAS TERMINADO" />
-    <option name="LAST_COMMIT_MESSAGE" value="SOPA DE LETRAS TERMINADO" />
+    <MESSAGE value="Actualizacion en comentarios." />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion en comentarios." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,12 +12,15 @@ public class NumerosDecendente {
         Scanner sc = new Scanner(System.in);
         int[] num = new int[100];
 
-        for (int i = 0; i < 99; i++){
+        for (int i = 0; i < num.length; i++){
             num[i] = i + 1;
+            System.out.printf("[%3d]", num[i]);
         }
 
-        for (int i = num.length - 2; i >= 0; i--){
-            System.out.print("[" + num[i] + "]");
+        System.out.println("");
+
+        for (int i = num.length - 1; i >= 0; i--){
+            System.out.printf("[%3d]",num[i]);
         }
 
     }
