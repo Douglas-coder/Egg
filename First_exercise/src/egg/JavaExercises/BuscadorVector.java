@@ -38,11 +38,11 @@ public class BuscadorVector {
             if (vector[i] == num) {
                 cont = cont + 1;
                 posi = i;
+                System.out.println("El numero " + num + " se encuentra en la posición " + posi);
             }
         }
 
-        System.out.println("El numero " + num + " se encuentra en la posición " + posi + " y se encuentra " + cont + " veces ");
-
+        System.out.print("Y se encuentra " + cont + " veces ");
     }
 
 }
