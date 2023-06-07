@@ -32,10 +32,10 @@ public class CambioDeValor {
     public static void cambioValor(int a, int b, int c, int d, int aux){
 
         //Asignacion de los nuevos valores a cada variable
-        a = d;
+        a = b;
         b = c;
-        c = aux;
-        d = b;
+        c = d;
+        d = aux;
 
         //Impresion de los valores intercambiados por pantalla
         System.out.println("El valor de A es: " + a);
