@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Correcion buscador vector y finalizacion promedio estaturas">
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/CambioDeValor.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/CambioDeValor.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Correccion Cambio de valor">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/ExtraExercises/CambioDeValor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/ExtraExercises/CambioDeValor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/BuscadorVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/BuscadorVector.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "E:/QA/java/Egg/Egg",
+    "last_opened_file_path": "E:/QA/java/FigurasGeometricas2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -201,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685667192298</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Correccion Cambio de valor">
+      <created>1686177444481</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686177444481</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +244,8 @@
     <MESSAGE value="Actualizacion en comentarios." />
     <MESSAGE value="Correcion numDecendentes y ejercicios del 4 al 6 de los extra" />
     <MESSAGE value="Correcion buscador vector y finalizacion promedio estaturas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcion buscador vector y finalizacion promedio estaturas" />
+    <MESSAGE value="Correccion Cambio de valor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correccion Cambio de valor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
