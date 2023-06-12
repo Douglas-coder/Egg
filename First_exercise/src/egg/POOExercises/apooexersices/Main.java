@@ -36,7 +36,7 @@ public class Main {
                     System.out.println("");
 
                     switch (submenu) {//*SubMenu1
-                        case 1:
+                        case 1://Libro
                             Libro libro = new Libro();
                             System.out.println("");
                             System.out.println("ISBN: " + libro.getISBN());
@@ -44,13 +44,13 @@ public class Main {
                             System.out.println("Autor: " + libro.getAutor());
                             System.out.println("Numero de paginas: " + libro.getNumPaginas());
                             break;
-                        case 2:
+                        case 2://Circunferencia
                             Circunferencia circulo = new Circunferencia();
                             System.out.println("");
                             System.out.println("El area es: " + circulo.area());
                             System.out.println("El Perimetro es: " + circulo.perimetro());
                             break;
-                        case 3:
+                        case 3://Operaciones
                             Operacion operacion = new Operacion();
                             System.out.println("");
                             System.out.println("La suma de " + operacion.getNum1() + " + " + operacion.getNum2() + " = " + operacion.sumar());
@@ -58,26 +58,26 @@ public class Main {
                             System.out.println("La multiplicacion de " + operacion.getNum1() + " * " + operacion.getNum2() + " = " + operacion.multiplicar());
                             System.out.println("La division de " + operacion.getNum1() + " / " + operacion.getNum2() + " = " + operacion.dividir());
                             break;
-                        case 4:
+                        case 4://Rectangulo
                             Rectangulo rectangulo = new Rectangulo();
                             System.out.println("");
                             System.out.println("La superficie del rectangulo con base: " + rectangulo.getBase() + " y altura: " + rectangulo.getAltura() + " es: " + rectangulo.superficie());
                             System.out.println("El perimetro del rectangulo con base: " + rectangulo.getBase() + " y altura: " + rectangulo.getAltura() + " es: " + rectangulo.perimetro());
                             break;
-                        case 5:
+                        case 5://Cuenta bancaria
                             CuentaBancaria cuentaBancaria = new CuentaBancaria();
                             System.out.println("");
                             break;
-                        case 6:
+                        case 6://Cafetera
                             System.out.println("Opcion 6 ejercicios practicos");
                             break;
-                        case 7:
+                        case 7://Persona
                             System.out.println("Opcion 7 ejercicios practicos");
                             break;
-                        case 8:
+                        case 8://Cadena
                             System.out.println("Opcion 8 ejercicios practicos");
                             break;
-                        case 9:
+                        case 9://Matematica
                             System.out.println("Opcion 9 ejercicios practicos");
                             break;
                         case 10:

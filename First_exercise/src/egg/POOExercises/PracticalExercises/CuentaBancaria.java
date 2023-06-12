@@ -134,11 +134,11 @@ public class CuentaBancaria {
 
         confirmar = sc.nextInt();
 
-        if (confirmar == 1){
+        if (confirmar == 1) {
 
             setSaldoActual((int) (saldoActual - (saldoActual * 0.2)));
 
-        }else {
+        } else {
             System.out.println("Gracias.");
         }
 
