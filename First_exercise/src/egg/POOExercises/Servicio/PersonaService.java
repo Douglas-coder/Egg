@@ -1,6 +1,6 @@
 package egg.POOExercises.Servicio;
 
-import egg.POOExercises.SEntidad.Persona;
+import egg.POOExercises.SEntidad.PersonasGuia;
 
 import java.util.Scanner;
 
@@ -11,17 +11,17 @@ public class PersonaService {
     ?Mostrar Persona
     */
 
-    public Persona crearPersona() {
+    public PersonasGuia crearPersona() {
 
         Scanner sc = new Scanner(System.in);
 
-        Persona personaCompleta = new Persona();
+        PersonasGuia personasGuiaCompleta = new PersonasGuia();
 
         System.out.println("Ingrese el nombre de la persona");
 
-        personaCompleta.setName(sc.next());
+        personasGuiaCompleta.setName(sc.next());
 
-        return personaCompleta;
+        return personasGuiaCompleta;
 
     }
 

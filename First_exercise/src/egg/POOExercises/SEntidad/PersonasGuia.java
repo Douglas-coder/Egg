@@ -1,6 +1,6 @@
 package egg.POOExercises.SEntidad;
 
-public class Persona {
+public class PersonasGuia {
 
     /*
     ?Nombre
@@ -10,7 +10,7 @@ public class Persona {
     String name;
     int IDNumber;
 
-    public Persona() {
+    public PersonasGuia() {
         this.name = name;
         this.IDNumber = IDNumber;
     }

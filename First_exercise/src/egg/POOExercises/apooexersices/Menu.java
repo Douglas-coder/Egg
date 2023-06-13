@@ -1,12 +1,8 @@
 package egg.POOExercises.apooexersices;
 
-import egg.POOExercises.PracticalExercises.*;
-import egg.POOExercises.SEntidad.PersonasGuia;
-import egg.POOExercises.Servicio.PersonaService;
-
 import java.util.Scanner;
 
-public class Main {
+public class Menu {
 
     public static void main(String[] args) {
 
@@ -21,7 +17,6 @@ public class Main {
             System.out.println("Seleccione el ejercicio a ejecutar:");
             System.out.println("1- Ejercicios practicos");
             System.out.println("2- Ejercicios extra");
-            System.out.println("3- Ejercicios guia");
             int menu = sc.nextInt();
             System.out.println("");
 
@@ -36,41 +31,25 @@ public class Main {
 
                     switch (submenu) {//*SubMenu1
                         case 1://Libro
-                            Libro libro = new Libro();
-                            System.out.println("");
-                            System.out.println("ISBN: " + libro.getISBN());
-                            System.out.println("Titulo: " + libro.getTitulo());
-                            System.out.println("Autor: " + libro.getAutor());
-                            System.out.println("Numero de paginas: " + libro.getNumPaginas());
+                            System.out.println("Opcion 1 ejercicios practicos");
                             break;
                         case 2://Circunferencia
-                            Circunferencia circulo = new Circunferencia();
-                            System.out.println("");
-                            System.out.println("El area es: " + circulo.area());
-                            System.out.println("El Perimetro es: " + circulo.perimetro());
+                            System.out.println("Opcion 2 ejercicios practicos");
                             break;
                         case 3://Operaciones
-                            Operacion operacion = new Operacion();
-                            System.out.println("");
-                            System.out.println("La suma de " + operacion.getNum1() + " + " + operacion.getNum2() + " = " + operacion.sumar());
-                            System.out.println("La resta de " + operacion.getNum1() + " - " + operacion.getNum2() + " = " + operacion.restar());
-                            System.out.println("La multiplicacion de " + operacion.getNum1() + " * " + operacion.getNum2() + " = " + operacion.multiplicar());
-                            System.out.println("La division de " + operacion.getNum1() + " / " + operacion.getNum2() + " = " + operacion.dividir());
+                            System.out.println("Opcion 3 ejercicios practicos");
                             break;
                         case 4://Rectangulo
-                            Rectangulo rectangulo = new Rectangulo();
-                            System.out.println("");
-                            System.out.println("La superficie del rectangulo con base: " + rectangulo.getBase() + " y altura: " + rectangulo.getAltura() + " es: " + rectangulo.superficie());
-                            System.out.println("El perimetro del rectangulo con base: " + rectangulo.getBase() + " y altura: " + rectangulo.getAltura() + " es: " + rectangulo.perimetro());
+                            System.out.println("Opcion 4 ejercicios practicos");
                             break;
                         case 5://Cuenta bancaria
-                            CuentaBancaria cuentaBancaria = new CuentaBancaria();
+                            System.out.println("Opcion 5 ejercicios practicos");
                             break;
                         case 6://Cafetera
-                            Cafetera cafetera = new Cafetera();
+                            System.out.println("Opcion 6 ejercicios practicos");
                             break;
                         case 7://Persona
-                            Persona persona = new Persona();
+                            System.out.println("Opcion 7 ejercicios practicos");
                             break;
                         case 8://Cadena
                             System.out.println("Opcion 8 ejercicios practicos");
@@ -129,12 +108,6 @@ public class Main {
                             System.out.println("Opcion erronea");
                     }
 
-                    break;
-
-                case 3://*Ejercicios guia
-                    PersonaService primeraPersona = new PersonaService();
-                    PersonasGuia personasGuia = primeraPersona.crearPersona();
-                    System.out.println("Hola " + personasGuia.getName());
                     break;
 
                 default:

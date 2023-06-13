@@ -37,7 +37,7 @@ public class CuentaBancaria {
     public CuentaBancaria() {
 
         crearCuenta();
-        System.out.println("");
+        //System.out.println("");
 
         int continuar = 1;
 
@@ -77,7 +77,6 @@ public class CuentaBancaria {
             System.out.println("Desea consultar o realizar otra accion? (1)");
             System.out.println("Salir (0)");
             continuar = sc.nextInt();
-            System.out.println("");
 
         }
 
