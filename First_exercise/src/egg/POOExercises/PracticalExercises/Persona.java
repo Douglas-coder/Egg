@@ -25,7 +25,7 @@ A continuación, en la clase main hacer lo siguiente:
 los métodos para cada objeto, deberá comprobar si la persona está en su peso ideal,
 tiene sobrepeso o está por debajo de su peso ideal e indicar para cada objeto si la
 persona es mayor de edad.
-Por último, guardaremos los resultados de los métodos calcularIMC y esMayorDeEdad en
+*Por último, guardaremos los resultados de los métodos calcularIMC y esMayorDeEdad en
 distintas variables, para después en el main, calcular un porcentaje de esas 4 personas
 cuantas están por debajo de su peso, cuantas en su peso ideal y cuantos, por encima, y
 también calcularemos un porcentaje de cuantos son mayores de edad y cuantos menores
@@ -91,6 +91,20 @@ public class Persona {
 
     }
 
+    //?Metodo mostrar datos del arrayList
+    public String mostrarDatos() {
+
+        String mostrar = "";
+
+        mostrar += "Usted esta en su peso ideal? " + calcularIMC() + "\n";
+        mostrar += "Este es tu peso " + this.peso + "\n";
+        mostrar += "Este es tu altura " + this.altura + "\n";
+        mostrar += "Usted es mayor de edad? " + esMayorDeEdad() + "\n";
+
+        return mostrar;
+
+    }
+
     //?Metodo calcular IMC
     public double calcularIMC() {
 
@@ -99,13 +113,10 @@ public class Persona {
 
         if (resultado < 20) {
             imc = -1;
-            System.out.println("Se encuentra por debajo de su peso");
         } else if (resultado >= 20 && resultado <= 25) {
             imc = 0;
-            System.out.println("Se encuentra en su peso ideal");
         } else {
             imc = 1;
-            System.out.println("Se encuentra con sobrepeso");
         }
 
         return imc;
@@ -124,19 +135,6 @@ public class Persona {
         }
 
         return mayorDeEdad;
-
-    }
-
-    public String mostrarDatos() {
-
-        String mostrar = "";
-
-        mostrar += "Usted esta en su peso ideal? " + calcularIMC() + "\n";
-        mostrar += "Este es tu peso " + this.peso + "\n";
-        mostrar += "Este es tu altura " + this.altura + "\n";
-        mostrar += "Usted es mayor de edad? " + esMayorDeEdad() + "\n";
-
-        return mostrar;
 
     }
 

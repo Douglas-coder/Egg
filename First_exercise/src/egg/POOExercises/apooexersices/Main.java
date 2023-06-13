@@ -72,7 +72,12 @@ public class Main {
                             break;
                         case 7://Persona
                             ArrayList<Persona> personas = new ArrayList<>();
-                            for (int x = 0; x < 2; x++) {
+                            int cont = 0;
+                            int cont2 = 0;
+                            int cont3 = 0;
+                            int cont4 = 0;
+                            int cont5 = 0;
+                            for (int x = 0; x < 4; x++) {
                                 //Crear(Instanciar) el objeto dentro del for para crear 1 objeto cada ciclo for(iteracion)
                                 Persona persona = new Persona();
                                 System.out.println("Persona numero: " + (x + 1));
@@ -82,6 +87,29 @@ public class Main {
                             for (int x = 0; x < personas.size(); x++) {
                                 System.out.println(personas.get(x).mostrarDatos());
                             }
+                            for (int x = 0; x < personas.size(); x++) {
+                                if (personas.get(x).calcularIMC() < 0) {
+                                    cont++;
+                                    System.out.println("--Personas con deficit de peso:-- " + cont);
+                                } else if (personas.get(x).calcularIMC() == 0) {
+                                    cont2++;
+                                    System.out.println("--Personas con peso ideal:-- " + cont2);
+                                } else if (personas.get(x).calcularIMC() > 0) {
+                                    cont3++;
+                                    System.out.println("--Personas con sobrepeso:-- " + cont3);
+                                }
+                            }
+                            for (int x = 0; x < personas.size(); x++) {
+                                if ((personas.get(x).esMayorDeEdad())) {
+                                    cont4++;
+                                    System.out.println("Personas mayores de edad: " + cont4);
+                                } else {
+                                    personas.get(x).esMayorDeEdad();
+                                    cont5++;
+                                    System.out.println("Personas menores de edad: " + cont5);
+                                }
+                            }
+
                             break;
                         case 8://Cadena
                             System.out.println("Opcion 8 ejercicios practicos");
