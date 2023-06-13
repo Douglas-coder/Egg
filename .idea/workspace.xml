@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Menu poo exercises">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Menu.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Culminacion ejercicio 6, comienzo ejercicio 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/SEntidad/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/SEntidad/PersonasGuia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/CuentaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/CuentaBancaria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/PersonaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/PersonaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Persona.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +282,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686608031340</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Culminacion ejercicio 6, comienzo ejercicio 7">
+      <created>1686615925929</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686615925929</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Culminacion ejercicio 6, comienzo ejercicio 7">
+      <created>1686615945758</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686615945758</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +333,8 @@
     <MESSAGE value="Menu para los ejercicios de POO" />
     <MESSAGE value="Ejercicios hasta el 5 realizados" />
     <MESSAGE value="Menu poo exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu poo exercises" />
+    <MESSAGE value="Culminacion ejercicio 6, comienzo ejercicio 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Culminacion ejercicio 6, comienzo ejercicio 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,9 +349,28 @@
           <line>81</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="32" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="35" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

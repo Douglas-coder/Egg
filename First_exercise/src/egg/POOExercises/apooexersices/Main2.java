@@ -20,9 +20,9 @@ public class Main2 {
         sexo = sc.nextLine();
         sexo = sexo.toUpperCase();
 
-        if(sexo.equals("H")||sexo.equals("M")||sexo.equals("O")) {
+        if (sexo.equals("H") || sexo.equals("M") || sexo.equals("O")) {
             System.out.println("Sexo confirmado");
-        }else {
+        } else {
             System.out.println("La opcion seleccionada no es valida");
         }
 

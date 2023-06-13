@@ -19,11 +19,11 @@ public class PromedioEstaturas {
 
         /**
          * * Agregamos las alturas de las N personas
-        alturas.add(1.70);
-        alturas.add(1.55);
-        alturas.add(1.80);
-        alturas.add(1.62);
-        alturas.add(1.50);
+         alturas.add(1.70);
+         alturas.add(1.55);
+         alturas.add(1.80);
+         alturas.add(1.62);
+         alturas.add(1.50);
          */
 
         double altura;
@@ -37,10 +37,10 @@ public class PromedioEstaturas {
         do {
             System.out.print("Persona #" + numPersona++ + ":");
             altura = sc.nextDouble();
-            if (altura != 0){
+            if (altura != 0) {
                 alturas.add(altura);
             }
-        }while (altura != 0);
+        } while (altura != 0);
 
         System.out.println("Ha introducido " + alturas.size() + " personas");
         System.out.println("");
@@ -53,7 +53,7 @@ public class PromedioEstaturas {
 
         // Calculamos el promedio de estaturas por debajo de 1.60 mts
         for (double alt : alturas) {
-            if (alt < 160){
+            if (alt < 160) {
                 promedioDebajo160 += alt; // Acumulamos las alturas por debajo de 1.60 mts
                 cont++; // Contamos la cantidad de personas por debajo de 1.60 mts
             }

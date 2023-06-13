@@ -28,27 +28,27 @@ public class CambioVocal {
 
         for (int x = 0; x < text.length(); x++) {
 
-                switch (text.charAt(x)) {
-                    case 'a':
-                        codificado += ("@");
-                        break;
-                    case 'e':
-                        codificado += ("#");
-                        break;
-                    case 'i':
-                        codificado += ("$");
-                        break;
-                    case 'o':
-                        codificado += ("%");
-                        break;
-                    case 'u':
-                        codificado += ("*");
-                        break;
-                    default:
-                        codificado += (text.charAt(x));
-                        break;
-                }
+            switch (text.charAt(x)) {
+                case 'a':
+                    codificado += ("@");
+                    break;
+                case 'e':
+                    codificado += ("#");
+                    break;
+                case 'i':
+                    codificado += ("$");
+                    break;
+                case 'o':
+                    codificado += ("%");
+                    break;
+                case 'u':
+                    codificado += ("*");
+                    break;
+                default:
+                    codificado += (text.charAt(x));
+                    break;
             }
+        }
 
         return codificado;
     }

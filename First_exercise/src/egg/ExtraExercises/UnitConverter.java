@@ -26,17 +26,17 @@ public class UnitConverter {
     }
 
     //********** SubFuncion para convertir los minutos a horas **********
-    public static int hourConverter(int minutes){
+    public static int hourConverter(int minutes) {
 
-        int hour = minutes/60;
+        int hour = minutes / 60;
 
         return hour;
     }
 
     //********** SubFuncion para convertir los minutos a dias **********
-    public static int dayConverter(int minutes){
+    public static int dayConverter(int minutes) {
 
-        int day = minutes/1440;
+        int day = minutes / 1440;
 
         return day;
     }

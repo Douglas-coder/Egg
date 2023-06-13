@@ -1,8 +1,5 @@
 package egg.ExtraExercises;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 
 /*Construya un programa que lea 5 palabras de mínimo 3 y hasta 5 caracteres y, a medida
@@ -80,7 +77,7 @@ public class SopaDeLetras {
                 //Se crea variable de tipo boolean para poder ingresar cada uno de los caracteres en espacios vacios
                 boolean posicionValidaEncontrada = false;
                 while (!posicionValidaEncontrada) {
-                    if (sopaLetras[row][col] == 0 || sopaLetras[row][col] == letra){
+                    if (sopaLetras[row][col] == 0 || sopaLetras[row][col] == letra) {
                         sopaLetras[row][col] = letra;
                         posicionValidaEncontrada = true;
                     }

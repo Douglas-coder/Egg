@@ -1,7 +1,7 @@
 package egg.JavaExercises;
 
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 /*Recorrer un vector de N enteros contabilizando cuántos números son de 1 dígito, cuántos
 de 2 dígitos, etcétera (hasta 5 dígitos).*/
@@ -30,13 +30,13 @@ public class ContadorNumVector {
         for (int i = 0; i < vector.length; i++) {
             if (vector[i] < 9) {
                 cont = cont + 1;
-            }else if (vector[i] > 9 && vector[i] < 99){
+            } else if (vector[i] > 9 && vector[i] < 99) {
                 cont2 = cont2 + 1;
-            }else if (vector[i] > 99 && vector[i] < 999){
+            } else if (vector[i] > 99 && vector[i] < 999) {
                 cont3 = cont3 + 1;
-            }else if (vector[i] > 999 && vector[i] < 9999){
+            } else if (vector[i] > 999 && vector[i] < 9999) {
                 cont4 = cont4 + 1;
-            }else if (vector[i] > 9999){
+            } else if (vector[i] > 9999) {
                 cont5 = cont5 + 1;
             }
         }

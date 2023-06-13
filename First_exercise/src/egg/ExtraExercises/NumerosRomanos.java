@@ -21,11 +21,11 @@ public class NumerosRomanos {
 
     }
 
-    public static String cambiarNumeroARomano(int num){
+    public static String cambiarNumeroARomano(int num) {
 
         String numRomano = "";
 
-        switch (num){
+        switch (num) {
             case 1:
                 numRomano += ("I");
                 break;

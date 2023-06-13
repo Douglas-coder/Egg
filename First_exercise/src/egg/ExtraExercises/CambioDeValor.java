@@ -10,10 +10,10 @@ public class CambioDeValor {
     public static void main(String[] args) {
 
         //Inicializacion de variables con valores aleatorios
-        int A = (int) (Math.random()*20);
-        int B = (int) (Math.random()*20);
-        int C = (int) (Math.random()*20);
-        int D = (int) (Math.random()*20);
+        int A = (int) (Math.random() * 20);
+        int B = (int) (Math.random() * 20);
+        int C = (int) (Math.random() * 20);
+        int D = (int) (Math.random() * 20);
         int aux = A;
 
         //Impresion de los valores inicales por pantalla
@@ -24,12 +24,12 @@ public class CambioDeValor {
         System.out.println("");
 
         //Creacion de subFuncion para cambio de valores
-        cambioValor(A,B,C,D,aux);
+        cambioValor(A, B, C, D, aux);
 
     }
 
     //********** SubFuncion para cambiar los valores de las variables **********
-    public static void cambioValor(int a, int b, int c, int d, int aux){
+    public static void cambioValor(int a, int b, int c, int d, int aux) {
 
         //Asignacion de los nuevos valores a cada variable
         a = b;

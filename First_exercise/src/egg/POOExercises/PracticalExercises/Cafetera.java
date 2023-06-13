@@ -37,7 +37,7 @@ public class Cafetera {
 
         int continuar = 1;
 
-        while (continuar == 1){
+        while (continuar == 1) {
 
             System.out.println("Por favor indique que desea realizar");
             System.out.println("1- Llenar cafetera");
@@ -47,7 +47,7 @@ public class Cafetera {
             int menu = sc.nextInt();
             System.out.println("");
 
-            switch (menu){
+            switch (menu) {
                 case 1:
                     llenarCafetera();
                     System.out.println("La cafetera contiene: " + cantidadActual + " ml de cafe");
@@ -84,7 +84,7 @@ public class Cafetera {
     }
 
     //!Metodo servir taza
-    public int servirTaza(){
+    public int servirTaza() {
 
         int tamTaza;
 
@@ -92,17 +92,17 @@ public class Cafetera {
         tamTaza = sc.nextInt();
 
 
-        if (cantidadActual == 0){
+        if (cantidadActual == 0) {
             System.out.println("La cafetera no contiene cafe");
-        }else if (tamTaza > 177){
+        } else if (tamTaza > 177) {
             System.out.println("El tamaño de la taza no puede superar los 177 ml");
-        }else if (cantidadActual < tamTaza){
+        } else if (cantidadActual < tamTaza) {
             System.out.println("La taza no se alcanzo a llenar y quedo con: " + cantidadActual + " ml de cafe");
             setCantidadActual(0);
-        }else if (cantidadActual == tamTaza){
+        } else if (cantidadActual == tamTaza) {
             System.out.println("Su taza se lleno con la cantidad justa de cafe");
             setCantidadActual(0);
-        }else {
+        } else {
             System.out.println("Su taza se lleno con: " + tamTaza + " ml de cafe");
             setCantidadActual(cantidadActual - tamTaza);
         }
@@ -112,23 +112,23 @@ public class Cafetera {
     }
 
     //!Metodo vaciar cafetera
-    public double vaciarCafetera(){
+    public double vaciarCafetera() {
 
         return cantidadActual = 0;
 
     }
 
     //*Metodo agregar cafe
-    public int agregarCafe(){
+    public int agregarCafe() {
 
         int cantCafe;
 
         System.out.println("Por favor indique la cantidad de cafe a rellenar");
         cantCafe = sc.nextInt();
 
-        if ((cantCafe + cantidadActual) > capacidadMaxima){
+        if ((cantCafe + cantidadActual) > capacidadMaxima) {
             System.out.println("La cantidad ingresada supera la cantidad maxima que es: " + capacidadMaxima);
-        }else {
+        } else {
             setCantidadActual(cantidadActual + cantCafe);
         }
 

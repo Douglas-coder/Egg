@@ -4,6 +4,7 @@ import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.SEntidad.PersonasGuia;
 import egg.POOExercises.Servicio.PersonaService;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -70,7 +71,17 @@ public class Main {
                             Cafetera cafetera = new Cafetera();
                             break;
                         case 7://Persona
-                            Persona persona = new Persona();
+                            ArrayList<Persona> personas = new ArrayList<>();
+                            for (int x = 0; x < 2; x++) {
+                                //Crear(Instanciar) el objeto dentro del for para crear 1 objeto cada ciclo for(iteracion)
+                                Persona persona = new Persona();
+                                System.out.println("Persona numero: " + (x + 1));
+                                persona.crearPersona();
+                                personas.add(persona);
+                            }
+                            for (int x = 0; x < personas.size(); x++) {
+                                System.out.println(personas.get(x).mostrarDatos());
+                            }
                             break;
                         case 8://Cadena
                             System.out.println("Opcion 8 ejercicios practicos");

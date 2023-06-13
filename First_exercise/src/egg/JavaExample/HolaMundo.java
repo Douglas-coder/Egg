@@ -29,9 +29,9 @@ public class HolaMundo {
         num1 = leer.nextInt();
         num2 = leer.nextInt();
 
-        if (num1 > 25 || num2 > 25){
+        if (num1 > 25 || num2 > 25) {
             System.out.println("Uno de los numeros es mayor a 25");
-        }else {
+        } else {
             System.out.println("Ninguno de los numeros es mayor a 25");
         }
 

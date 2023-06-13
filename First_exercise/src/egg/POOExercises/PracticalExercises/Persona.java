@@ -11,27 +11,27 @@ atributo, puede hacerlo. Los métodos que se implementarán son:
 al usuario y después se le asignan a sus respectivos atributos para llenar el objeto
 Persona. Además, comprueba que el sexo introducido sea correcto, es decir, H, M o
 O. Si no es correcto se deberá mostrar un mensaje
- Método calcularIMC(): calculara si la persona está en su peso ideal (peso en
+* Método calcularIMC(): calculara si la persona está en su peso ideal (peso en
 kg/(altura^2 en mt2)). Si esta fórmula da por resultado un valor menor que 20,
 significa que la persona está por debajo de su peso ideal y la función devuelve un -1.
 Si la fórmula da por resultado un número entre 20 y 25 (incluidos), significa que la
 persona está en su peso ideal y la función devuelve un 0. Finalmente, si el resultado
 de la fórmula es un valor mayor que 25 significa que la persona tiene sobrepeso, y la
 función devuelve un 1.
- Método esMayorDeEdad(): indica si la persona es mayor de edad. La función
+* Método esMayorDeEdad(): indica si la persona es mayor de edad. La función
 devuelve un booleano.
 A continuación, en la clase main hacer lo siguiente:
-Crear 4 objetos de tipo Persona con distintos valores, a continuación, llamaremos todos
+*Crear 4 objetos de tipo Persona con distintos valores, a continuación, llamaremos todos
 los métodos para cada objeto, deberá comprobar si la persona está en su peso ideal,
 tiene sobrepeso o está por debajo de su peso ideal e indicar para cada objeto si la
 persona es mayor de edad.
 Por último, guardaremos los resultados de los métodos calcularIMC y esMayorDeEdad en
 distintas variables, para después en el main, calcular un porcentaje de esas 4 personas
-
 cuantas están por debajo de su peso, cuantas en su peso ideal y cuantos, por encima, y
 también calcularemos un porcentaje de cuantos son mayores de edad y cuantos menores
 */
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Persona {
@@ -42,9 +42,9 @@ public class Persona {
     private int edad;
     private String sexo;
     private int peso;
-    private int altura;
+    private double altura;
 
-    public Persona(Scanner sc, String nombre, int edad, String sexo, int peso, int altura) {
+    public Persona(Scanner sc, String nombre, int edad, String sexo, int peso, double altura) {
         this.sc = sc;
         this.nombre = nombre;
         this.edad = edad;
@@ -54,22 +54,20 @@ public class Persona {
     }
 
     public Persona() {
-
-        crearPersona();
-
     }
 
     //*Metodo crear persona
     public void crearPersona() {
 
         String orientacionSexual;
+        Random random = new Random();
 
         /*System.out.println("Por favor ingrese su nombre:");
         setNombre(sc.nextLine());*/
         setNombre("Douglas");
         /*System.out.println("Por favor ingrese su edad:");
         setEdad(sc.nextInt());*/
-        setEdad(28);
+        setEdad(random.nextInt(50));
         System.out.println("Por favor indique su sexo");
         System.out.println("H- Hombre");
         System.out.println("M- Mujer");
@@ -84,15 +82,63 @@ public class Persona {
                 orientacionSexual = sc.next();
                 orientacionSexual = orientacionSexual.toUpperCase();
             }
-        }while (sexo != orientacionSexual);
-        System.out.println("Por favor ingrese su peso:");
-        setPeso(sc.nextInt());
-        System.out.println("Por favor ingrese su altura:");
-        setAltura(sc.nextInt());
+        } while (sexo != orientacionSexual);
+        /*System.out.println("Por favor ingrese su peso:");
+        setPeso(sc.nextInt());*/
+        peso = random.nextInt(90 - 50 + 1) + 50;
+        System.out.println("Por favor ingrese su altura en mt2 (ejemplo 1.70):");
+        setAltura(sc.nextDouble());
 
     }
 
-    public void calcularIMC(){}
+    //?Metodo calcular IMC
+    public double calcularIMC() {
+
+        double imc;
+        double resultado = (peso / Math.pow(altura, 2));
+
+        if (resultado < 20) {
+            imc = -1;
+            System.out.println("Se encuentra por debajo de su peso");
+        } else if (resultado >= 20 && resultado <= 25) {
+            imc = 0;
+            System.out.println("Se encuentra en su peso ideal");
+        } else {
+            imc = 1;
+            System.out.println("Se encuentra con sobrepeso");
+        }
+
+        return imc;
+
+    }
+
+    //?Metodo Mayor de edad
+    public boolean esMayorDeEdad() {
+
+        boolean mayorDeEdad;
+
+        if (edad >= 18) {
+            mayorDeEdad = true;
+        } else {
+            mayorDeEdad = false;
+        }
+
+        return mayorDeEdad;
+
+    }
+
+    public String mostrarDatos() {
+
+        String mostrar = "";
+
+        mostrar += "Usted esta en su peso ideal? " + calcularIMC() + "\n";
+        mostrar += "Este es tu peso " + this.peso + "\n";
+        mostrar += "Este es tu altura " + this.altura + "\n";
+        mostrar += "Usted es mayor de edad? " + esMayorDeEdad() + "\n";
+
+        return mostrar;
+
+    }
 
     public Scanner getSc() {
         return sc;
@@ -134,11 +180,11 @@ public class Persona {
         this.peso = peso;
     }
 
-    public int getAltura() {
+    public double getAltura() {
         return altura;
     }
 
-    public void setAltura(int altura) {
+    public void setAltura(double altura) {
         this.altura = altura;
     }
 }

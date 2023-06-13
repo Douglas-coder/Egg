@@ -1,7 +1,5 @@
 package egg.JavaExercises;
 
-import java.util.Scanner;
-
 /*Realice un programa que compruebe si una matriz dada es anti simétrica. Se dice que
 una matriz A es anti simétrica cuando ésta es igual a su propia traspuesta, pero cambiada
 de signo. Es decir, A es anti simétrica si A = -AT. La matriz traspuesta de una matriz A se
