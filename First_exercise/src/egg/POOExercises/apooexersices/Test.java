@@ -2,7 +2,7 @@ package egg.POOExercises.apooexersices;
 
 import java.util.Scanner;
 
-public class Main2 {
+public class Test {
 
     public static void main(String[] args) {
 

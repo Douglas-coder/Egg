@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio 7 Resuelto">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Comienzo ejercicio 8">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/Poo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizDentroMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizDentroMatriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/ExtraExercises/SopaDeLetras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/ExtraExercises/SopaDeLetras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizAntiSimetrica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizAntiSimetrica.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizDentroMatriz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizDentroMatriz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/Poo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +69,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CuadradoAsteriscos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg.JavaExercises.CuadradoAsteriscos" />
-      <module name="First_exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="egg.JavaExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SopaDeLetras2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="egg.POOExercises.apooexersices.Main" />
       <module name="First_exercise" />
@@ -97,8 +83,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg.POOExercises.apooexersices.Main2" />
+    <configuration name="MatrizDentroMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="egg.JavaExercises.MatrizDentroMatriz" />
+      <module name="First_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="egg.JavaExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SopaDeLetras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="egg.ExtraExercises.SopaDeLetras" />
+      <module name="First_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="egg.ExtraExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SopaDeLetras2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="egg.ExtraExercises.SopaDeLetras2" />
+      <module name="First_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="egg.ExtraExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="egg.POOExercises.apooexersices.Test" />
       <module name="First_exercise" />
       <extension name="coverage">
         <pattern>
@@ -112,9 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SopaDeLetras2" />
+        <item itemvalue="Application.SopaDeLetras" />
+        <item itemvalue="Application.MatrizDentroMatriz" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.CuadradoAsteriscos" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686677986509</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Comienzo ejercicio 8">
+      <created>1686702124420</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686702124420</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +390,8 @@
     <MESSAGE value="Culminacion ejercicio 6, comienzo ejercicio 7" />
     <MESSAGE value="Avance ejercicio 7 (Imprimir array con datos requeridos)." />
     <MESSAGE value="Ejercicio 7 Resuelto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 7 Resuelto" />
+    <MESSAGE value="Comienzo ejercicio 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comienzo ejercicio 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,9 +417,29 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

@@ -1,6 +1,7 @@
 package egg.JavaExercises;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /*Dadas dos matrices cuadradas de números enteros, la matriz M de 10x10 y la matriz P de
 3x3, se solicita escribir un programa en el cual se compruebe si la matriz P está contenida
@@ -18,7 +19,7 @@ public class MatrizDentroMatriz {
         int[][] P = {{23, 24, 25},
                 {33, 34, 35},
                 {43, 44, 45}};
-        //int[][] P = new int[3][3];
+        //int[][] P = new int[3][3]; x = i && z = j
         int x = 0;
         int z = 0;
 
@@ -34,23 +35,24 @@ public class MatrizDentroMatriz {
     //********** Se genera una subFunción para generar aleatoriamente los datos **********
     public static void llenarMatriz(int[][] matriz, int x, int z) {
 
-        //Se crea un scanner para ingresar numeros manualmente a la matriz
+        //*Se crea un scanner para ingresar numeros manualmente a la matriz
         //Scanner sc = new Scanner(System.in);
-        //Se importa el metodo Random para generar numeros aleatorios
-        Random random = new Random();
+        //*Se importa el metodo Random para generar numeros aleatorios
+        //Random random = new Random();
+        //Math.random() = 0.0 - 1.0 || Math.random()*10 = 1 - 10
         int num = 1;
         //int num2 = random.nextInt(100);
 
         //Llenar matriz de 10X10
         for (x = 0; x < matriz.length; x++) {
             for (z = 0; z < matriz.length; z++) {
-                //Se implementa una variable num que va aumentando su valor cada que se ejecuta el for
+                //*Se implementa una variable num que va aumentando su valor cada que se ejecuta el for
                 matriz[x][z] = num++;
-                //Se implementa el metodo Random y se le indica que genere numeros de hasta 2 digitos
+                //*Se implementa el metodo Random y se le indica que genere numeros de hasta 2 digitos
                 //matriz[x][z] = random.nextInt(10);
-                //Ingresar numeros manualmente
-                //System.out.println("Ingrese los numeros de [" + x + "," + z + "]");
-                //matriz[x][z] = sc.nextInt();
+                //*Ingresar numeros manualmente
+                /*System.out.println("Ingrese los numeros de [" + x + "," + z + "]");
+                matriz[x][z] = sc.nextInt();*/
             }
         }
 

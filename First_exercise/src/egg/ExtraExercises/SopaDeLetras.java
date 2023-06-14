@@ -64,12 +64,11 @@ public class SopaDeLetras {
         //Se crea la matriz
         char[][] sopaLetras = new char[20][20];
         //Se crean las variables necesarias
-        int row = -1;
+        int row = 0;
         int col = 0;
 
         //Se genera un bloque de codigo para ir recorriendo la matriz e ingresar las palabras caracter a caracter.
         for (String palabra : palabras) {
-            row++;
             col = 0;
             for (int x = 0; x < palabra.length(); x++) {
                 //Se genera variable para convertir la palabra en caracteres
@@ -84,6 +83,7 @@ public class SopaDeLetras {
                 }
                 col++;
             }
+            row++;
         }
 
         //Se crea bloque de codigo que genera caracteres alearorios gracias a los codigos ASCII

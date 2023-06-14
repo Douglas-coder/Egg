@@ -11,9 +11,9 @@ siguientes métodos:
 frase ingresada.
 *b) Método invertirFrase(), deberá invertir la frase ingresada y mostrarla por pantalla. Por
 ejemplo: Entrada: "casa blanca", Salida: "acnalb asac".
-c) Método vecesRepetido(String letra), recibirá un carácter ingresado por el usuario y
+*c) Método vecesRepetido(String letra), recibirá un carácter ingresado por el usuario y
 contabilizar cuántas veces se repite el carácter en la frase, por ejemplo:
-d) Entrada: frase = "casa blanca". Salida: El carácter 'a' se repite 4 veces.
+*d) Entrada: frase = "casa blanca". Salida: El carácter 'a' se repite 4 veces.
 e) Método compararLongitud(String frase), deberá comparar la longitud de la frase que
 compone la clase con otra nueva frase ingresada por el usuario.
 f) Método unirFrases(String frase), deberá unir la frase contenida en la clase Cadena
@@ -25,6 +25,7 @@ h) Método contiene(String letra), deberá comprobar si la frase contiene una le
 ingresa el usuario y devuelve verdadero si la contiene y falso si no.
 */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Cadena {
@@ -81,16 +82,18 @@ public class Cadena {
     //?Metodo veces repetido
     public int vecesRepetido() {
 
-        String letra = "";
         int cont = 0;
 
         System.out.println("Por favor indique que letra desea contabilizar?");
-        letra = sc.nextLine();
+        String letra = sc.next();
+        char letraChar = letra.charAt(0);
 
         for (int x = 0; x < frase.length(); x++) {
-            /*if (frase.charAt(Integer.parseInt(letra))){
+
+            if (frase.charAt(x) == letraChar){
                 cont++;
-            }*/
+            }
+
         }
 
         return cont;
