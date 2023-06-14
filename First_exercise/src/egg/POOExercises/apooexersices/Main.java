@@ -71,6 +71,7 @@ public class Main {
                             Cafetera cafetera = new Cafetera();
                             break;
                         case 7://Persona
+                            //Creacion ArrayList para guardar la info de cada objeto (Persona)
                             ArrayList<Persona> personas = new ArrayList<>();
                             int cont = 0;
                             int cont2 = 0;
@@ -90,29 +91,32 @@ public class Main {
                             for (int x = 0; x < personas.size(); x++) {
                                 if (personas.get(x).calcularIMC() < 0) {
                                     cont++;
-                                    System.out.println("--Personas con deficit de peso:-- " + cont);
                                 } else if (personas.get(x).calcularIMC() == 0) {
                                     cont2++;
-                                    System.out.println("--Personas con peso ideal:-- " + cont2);
                                 } else if (personas.get(x).calcularIMC() > 0) {
                                     cont3++;
-                                    System.out.println("--Personas con sobrepeso:-- " + cont3);
                                 }
                             }
                             for (int x = 0; x < personas.size(); x++) {
                                 if ((personas.get(x).esMayorDeEdad())) {
                                     cont4++;
-                                    System.out.println("Personas mayores de edad: " + cont4);
                                 } else {
                                     personas.get(x).esMayorDeEdad();
                                     cont5++;
-                                    System.out.println("Personas menores de edad: " + cont5);
                                 }
                             }
-
+                            System.out.println("--Personas con deficit de peso:-- " + cont);
+                            System.out.println("--Personas con peso ideal:-- " + cont2);
+                            System.out.println("--Personas con sobrepeso:-- " + cont3);
+                            System.out.println("Personas mayores de edad: " + cont4);
+                            System.out.println("Personas menores de edad: " + cont5);
                             break;
                         case 8://Cadena
-                            System.out.println("Opcion 8 ejercicios practicos");
+                            Cadena cadena = new Cadena();
+                            System.out.println("La palabra o frase contiene: " + cadena.mostrarVocales() + " vocales.");
+                            System.out.println("Palabra o frase invertida: ");
+                            System.out.println(cadena.invertirFrase());
+                            System.out.println("La letra seleccionada esta: " + cadena.vecesRepetido() + " veces");
                             break;
                         case 9://Matematica
                             System.out.println("Opcion 9 ejercicios practicos");

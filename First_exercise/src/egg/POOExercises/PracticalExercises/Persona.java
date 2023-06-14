@@ -64,7 +64,7 @@ public class Persona {
 
         /*System.out.println("Por favor ingrese su nombre:");
         setNombre(sc.nextLine());*/
-        setNombre("Douglas");
+        setNombre("John Doe");
         /*System.out.println("Por favor ingrese su edad:");
         setEdad(sc.nextInt());*/
         setEdad(random.nextInt(50));
@@ -96,6 +96,8 @@ public class Persona {
 
         String mostrar = "";
 
+        mostrar += "Nombre: " + this.nombre + "\n";
+        mostrar += "Sexo: " + this.sexo + "\n";
         mostrar += "Usted esta en su peso ideal? " + calcularIMC() + "\n";
         mostrar += "Este es tu peso " + this.peso + "\n";
         mostrar += "Este es tu altura " + this.altura + "\n";
