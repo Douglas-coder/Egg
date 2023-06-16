@@ -25,7 +25,6 @@ h) Método contiene(String letra), deberá comprobar si la frase contiene una le
 ingresa el usuario y devuelve verdadero si la contiene y falso si no.
 */
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Cadena {
@@ -43,7 +42,8 @@ public class Cadena {
 
         /*System.out.println("Por favor ingrese una frase o palabra:");
         setFrase(sc.nextLine());*/
-        setFrase("Estamos programando con POO");
+        setFrase("estamos programando con poo");
+
         System.out.println(frase);
         setLongitud(frase.length());
         System.out.println("La longitud de la frase o palabra es: " + longitud);
@@ -90,7 +90,7 @@ public class Cadena {
 
         for (int x = 0; x < frase.length(); x++) {
 
-            if (frase.charAt(x) == letraChar){
+            if (frase.charAt(x) == letraChar) {
                 cont++;
             }
 

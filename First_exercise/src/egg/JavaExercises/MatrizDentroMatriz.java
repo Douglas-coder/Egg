@@ -1,8 +1,5 @@
 package egg.JavaExercises;
 
-import java.util.Random;
-import java.util.Scanner;
-
 /*Dadas dos matrices cuadradas de números enteros, la matriz M de 10x10 y la matriz P de
 3x3, se solicita escribir un programa en el cual se compruebe si la matriz P está contenida
 dentro de la matriz M. Para ello se debe verificar si entre todas las submatrices de 3x3

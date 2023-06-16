@@ -4,13 +4,13 @@ package egg.ExtraExercises;/*
  */
 
 /**
- *
  * @author Usuario
  */
-import java.util.Random;
-import java.util.Set;
+
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 public class SopaDeLetras2 {
 
@@ -48,43 +48,48 @@ public class SopaDeLetras2 {
         mostrarMatriz(m, m, matriz);
 
 
-
-        int contWords=0;
+        int contWords = 0;
         do {
             System.out.println("encontro alguna palabra ? \n ingrese aqui  la palabra encontrada ");
             String found = read.nextLine().toUpperCase();
 
-            int cont=0;
+            int cont = 0;
             int position;
             for (int i = 0; i < vector.length; i++) {
 
                 if (vector[i].equals(found)) {
                     System.out.println(found + " está presente en la sopa de letras");
-                    cont++ ; position=i; break;
+                    cont++;
+                    position = i;
+                    break;
                 }
             }
-            if (cont==0) {  System.out.println(found + " no  presente en la sopa de letras"); }
-            else{
+            if (cont == 0) {
+                System.out.println(found + " no  presente en la sopa de letras");
+            } else {
 
-                System.out.println("en que  fila  esta  la primera letra de la palabra " + found );
+                System.out.println("en que  fila  esta  la primera letra de la palabra " + found);
                 int row = read.nextInt();
-                System.out.println("en que  columna   esta  la primera letra de la palabra encontrada " +found);
+                System.out.println("en que  columna   esta  la primera letra de la palabra encontrada " + found);
                 int column = read.nextInt();
                 read.nextLine();
-                if (matriz[row][column].equals(String.valueOf(found.charAt(0)))){
+                if (matriz[row][column].equals(String.valueOf(found.charAt(0)))) {
                     System.out.println("felicitaciones es correcto ");
                     contWords++;
-                    opcionCorrecta( row, column, matriz, found);
+                    opcionCorrecta(row, column, matriz, found);
                     mostrarMatriz(m, m, matriz);
-                }else{System.out.println("posicion incorrecta ");}
-                System.out.println(matriz[row][column]);}
+                } else {
+                    System.out.println("posicion incorrecta ");
+                }
+                System.out.println(matriz[row][column]);
+            }
 
-        } while (contWords<vector.length);
+        } while (contWords < vector.length);
         System.out.println("Felicidades encontraste todas las palabras");
 
 
-
     }
+
     //funcion random que entrega un numero  aleatorio pero que nunca se repite,  con el proposito de  que 2 palabras no caigan en la misma posicion
     // set, hashset no perimite duplicado
     public static int random(Set<Integer> set, int m) {
@@ -126,7 +131,7 @@ public class SopaDeLetras2 {
     }
 
 
-    public  static void opcionCorrecta(int row, int column, String[][] matriz, String palabra){
+    public static void opcionCorrecta(int row, int column, String[][] matriz, String palabra) {
         int fila = row;
         int columna = column;
         for (int j = 0; j < palabra.length(); j++) {

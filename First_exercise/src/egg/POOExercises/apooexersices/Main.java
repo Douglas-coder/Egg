@@ -1,5 +1,6 @@
 package egg.POOExercises.apooexersices;
 
+import egg.POOExercises.BonusExercises.Vehiculo;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.SEntidad.PersonasGuia;
 import egg.POOExercises.Servicio.PersonaService;
@@ -13,6 +14,9 @@ public class Main {
 
         //Variable para mantener en ejecución el menu.
         int continuar = 1;
+
+        //Variable bandera para ciclos For
+        int x = 0;
 
         //Siclo while para poder ejecutar el menu.
         while (continuar == 1) {
@@ -78,17 +82,17 @@ public class Main {
                             int cont3 = 0;
                             int cont4 = 0;
                             int cont5 = 0;
-                            for (int x = 0; x < 4; x++) {
+                            for (x = 0; x < 4; x++) {
                                 //Crear(Instanciar) el objeto dentro del for para crear 1 objeto cada ciclo for(iteracion)
                                 Persona persona = new Persona();
                                 System.out.println("Persona numero: " + (x + 1));
                                 persona.crearPersona();
                                 personas.add(persona);
                             }
-                            for (int x = 0; x < personas.size(); x++) {
+                            for (x = 0; x < personas.size(); x++) {
                                 System.out.println(personas.get(x).mostrarDatos());
                             }
-                            for (int x = 0; x < personas.size(); x++) {
+                            for (x = 0; x < personas.size(); x++) {
                                 if (personas.get(x).calcularIMC() < 0) {
                                     cont++;
                                 } else if (personas.get(x).calcularIMC() == 0) {
@@ -97,7 +101,7 @@ public class Main {
                                     cont3++;
                                 }
                             }
-                            for (int x = 0; x < personas.size(); x++) {
+                            for (x = 0; x < personas.size(); x++) {
                                 if ((personas.get(x).esMayorDeEdad())) {
                                     cont4++;
                                 } else {
@@ -145,7 +149,7 @@ public class Main {
                 case 2://*Ejercicios extra
 
                     System.out.println("Ejercicios Extra");
-                    System.out.println("Indique un numero del 1 al 6");
+                    System.out.println("Indique un numero del 1 al 8");
                     int submenu2 = sc.nextInt();
                     System.out.println("");
 
@@ -168,6 +172,44 @@ public class Main {
                         case 6:
                             System.out.println("Opcion 6 ejercicios extra");
                             break;
+                        case 7://?  *********** Vehiculos ***********
+                            System.out.println("▩▩▩▩ Reto 1 ▩▩▩▩");
+                            System.out.println("");
+                            //Array list para guardar los 3 vehiculos
+                            ArrayList<Vehiculo> vehiculos = new ArrayList<>();
+                            //Variables para guardar los ultimos datos necesarios
+                            int mayor = 0;
+                            String tipo = "";
+
+                            //Ciclo for para Crear los 3 vehiculos
+                            for (x = 0; x < 3; x++) {
+                                System.out.println("Vehiculo #" + (x + 1));
+                                Vehiculo vehiculo = new Vehiculo();
+                                //Se añade los valores al ArrayList
+                                vehiculos.add(vehiculo);
+                            }
+
+                            //Mostramos por pantalla los datos de los vehiculos creados
+                            for (x = 0; x < vehiculos.size(); x++) {
+                                System.out.println(vehiculos.get(x).mostrarDatos());
+                            }
+
+                            //Ciclo for para hallar el vehiuculo que mas avanzo despues de frenar
+                            for (x = 0; x < vehiculos.size(); x++) {
+                                System.out.println("El vehiculo #" + (x + 1) + " Recorrio " + vehiculos.get(x).getFrenar() + " metros despues de ◶ 5 minutos");
+                                if (vehiculos.get(x).getFrenar() > mayor) {
+                                    mayor = vehiculos.get(x).getFrenar();
+                                    tipo = vehiculos.get(x).getTipo();
+                                }
+                            }
+
+                            System.out.println("");
+                            System.out.println("El vehiculo (" + tipo + ") Fue el que mas recorrio con " + mayor + " metros en 5 minutos.");
+
+                            break;
+                        case 8:
+                            System.out.println("Reto 2");
+                            break;
                         default:
                             System.out.println("Opcion erronea");
                     }
@@ -175,9 +217,11 @@ public class Main {
                     break;
 
                 case 3://*Ejercicios guia
+
                     PersonaService primeraPersona = new PersonaService();
                     PersonasGuia personasGuia = primeraPersona.crearPersona();
                     System.out.println("Hola " + personasGuia.getName());
+
                     break;
 
                 default:
