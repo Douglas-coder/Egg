@@ -14,11 +14,11 @@ ejemplo: Entrada: "casa blanca", Salida: "acnalb asac".
 *c) Método vecesRepetido(String letra), recibirá un carácter ingresado por el usuario y
 contabilizar cuántas veces se repite el carácter en la frase, por ejemplo:
 *d) Entrada: frase = "casa blanca". Salida: El carácter 'a' se repite 4 veces.
-e) Método compararLongitud(String frase), deberá comparar la longitud de la frase que
+*e) Método compararLongitud(String frase), deberá comparar la longitud de la frase que
 compone la clase con otra nueva frase ingresada por el usuario.
-f) Método unirFrases(String frase), deberá unir la frase contenida en la clase Cadena
+*f) Método unirFrases(String frase), deberá unir la frase contenida en la clase Cadena
 con una nueva frase ingresada por el usuario y mostrar la frase resultante.
-g) Método reemplazar(String letra), deberá reemplazar todas las letras “a” que se
+*g) Método reemplazar(String letra), deberá reemplazar todas las letras “a” que se
 encuentren en la frase, por algún otro carácter seleccionado por el usuario y mostrar
 la frase resultante.
 h) Método contiene(String letra), deberá comprobar si la frase contiene una letra que
@@ -32,17 +32,23 @@ public class Cadena {
     Scanner sc = new Scanner(System.in);
     private String frase;
     private int longitud;
+    private String frase2;
+    private int longitud2;
+    private String convinadas;
 
-    public Cadena(String frase, int longitud) {
+    public Cadena(String frase, int longitud, String frase2, int longitud2, String convinadas) {
         this.frase = frase;
         this.longitud = longitud;
+        this.frase2 = frase2;
+        this.longitud2 = longitud2;
+        this.convinadas = convinadas;
     }
 
     public Cadena() {
 
         /*System.out.println("Por favor ingrese una frase o palabra:");
         setFrase(sc.nextLine());*/
-        setFrase("estamos programando con poo");
+        setFrase("esto es una prueba");
 
         System.out.println(frase);
         setLongitud(frase.length());
@@ -98,6 +104,91 @@ public class Cadena {
 
         return cont;
 
+    }
+
+    //?Metodo para comprara la longitud de las frases
+    public String getCompararLongitud() {
+
+        setFrase2("para unir dos frases distintas");
+        setLongitud2(frase2.length());
+        String comparar;
+
+        if (longitud > longitud2) {
+            comparar = "La frase 1 tiene mayor longitud que la frase 2";
+        } else if (longitud < longitud2) {
+            comparar = "La frase 2 tiene mayor longitud que la frase 1";
+        } else {
+            comparar = "Las frases tienen la misma longitud";
+        }
+
+        return comparar;
+
+    }
+
+    //?Metodo para unir dos frases
+    public String getUnirFrases() {
+
+        return convinadas = frase + " " + frase2;
+    }
+
+    //?Metodo para reemplzaar la "a"
+    public String getReemplazar() {
+
+        String reemplazar = "";
+
+        System.out.println("Por favor indique un caracter.");
+        String caracter = sc.next();
+
+        for (int x = 0; x < convinadas.length(); x++) {
+
+            switch (convinadas.charAt(x)) {
+                case 'a':
+                    reemplazar += (caracter);
+                    break;
+                default:
+                    reemplazar += (convinadas.charAt(x));
+            }
+
+        }
+
+        return reemplazar;
+
+    }
+
+    //?Metodo para validar si la letra esta dentro de la frase
+    public boolean getContiene() {
+
+        boolean contiene = false;
+
+        System.out.println("Por favor indique que letra desea validar");
+        String letra = sc.next();
+        letra.toLowerCase();
+        char letraChar = letra.charAt(0);
+
+        for (int x = 0; x < convinadas.length(); x++) {
+            if (convinadas.charAt(x) == letraChar) {
+                contiene = true;
+            }
+        }
+
+        return contiene;
+
+    }
+
+    public String getFrase2() {
+        return frase2;
+    }
+
+    public void setFrase2(String frase2) {
+        this.frase2 = frase2;
+    }
+
+    public int getLongitud2() {
+        return longitud2;
+    }
+
+    public void setLongitud2(int longitud2) {
+        this.longitud2 = longitud2;
     }
 
     public String getFrase() {

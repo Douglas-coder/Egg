@@ -122,9 +122,24 @@ public class Main {
                             System.out.println("Palabra o frase invertida: ");
                             System.out.println(cadena.invertirFrase());
                             System.out.println("La letra seleccionada esta: " + cadena.vecesRepetido() + " veces");
+                            System.out.println(cadena.getCompararLongitud());
+                            System.out.println("La frase 1 tiene: " + cadena.getLongitud());
+                            System.out.println("La frase 2 tiene: " + cadena.getLongitud2());
+                            System.out.println(cadena.getUnirFrases());
+                            System.out.println(cadena.getReemplazar());
+                            System.out.println(cadena.getContiene());
                             break;
                         case 9://Matematica
-                            System.out.println("Opcion 9 ejercicios practicos");
+                            Matematica matematicas = new Matematica();
+                            double numero1 = Math.random() * 100;
+                            double numero2 = Math.random() * 100;
+                            matematicas.setNum1(numero1);
+                            matematicas.setNum2(numero2);
+                            System.out.println("Numero 1: " + matematicas.getNum1());
+                            System.out.println("Numero 2: " + matematicas.getNum2());
+                            System.out.println("El mayor es: " + matematicas.devolverMayor());
+                            System.out.println("La potencia del mayor elevada al menor es: " + matematicas.calcularPotencia());
+                            System.out.println("La raiz cuadrada del menor es: " + matematicas.calcularRaiz());
                             break;
                         case 10:
                             System.out.println("Opcion 10 ejercicios practicos");
@@ -150,7 +165,7 @@ public class Main {
                 case 2://*Ejercicios extra
 
                     System.out.println("Ejercicios Extra");
-                    System.out.println("Indique un numero del 1 al 8");
+                    System.out.println("Indique un numero del 1 al 8 (7 y 8 Retos)");
                     int submenu2 = sc.nextInt();
                     System.out.println("");
 

@@ -1,4 +1,4 @@
-package egg.POOExercises.Sentidad;
+package egg.POOExercises.Sentidad.Figuras;
 
 public class Triangulo {
 

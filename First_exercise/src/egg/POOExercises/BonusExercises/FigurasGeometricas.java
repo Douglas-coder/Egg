@@ -1,6 +1,6 @@
 package egg.POOExercises.BonusExercises;
 
-import egg.POOExercises.Sentidad.*;
+import egg.POOExercises.Sentidad.Figuras.*;
 
 import java.util.Scanner;
 
