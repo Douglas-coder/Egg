@@ -1,6 +1,6 @@
 package egg.POOExercises.Servicio;
 
-import egg.POOExercises.SEntidad.PersonasGuia;
+import egg.POOExercises.Sentidad.PersonasGuia;
 
 import java.util.Scanner;
 

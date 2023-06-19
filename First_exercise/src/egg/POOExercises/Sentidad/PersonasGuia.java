@@ -1,4 +1,4 @@
-package egg.POOExercises.SEntidad;
+package egg.POOExercises.Sentidad;
 
 public class PersonasGuia {
 

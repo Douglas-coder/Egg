@@ -1,8 +1,9 @@
 package egg.POOExercises.apooexersices;
 
+import egg.POOExercises.BonusExercises.FigurasGeometricas;
 import egg.POOExercises.BonusExercises.Vehiculo;
 import egg.POOExercises.PracticalExercises.*;
-import egg.POOExercises.SEntidad.PersonasGuia;
+import egg.POOExercises.Sentidad.PersonasGuia;
 import egg.POOExercises.Servicio.PersonaService;
 
 import java.util.ArrayList;
@@ -172,6 +173,9 @@ public class Main {
                         case 6:
                             System.out.println("Opcion 6 ejercicios extra");
                             break;
+
+                        //! ********** Retos **********
+
                         case 7://?  *********** Vehiculos ***********
                             System.out.println("▩▩▩▩ Reto 1 ▩▩▩▩");
                             System.out.println("");
@@ -208,7 +212,7 @@ public class Main {
 
                             break;
                         case 8:
-                            System.out.println("Reto 2");
+                            FigurasGeometricas figuras = new FigurasGeometricas();
                             break;
                         default:
                             System.out.println("Opcion erronea");

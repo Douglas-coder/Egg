@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Comentarios en ejercicio matriz dentro matriz y sopa de letras 2">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Reto Vehiculos solucionado.">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/FigurasGeometricas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Cilindro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Cubo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Hexagono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Triangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/First_exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/First_exercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras2.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizDentroMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/JavaExercises/MatrizDentroMatriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/SEntidad/PersonasGuia.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/PersonasGuia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/ExtraExercises/SopaDeLetras2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/ExtraExercises/SopaDeLetras2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizDentroMatriz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/JavaExercises/MatrizDentroMatriz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cadena.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cadena.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Libro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/QA/java/Egg/Egg/First_exercise&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "E:/QA/java/FigurasGeometricas2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="egg.POOExercises.apooexersices.Main" />
@@ -365,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686785515731</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Reto Vehiculos solucionado.">
+      <created>1686949713661</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686949713661</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,7 +384,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Se vuelve a colocar como Suma" />
     <MESSAGE value="5 ejercicios completados" />
     <MESSAGE value="Ejercicios hasta el 9 completados" />
     <MESSAGE value="Se mejora la captura de datos" />
@@ -406,7 +408,8 @@
     <MESSAGE value="Ejercicio 7 Resuelto" />
     <MESSAGE value="Comienzo ejercicio 8" />
     <MESSAGE value="Comentarios en ejercicio matriz dentro matriz y sopa de letras 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comentarios en ejercicio matriz dentro matriz y sopa de letras 2" />
+    <MESSAGE value="Reto Vehiculos solucionado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reto Vehiculos solucionado." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,7 +431,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java</url>
-          <line>121</line>
+          <line>123</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
