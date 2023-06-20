@@ -1,30 +1,45 @@
 package egg.POOExercises.apooexersices;
 
-import java.util.Scanner;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
 
 public class Test {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        String nombre;
-        int edad;
-        String sexo;
-        int peso;
-        int altura;
+        ArrayList<Float> lista1 = new ArrayList<Float>();
+        ArrayList<Float> lista2 = new ArrayList<Float>(Collections.<Float>nCopies(20, 0.5F));
+        DecimalFormat df = new DecimalFormat("#.##");
+        Random random = new Random();
 
-        System.out.println("Por favor indique su sexo");
-        System.out.println("H- Hombre");
-        System.out.println("M- Mujer");
-        System.out.println("O- Otro");
-        sexo = sc.nextLine();
-        sexo = sexo.toUpperCase();
-
-        if (sexo.equals("H") || sexo.equals("M") || sexo.equals("O")) {
-            System.out.println("Sexo confirmado");
-        } else {
-            System.out.println("La opcion seleccionada no es valida");
+        for (int x = 0; x < 50; x++) {
+            lista1.add((float) (random.nextDouble() * 100));
         }
+
+        System.out.println("Arreglo A sin ordenar:");
+        for (double a : lista1) {
+            System.out.printf("[%.1f]", a);
+        }
+        System.out.println("");
+
+        Collections.sort(lista1);
+
+        for (int x = 0; x < 10; x++) {
+            lista2.set(x, lista1.get(x));
+        }
+
+        System.out.println("Arreglo A ordenado:");
+        for (double a : lista1) {
+            System.out.printf("[%.1f]", a);
+        }
+        System.out.println("");
+        System.out.println("Arreglo B ordenado:");
+        for (double b : lista2) {
+            System.out.printf("[%.1f]", b);
+        }
+        System.out.println("");
 
     }
 

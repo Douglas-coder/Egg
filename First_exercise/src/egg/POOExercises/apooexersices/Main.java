@@ -141,8 +141,8 @@ public class Main {
                             System.out.println("La potencia del mayor elevada al menor es: " + matematicas.calcularPotencia());
                             System.out.println("La raiz cuadrada del menor es: " + matematicas.calcularRaiz());
                             break;
-                        case 10:
-                            System.out.println("Opcion 10 ejercicios practicos");
+                        case 10://Arrays
+                            ArraysAyB arrays = new ArraysAyB();
                             break;
                         case 11:
                             System.out.println("Opcion 11 ejercicios practicos");
