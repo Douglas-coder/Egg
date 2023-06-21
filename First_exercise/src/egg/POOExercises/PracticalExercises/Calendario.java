@@ -71,7 +71,7 @@ public class Calendario {
             menor = true;
         }
 
-        System.out.println("La iedad ingresada es menor: " + menor);
+        System.out.println("La edad ingresada es menor: " + menor);
 
         return menor;
 
