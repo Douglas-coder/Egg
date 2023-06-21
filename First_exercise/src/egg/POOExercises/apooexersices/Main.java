@@ -144,11 +144,18 @@ public class Main {
                         case 10://Arrays
                             ArraysAyB arrays = new ArraysAyB();
                             break;
-                        case 11:
-                            System.out.println("Opcion 11 ejercicios practicos");
+                        case 11://Date\Fecha
+                            Calendario calendario = new Calendario();
+                            calendario.getIngresarFecha();
+                            calendario.getMostrarInformacion();
                             break;
                         case 12:
-                            System.out.println("Opcion 12 ejercicios practicos");
+                            Persona persona = new Persona();
+                            Calendario calendario1 = new Calendario();
+                            calendario1.getIngresarFecha();
+                            System.out.println("Hola " + persona.getNombre());
+                            calendario1.getCalcularEdad();
+                            calendario1.getMenorQue();
                             break;
                         case 13:
                             System.out.println("Opcion 13 ejercicios practicos");
