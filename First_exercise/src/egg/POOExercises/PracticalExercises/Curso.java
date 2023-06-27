@@ -24,6 +24,7 @@ día, el precio por hora, la cantidad de alumnos y la cantidad de días a la sem
 se repite el encuentro.
 */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Curso {
@@ -35,6 +36,7 @@ public class Curso {
     private String turno;
     private int selecTurno;
     private int precioPorHora;
+    //Creacion variable Harcode para ahorra el ingreso de datos por pantalla
     private String[] alumnosHard = {"Douglas", "Laura", "Juan", "Sofia", "Robin"};
     private String[] alumnos = new String[5];
 
@@ -64,12 +66,15 @@ public class Curso {
     public void getCrearCurso() {
 
         //getCargarAlumnos();
-        System.out.println("Ingresa el nombre del curso:");
-        setNombreCurso(sc.nextLine());
-        System.out.println("Ingresa la cantidad de horas por día:");
-        setCantidadHorasPorDia(sc.nextInt());
-        System.out.println("Ingresa la cantidad de días por semana:");
-        setCantidadHorasPorSemana(sc.nextInt());
+        /*System.out.println("Ingresa el nombre del curso:");
+        setNombreCurso(sc.nextLine());*/
+        setNombreCurso("Programación");
+        /*System.out.println("Ingresa la cantidad de horas por día:");
+        setCantidadHorasPorDia(sc.nextInt());*/
+        setCantidadHorasPorDia(5);
+        /*System.out.println("Ingresa la cantidad de días por semana:");
+        setCantidadHorasPorSemana(sc.nextInt());*/
+        setCantidadHorasPorSemana(5);
         System.out.println("Por favor indique el turno:");
         System.out.println("1- Mañana");
         System.out.println("2- Tarde");
@@ -88,6 +93,19 @@ public class Curso {
             setPrecioPorHora(sc.nextInt());*/
         setPrecioPorHora(5000);
 
+    }
+
+    //Uso de (toString()) para imprimir de forma mas rapida la informacion de los atributos
+    @Override
+    public String toString() {
+        // se usa '\n' para hacer un salto de linea
+        return "Lista alumnos: " + Arrays.toString(alumnosHard) + '\n' +
+                "Nombre curso: " + nombreCurso + '\n' +
+                "Horas por día: " + cantidadHorasPorDia + '\n' +
+                "Días por semana: " + cantidadHorasPorSemana + '\n' +
+                "Turno: " + turno + '\n' +
+                "Precio por hora: " + precioPorHora + '\n' +
+                "Total: " + getCalcularGananciaSemanal();
     }
 
     //?Metodo para mostrar los datos
