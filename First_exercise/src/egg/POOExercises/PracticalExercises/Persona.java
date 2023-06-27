@@ -54,13 +54,10 @@ public class Persona {
     }
 
     public Persona() {
-
-        ingresarDatos();
-
     }
 
     //?Metodo para pedir datos en especifico
-    public void ingresarDatos() {
+    public void getIngresarDatos() {
 
         System.out.println("Por favor ingrese su nombre:");
         setNombre(sc.nextLine());
@@ -73,7 +70,7 @@ public class Persona {
         String orientacionSexual;
         Random random = new Random();
 
-        ingresarDatos();
+        //ingresarDatos();
         //setNombre("John Doe");
         /*System.out.println("Por favor ingrese su edad:");
         setEdad(sc.nextInt());*/

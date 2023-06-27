@@ -149,9 +149,10 @@ public class Main {
                             calendario.getIngresarFecha();
                             calendario.getMostrarInformacion();
                             break;
-                        case 12:
+                        case 12://?Union ejercicio 7 y 11.
                             Persona persona = new Persona();
                             Calendario calendario1 = new Calendario();
+                            persona.getIngresarDatos();
                             calendario1.getIngresarFecha();
                             System.out.println("Hola " + persona.getNombre());
                             calendario1.getCalcularEdad();

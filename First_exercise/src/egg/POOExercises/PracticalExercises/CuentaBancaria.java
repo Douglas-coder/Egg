@@ -84,11 +84,11 @@ public class CuentaBancaria {
 
     public void crearCuenta() {
 
-        //System.out.println("Por favor ingrese el numero de cuenta");
-        //setNumeroCuenta(sc.nextInt());
+        /*System.out.println("Por favor ingrese el numero de cuenta");
+        setNumeroCuenta(sc.nextInt());*/
         setNumeroCuenta(543502);
-        //System.out.println("Por favor ingrese su DNI");
-        //setDNICliente(sc.nextInt());
+        /*System.out.println("Por favor ingrese su DNI");
+        setDNICliente(sc.nextInt());*/
         setDNICliente(1037639137);
 
     }

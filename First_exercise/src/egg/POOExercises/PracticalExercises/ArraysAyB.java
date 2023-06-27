@@ -97,9 +97,13 @@ public class ArraysAyB {
         for (double a : arregloA) {
             System.out.print("[" + Math.round(a * 100d) / 100d + "]");
         }
+        /*for (int x = 0 ; x < arregloA.length; x++){
+            System.out.println("[" + arregloA[x] + "]");
+        }*/
+
         System.out.println("");
 
-        //Uso del Arrays.sort para ordenar de mayor a menor el vector
+        //Uso del Arrays.sort para ordenar de menor a mayor el vector
         Arrays.sort(arregloA);
 
         //Se llena el segundo vector con los primeros 10 datos del primer vector

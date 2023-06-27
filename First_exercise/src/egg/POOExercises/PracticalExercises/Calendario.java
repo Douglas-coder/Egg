@@ -57,10 +57,9 @@ public class Calendario {
         System.out.println("Su fecha de nacimiento es: " + formaFecha);
         System.out.println("Su edad es: " + difEnAnios + " años");
 
-
     }
 
-    public boolean getMenorQue() {
+    public void getMenorQue() {
 
         boolean menor = false;
         int edad1;
@@ -72,8 +71,6 @@ public class Calendario {
         }
 
         System.out.println("La edad ingresada es menor: " + menor);
-
-        return menor;
 
     }
 
