@@ -158,8 +158,10 @@ public class Main {
                             calendario1.getCalcularEdad();
                             calendario1.getMenorQue();
                             break;
-                        case 13:
-                            System.out.println("Opcion 13 ejercicios practicos");
+                        case 13://Curso
+                            Curso curso = new Curso();
+                            curso.getCrearCurso();
+                            curso.getMostrarDatos();
                             break;
                         case 14:
                             System.out.println("Opcion 14 ejercicios practicos");

@@ -1,46 +1,29 @@
 package egg.POOExercises.apooexersices;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Random;
+import java.util.Scanner;
 
 public class Test {
 
     public static void main(String[] args) {
 
-        ArrayList<Float> lista1 = new ArrayList<Float>();
-        ArrayList<Float> lista2 = new ArrayList<Float>(Collections.<Float>nCopies(20, 0.5F));
-        DecimalFormat df = new DecimalFormat("#.##");
-        Random random = new Random();
+        Scanner sc = new Scanner(System.in);
+        String[] alumnosHard = {"Douglas", "Juan", "Lucas", "Jose", "Maria"};
+        String[] alumnos = new String[5];
 
-        for (int x = 0; x < 50; x++) {
-            lista1.add((float) (random.nextDouble() * 100));
+        for (int x = 0; x < 5; x++) {
+            System.out.println("Alumno # " + (x + 1));
+            setAlumnos(new String[]{alumnos[x] = sc.nextLine()});
         }
 
-        System.out.println("Arreglo A sin ordenar:");
-        for (double a : lista1) {
-            System.out.printf("[%.1f]", a);
-        }
-        System.out.println("");
-
-        Collections.sort(lista1);
-
-        for (int x = 0; x < 10; x++) {
-            lista2.set(x, lista1.get(x));
+        for (int x = 0; x < 5; x++) {
+            System.out.print("{" + alumnos[x] + "}");
+            System.out.print("[" + alumnosHard[x] + "]");
         }
 
-        System.out.println("Arreglo A ordenado:");
-        for (double a : lista1) {
-            System.out.printf("[%.1f]", a);
-        }
-        System.out.println("");
-        System.out.println("Arreglo B ordenado:");
-        for (double b : lista2) {
-            System.out.printf("[%.1f]", b);
-        }
-        System.out.println("");
 
+    }
+
+    private static void setAlumnos(String[] strings) {
     }
 
 }

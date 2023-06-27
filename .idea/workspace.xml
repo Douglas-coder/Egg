@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Pequeñas correciones clase(calendario, persona,rectangulo)">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Explicacion y mejora de codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/ArraysAyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/ArraysAyB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Calendario.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Calendario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Calendario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Calendario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Libro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/ArraysAyB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/ArraysAyB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Persona.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687390976442</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Explicacion y mejora de codigo">
+      <created>1687824507236</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1687824507236</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Contador numeros en vector solucionado" />
     <MESSAGE value="Ejercicio 19 terminado" />
     <MESSAGE value="Creacion de cambio de vocales" />
     <MESSAGE value="Cambios significativos en la matrizTranspuesta" />
@@ -444,7 +445,8 @@
     <MESSAGE value="Ejercicio 10 resuelto" />
     <MESSAGE value="Ejercicios 11 y 12 resueltos" />
     <MESSAGE value="Pequeñas correciones clase(calendario, persona,rectangulo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pequeñas correciones clase(calendario, persona,rectangulo)" />
+    <MESSAGE value="Explicacion y mejora de codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explicacion y mejora de codigo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
