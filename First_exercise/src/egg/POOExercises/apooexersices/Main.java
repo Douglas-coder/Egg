@@ -1,7 +1,6 @@
 package egg.POOExercises.apooexersices;
 
-import egg.POOExercises.BonusExercises.FigurasGeometricas;
-import egg.POOExercises.BonusExercises.Vehiculo;
+import egg.POOExercises.BonusExercises.*;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.Sentidad.PersonasGuia;
 import egg.POOExercises.Servicio.PersonaService;
@@ -184,13 +183,17 @@ public class Main {
 
                     switch (submenu2) {//*SubMenu2
                         case 1:
-                            System.out.println("Opcion 1 ejercicios extra");
+                            Cancion cancion = new Cancion();
+                            System.out.println(cancion.toString());
                             break;
                         case 2:
-                            System.out.println("Opcion 2 ejercicios extra");
+                            Puntos puntos = new Puntos();
+                            puntos.getCrearPuntos();
+                            puntos.getCalcularDistancia();
                             break;
                         case 3:
-                            System.out.println("Opcion 3 ejercicios extra");
+                            Raices raices = new Raices();
+                            raices.getCalcular();
                             break;
                         case 4:
                             System.out.println("Opcion 4 ejercicios extra");
