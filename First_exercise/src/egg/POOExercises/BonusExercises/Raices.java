@@ -57,11 +57,13 @@ public class Raices {
     }
 
     //?Metodo para saber si tiene dos soluciones(Raices)
+    //Numeros que den mayor a (0) a=1 b=-3 c=2
     public boolean tieneRaices(){
         return getDiscriminante()>0;
     }
 
     //?Metodo para saber si tiene una unica soluvion(Raiz)
+    //Numeros que den como resultado (0) a=1 b=2 c=1
     public boolean tieneRaiz(){
         return getDiscriminante() == 0;
     }
