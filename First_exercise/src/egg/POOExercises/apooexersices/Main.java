@@ -164,8 +164,10 @@ public class Main {
                             curso.getMostrarDatos();
                             System.out.println(curso.toString());
                             break;
-                        case 14:
-                            System.out.println("Opcion 14 ejercicios practicos");
+                        case 14://Tienda celulares
+                            Celular celular = new Celular();
+                            celular.getCargarCelular();
+                            System.out.println(celular.toString());
                             break;
                         default:
                             System.out.println("Opcion erronea");

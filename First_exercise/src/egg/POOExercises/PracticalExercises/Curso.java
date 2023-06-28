@@ -65,7 +65,7 @@ public class Curso {
     //?Metodo crear Cursos
     public void getCrearCurso() {
 
-        //getCargarAlumnos();
+        getCargarAlumnos();
         /*System.out.println("Ingresa el nombre del curso:");
         setNombreCurso(sc.nextLine());*/
         setNombreCurso("Programación");
