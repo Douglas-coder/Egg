@@ -7,7 +7,7 @@ public class Alquiler {
 
     Scanner sc = new Scanner(System.in);
     private String peliculaAlquilada;
-    private LocalDate fechaInicio = LocalDate.now();
+    private LocalDate fechaInicio;
     private LocalDate fechaFin;
     private double precio;
 

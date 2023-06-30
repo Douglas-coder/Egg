@@ -55,6 +55,7 @@ public class MenuPelis {
                         alquiler.crearAlquiler();
                         if (alquiler.ComprobarPelicula(listaPeliculas)) {
                             listaAlquiler.add(alquiler);
+                            alquiler.precioAlquiler(listaAlquiler);
                         } else {
                             System.out.println("La pelicula no se encuentra disponible.");
                         }

@@ -4,10 +4,11 @@ import egg.POOExercises.Sentidad.Peliculas.Alquiler;
 import egg.POOExercises.Sentidad.Peliculas.Peliculas;
 
 import java.time.LocalDate;
-import java.time.Period;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
+
+import static java.time.temporal.ChronoUnit.DAYS;
 
 public class AlquilerService extends Alquiler {
 
@@ -55,15 +56,17 @@ public class AlquilerService extends Alquiler {
     }
 
     //?Metodo para calcular el precio del alquiler
-    public void precioAlquiler() {
-        //Period pertenece a la clase LocalDate y nos devuelve la diferencia ente dias
-        Period diferencia = getFechaInicio().until(getFechaFin());
+    public void precioAlquiler(ArrayList<Alquiler> alquiler) {
 
-        if (diferencia.getDays() <= 3) {
+        long diferencia = DAYS.between(getFechaInicio(), getFechaFin());
+
+        System.out.println("Usted ha alquilado la pelicula por: " + diferencia + " días");
+
+        if (diferencia <= 3) {
             setPrecio(10);
         } else {
-            int diaExtra = (diferencia.getDays() - 3);
-            setPrecio(diaExtra + 10);
+            int diaExtra = (int) (diferencia - 3);
+            setPrecio(diaExtra * 0.1);
         }
 
     }
