@@ -21,31 +21,6 @@ public class Alquiler {
     public Alquiler() {
     }
 
-    //?Metodo crear alquiler
-    public void getCrearAlquiler(){
-        System.out.println("Ingrese el nombre de la pelicula a alquilar:");
-        setPeliculaAlquilada(sc.nextLine());
-
-        System.out.println("Ingrese la fecha inicio del alquiler:");
-        System.out.println("Dia:");
-        int diaI = sc.nextInt();
-        System.out.println("Mes:");
-        int mesI = sc.nextInt();
-        System.out.println("Año:");
-        int anioI = sc.nextInt();
-        setFechaInicio(LocalDate.of(anioI,mesI,diaI));
-
-        System.out.println("Ingrese la fecha final del alquiler:");
-        System.out.println("Dia:");
-        int diaF = sc.nextInt();
-        System.out.println("Mes:");
-        int mesF = sc.nextInt();
-        System.out.println("Año:");
-        int anioF = sc.nextInt();
-        setFechaFin(LocalDate.of(anioF,mesF,diaF));
-
-    }
-
     public String getPeliculaAlquilada() {
         return peliculaAlquilada;
     }

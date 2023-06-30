@@ -2,26 +2,30 @@ package egg.POOExercises.Servicio;
 
 import egg.POOExercises.Sentidad.Peliculas.Peliculas;
 
-public class PeliculaService {
-    Peliculas pelicula = new Peliculas();
-    public void getServicioPeliculas(){
+import java.util.Scanner;
 
-        pelicula.getCrearPelicula();
+public class PeliculaService extends Peliculas {
+    Scanner sc = new Scanner(System.in);
 
+    //?Metodo para crear la palicula
+    public void crearPelicula() {
+        System.out.println("Ingrese el titulo de la pelicula:");
+        setTitulo(sc.nextLine());
+        System.out.println("Ingrese el genero de la pelicula:");
+        setGenero(sc.nextLine());
+        System.out.println("Ingrese el año de la pelicula:");
+        setAnio(sc.nextInt());
+        System.out.println("Ingrese el duracion de la pelicula en minutos:");
+        setDuracion(sc.nextInt());
     }
 
     //?Metodo para mostrar los datos de las peliculas
-    public String mostrarPeliculasCreadas(){
-
-        String mostrar = "";
-
-        mostrar += "Titulo: " + pelicula.getTitulo() + '\n';
-        mostrar += "Genero: " + pelicula.getGenero() + '\n';
-        mostrar += "Año: " + pelicula.getAnio() + '\n';
-        mostrar += "Duración: " + pelicula.getDuracion() + '\n';
-
-        return mostrar;
-
+    @Override
+    public String toString() {
+        return "Titulo: " + getTitulo() + '\n' +
+                "Genero: " + getGenero() + '\n' +
+                "Año: " + getAnio() + '\n' +
+                "Diracion: " + getDuracion() + '\n';
     }
 
 }

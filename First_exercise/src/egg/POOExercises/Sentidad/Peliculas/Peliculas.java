@@ -1,6 +1,5 @@
 package egg.POOExercises.Sentidad.Peliculas;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Peliculas {
@@ -19,18 +18,6 @@ public class Peliculas {
     }
 
     public Peliculas() {
-    }
-
-    //?Metodo para crear la palicula
-    public void getCrearPelicula(){
-        System.out.println("Ingrese el titulo de la pelicula:");
-        setTitulo(sc.nextLine());
-        System.out.println("Ingrese el genero de la pelicula:");
-        setGenero(sc.nextLine());
-        System.out.println("Ingrese el año de la pelicula:");
-        setAnio(sc.nextInt());
-        System.out.println("Ingrese el duracion de la pelicula en minutos:");
-        setDuracion(sc.nextInt());
     }
 
     public String getTitulo() {

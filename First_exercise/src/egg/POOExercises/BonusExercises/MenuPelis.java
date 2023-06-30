@@ -1,5 +1,6 @@
 package egg.POOExercises.BonusExercises;
 
+import egg.POOExercises.Sentidad.Peliculas.Alquiler;
 import egg.POOExercises.Sentidad.Peliculas.Peliculas;
 import egg.POOExercises.Servicio.AlquilerService;
 import egg.POOExercises.Servicio.PeliculaService;
@@ -10,15 +11,14 @@ import java.util.Scanner;
 
 public class MenuPelis {
 
-    public void getMenuPelis(){
+    public void getMenuPelis() {
 
         Scanner sc = new Scanner(System.in);
         int continuar = 1;
-        ArrayList<PeliculaService> peli = new ArrayList<>();
-        ArrayList<AlquilerService> alqui = new ArrayList<>();
+        ArrayList<Peliculas> listaPeliculas = new ArrayList<>();
+        ArrayList<Alquiler> listaAlquiler = new ArrayList<>();
 
-
-        while (continuar == 1){
+        while (continuar == 1) {
 
             System.out.println("Por favor indique que desea hacer:");
             System.out.println("1- Ingresar pelicula");
@@ -29,54 +29,92 @@ public class MenuPelis {
             int menu = sc.nextInt();
             System.out.println("");
 
-            switch (menu){
+            sc.nextLine();
+
+            switch (menu) {
                 case 1:
-                    for (int x = 0; x < 1; x++){
-                        PeliculaService peliculas = new PeliculaService();
+                    for (int x = 0; x < 1; x++) {
+                        PeliculaService peliculaService = new PeliculaService();
                         System.out.println("Ingrese la pelicula #" + (x + 1));
-                        peliculas.getServicioPeliculas();
-                        peli.add(peliculas);
+                        peliculaService.crearPelicula();
+                        listaPeliculas.add(peliculaService);
                     }
-                    break;
+                    continue;
                 case 2:
-                    for (int x = 0; x < peli.size(); x++){
-                        System.out.println(peli.get(x).mostrarPeliculasCreadas());
+                    for (int x = 0; x < listaPeliculas.size(); x++) {
+                        System.out.println(listaPeliculas.get(x).toString());
                     }
-                    break;
+                    continue;
                 case 3:
                     System.out.println("Cuantas peliculas desea Alquilar");
                     int numeroPelis = sc.nextInt();
 
-                    for (int x = 0; x < numeroPelis; x++){
+                    for (int x = 0; x < numeroPelis; x++) {
                         AlquilerService alquiler = new AlquilerService();
                         System.out.println("Que pelicula desea alquilar");
-                        alquiler.servicioAlquiler();
-                        if (alquiler.ComprobarPelicula(peli)){
-                            alqui.add(alquiler);
-                        }else {
+                        alquiler.crearAlquiler();
+                        if (alquiler.ComprobarPelicula(listaPeliculas)) {
+                            listaAlquiler.add(alquiler);
+                        } else {
                             System.out.println("La pelicula no se encuentra disponible.");
                         }
                     }
                     break;
                 case 4:
-                    for (int x =0; x < alqui.size(); x++){
-                        System.out.println(alqui.get(x).mostrarPeliculasAlquiladas());
+                    for (int x = 0; x < listaAlquiler.size(); x++) {
+                        System.out.println(listaAlquiler.get(x).toString());
                     }
                     break;
                 case 5:
-                    System.out.println("Ingrese el titulo de la pelicula que desea buscar");
-                    String tituloPelicula = "";
-                    tituloPelicula = sc.nextLine();
 
-                    for (int x = 0; x < peli.size(); x++){
-                        if (Objects.equals(peli.get(x), tituloPelicula)){
-                            boolean esta = true;
-                            System.out.println(esta);
-                        }else {
-                            System.out.println("La pelicula no se encuentra.");
-                        }
+                    System.out.println("Como desea buscar la pelicula:");
+                    System.out.println("1- Por titulo");
+                    System.out.println("2- Por Genero");
+                    System.out.println("3- Por alquiler");
+                    int buscar = sc.nextInt();
+
+                    sc.nextLine();
+
+                    switch (buscar) {
+                        case 1:
+                            System.out.println("Ingrese el titulo de la pelicula que desea buscar");
+                            String tituloPelicula = sc.nextLine();
+
+                            for (int x = 0; x < listaPeliculas.size(); x++) {
+                                if ((Objects.equals(listaPeliculas.get(x).getTitulo(), tituloPelicula))) {
+                                    System.out.println("La pelicula si se encuentra.");
+                                } else {
+                                    System.out.println("La pelicula no se encuentra.");
+                                }
+                            }
+                            System.out.println("");
+                            break;
+                        case 2:
+                            System.out.println("Ingrese el genero de la pelicula que desea buscar");
+                            String generoPelicula = sc.nextLine();
+
+                            for (int x = 0; x < listaPeliculas.size(); x++) {
+                                if ((Objects.equals(listaPeliculas.get(x).getGenero(), generoPelicula))) {
+                                    System.out.println("Titulo: " + listaPeliculas.get(x).getTitulo());
+                                } else {
+                                    System.out.println("La pelicula no se encuentra.");
+                                }
+                            }
+                            System.out.println("");
+                            break;
+                        case 3:
+                            System.out.println("Por favor ingrese el titulo de la pelicula");
+                            String pelicula = sc.nextLine();
+
+                            for (int x = 0; x < listaAlquiler.size(); x++) {
+                                if ((Objects.equals(listaAlquiler.get(x).getPeliculaAlquilada(), pelicula))) {
+                                    System.out.println(listaAlquiler.get(x).toString());
+                                } else {
+                                    System.out.println("La pelicula ingresada no se encuentra alquilada");
+                                }
+                            }
+                            break;
                     }
-                    break;
 
             }
 
