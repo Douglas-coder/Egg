@@ -50,57 +50,57 @@ public class Raices {
 
     //?Metodo para obtener discriminante
     //tiene la siguiente formula: (b^2)-4*a*c
-    public double getDiscriminante(){
+    public double getDiscriminante() {
 
-        return Math.pow(b,2)-4*a*c;
+        return Math.pow(b, 2) - 4 * a * c;
 
     }
 
     //?Metodo para saber si tiene dos soluciones(Raices)
     //Numeros que den mayor a (0) a=1 b=-3 c=2
-    public boolean tieneRaices(){
-        return getDiscriminante()>0;
+    public boolean tieneRaices() {
+        return getDiscriminante() > 0;
     }
 
     //?Metodo para saber si tiene una unica soluvion(Raiz)
     //Numeros que den como resultado (0) a=1 b=2 c=1
-    public boolean tieneRaiz(){
+    public boolean tieneRaiz() {
         return getDiscriminante() == 0;
     }
 
     //?Metodo para mostrar las dos posibles soluciones(Raices)
     //Formula ecuación 2o grado: (-b±√((b^2)-(4*a*c)))/(2*a)
-    public void obtenerRaices(){
+    public void obtenerRaices() {
         if (tieneRaices()) {
             double solucion1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             double solucion2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             System.out.println("Raices: ");
             System.out.println("Solucion1 = " + solucion1);
             System.out.println("Solucion2 = " + solucion2);
-        }else {
+        } else {
             System.out.println("No existen raices reales");
         }
     }
 
     //?Metodo para mostrar la solucion unica(Raices)
     //Formula ecuación 2o grado: (-b+√((b^2)-(4*a*c)))/(2*a)
-    public void obtenerRaiz(){
-        if (tieneRaiz()){
+    public void obtenerRaiz() {
+        if (tieneRaiz()) {
             double solucionunica = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             System.out.println("Raiz: ");
             System.out.println("Solucion unica = " + solucionunica);
-        }else {
+        } else {
             System.out.println("No tiene solucion unica");
         }
     }
 
     //?Metodo para mostrar una u otra solucion
-    public void getCalcular(){
-        if (tieneRaices()){
+    public void getCalcular() {
+        if (tieneRaices()) {
             obtenerRaices();
         } else if (tieneRaiz()) {
             obtenerRaiz();
-        }else {
+        } else {
             System.out.println("No tiene soluciones reales");
         }
     }

@@ -42,9 +42,9 @@ public class Puntos {
     }
 
     //?Metodo para calcular la distancia entre puntos
-    public void getCalcularDistancia(){
+    public void getCalcularDistancia() {
 
-        double distancia = Math.sqrt(Math.pow(x2 - x1 , 2) + Math.pow(y2 - y1 , 2));
+        double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.print("La distancia entre puntos es: ");
         System.out.printf("[%.1f]", distancia);
         System.out.println("");
