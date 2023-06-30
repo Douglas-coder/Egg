@@ -3,6 +3,7 @@ package egg.POOExercises.apooexersices;
 import egg.POOExercises.BonusExercises.*;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.Sentidad.PersonasGuia;
+import egg.POOExercises.BonusExercises.MenuPelis;
 import egg.POOExercises.Servicio.PersonaService;
 
 import java.util.ArrayList;
@@ -177,7 +178,7 @@ public class Main {
                 case 2://*Ejercicios extra
 
                     System.out.println("Ejercicios Extra");
-                    System.out.println("Indique un numero del 1 al 8 (7 y 8 Retos)");
+                    System.out.println("Indique un numero del 1 al 9 (7 en adelante retos)");
                     int submenu2 = sc.nextInt();
                     System.out.println("");
 
@@ -244,6 +245,10 @@ public class Main {
                             break;
                         case 8:
                             FigurasGeometricas figuras = new FigurasGeometricas();
+                            break;
+                        case 9:
+                            MenuPelis menuPelis = new MenuPelis();
+                            menuPelis.getMenuPelis();
                             break;
                         default:
                             System.out.println("Opcion erronea");
