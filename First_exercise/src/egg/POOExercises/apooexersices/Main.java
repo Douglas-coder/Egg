@@ -3,6 +3,8 @@ package egg.POOExercises.apooexersices;
 import egg.POOExercises.BonusExercises.*;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.Sentidad.PersonasGuia;
+import egg.POOExercises.Servicio.MesesService;
+import egg.POOExercises.Servicio.NIFService;
 import egg.POOExercises.Servicio.PersonaService;
 
 import java.util.ArrayList;
@@ -182,24 +184,28 @@ public class Main {
                     System.out.println("");
 
                     switch (submenu2) {//*SubMenu2
-                        case 1:
+                        case 1://Cancion
                             Cancion cancion = new Cancion();
                             System.out.println(cancion.toString());
                             break;
-                        case 2:
+                        case 2://Puntos
                             Puntos puntos = new Puntos();
                             puntos.getCrearPuntos();
                             puntos.getCalcularDistancia();
                             break;
-                        case 3:
+                        case 3://Raices
                             Raices raices = new Raices();
                             raices.getCalcular();
                             break;
-                        case 4:
-                            System.out.println("Opcion 4 ejercicios extra");
+                        case 4://NIF
+                            NIFService nifService = new NIFService();
+                            nifService.crearNif();
+                            System.out.println(nifService.toString());
                             break;
-                        case 5:
-                            System.out.println("Opcion 5 ejercicios extra");
+                        case 5://Mes secreto
+                            MesesService mesesService = new MesesService();
+                            mesesService.crearMeses();
+                            mesesService.adivinar();
                             break;
                         case 6:
                             System.out.println("Opcion 6 ejercicios extra");
@@ -208,7 +214,7 @@ public class Main {
                         //! ********** Retos **********
 
                         case 7://?  *********** Vehiculos ***********
-                            System.out.println("▩▩▩▩ Reto 1 ▩▩▩▩");
+                            System.out.println("🚗🚲🛵 Reto 1 🚗🚲🛵");
                             System.out.println("");
                             //Array list para guardar los 3 vehiculos
                             ArrayList<Vehiculo> vehiculos = new ArrayList<>();
@@ -243,9 +249,11 @@ public class Main {
 
                             break;
                         case 8:
+                            System.out.println("Δ▢○◇ Reto 2 Δ▢○◇");
                             FigurasGeometricas figuras = new FigurasGeometricas();
                             break;
                         case 9:
+                            System.out.println("🎞🎞🎞 Reto 3 🎞🎞🎞");
                             MenuPelis menuPelis = new MenuPelis();
                             menuPelis.getMenuPelis();
                             break;
