@@ -60,6 +60,15 @@ public class AhorcadoService extends Ahorcado {
                 reducirVida();
             }
         } while (!palabraCompleta() && getVidas() != 0);
+
+        System.out.println("");
+        System.out.print("La palabra secreta era: ");
+        for (int x = 0; x < getPalabraSecreta().length; x++) {
+            System.out.print(getPalabraSecreta()[x]);
+        }
+        System.out.println("\n" + "Haz ganado el ahorcado");
+
+
     }
 
     //?Metodo para verificar la condicion de victoria
@@ -77,8 +86,10 @@ public class AhorcadoService extends Ahorcado {
     public void actualizarPalabraSecreta(String letra) {
         String[] palabraOcultaReemplazo = getPalabraOculta();
         for (int x = 0; x < getPalabraSecreta().length; x++) {
-            palabraOcultaReemplazo[x] = letra;
-            setPalabraOculta(palabraOcultaReemplazo);
+            if (letra.equalsIgnoreCase(getPalabraSecreta()[x])) {
+                palabraOcultaReemplazo[x] = letra;
+                setPalabraOculta(palabraOcultaReemplazo);
+            }
         }
     }
 

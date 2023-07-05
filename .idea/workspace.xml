@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicios extra 4 y 5 completados">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AhorcadoService.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicios extra 6 completado (mejorable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Ahorcado.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Ahorcado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AhorcadoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AhorcadoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -484,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688432468276</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Ejercicios extra 6 completado (mejorable)">
+      <option name="closed" value="true" />
+      <created>1688515598288</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1688515598288</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +507,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Menu para los ejercicios de POO" />
     <MESSAGE value="Ejercicios hasta el 5 realizados" />
     <MESSAGE value="Menu poo exercises" />
     <MESSAGE value="Culminacion ejercicio 6, comienzo ejercicio 7" />
@@ -525,7 +531,8 @@
     <MESSAGE value="Reto 2 (Se encuentra en los extra Opc 9), Intento implementacion del precio de alquiler" />
     <MESSAGE value="Reto 2 completado" />
     <MESSAGE value="Ejercicios extra 4 y 5 completados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios extra 4 y 5 completados" />
+    <MESSAGE value="Ejercicios extra 6 completado (mejorable)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios extra 6 completado (mejorable)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,6 +566,11 @@
           <url>file://$PROJECT_DIR$/First_exercise/src/egg/ExtraExercises/SopaDeLetras.java</url>
           <line>83</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AhorcadoService.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
