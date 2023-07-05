@@ -96,10 +96,8 @@ public class CuentaBancaria {
     //*Metodo ingresar saldo
     public void ingresarSaldo() {
 
-        double ingreso;
-
         System.out.println("Por favor indique el monto a ingresar:");
-        ingreso = sc.nextInt();
+        double ingreso = sc.nextDouble();
 
         setSaldoActual((int) (saldoActual + ingreso));
 
@@ -108,10 +106,8 @@ public class CuentaBancaria {
     //!Metodo retirar saldo
     public void retirarSaldo() {
 
-        double retiro;
-
         System.out.println("Ingrese el monto a retirar:");
-        retiro = sc.nextInt();
+        double retiro = sc.nextDouble();
 
         if (retiro > saldoActual) {
             setSaldoActual(0);
@@ -124,7 +120,7 @@ public class CuentaBancaria {
     //!Metodo extraccion rapida
     public void extraccionRapida() {
 
-        int saldoAl20 = (int) (saldoActual * 0.2);
+        double saldoAl20 = (saldoActual * 0.2);
         int confirmar;
 
         System.out.println("El 20% de su saldo actual es: " + saldoAl20 + " desea retirar este saldo?");
@@ -135,7 +131,7 @@ public class CuentaBancaria {
 
         if (confirmar == 1) {
 
-            setSaldoActual((int) (saldoActual - (saldoActual * 0.2)));
+            setSaldoActual((int) (saldoActual - saldoAl20));
 
         } else {
             System.out.println("Gracias.");

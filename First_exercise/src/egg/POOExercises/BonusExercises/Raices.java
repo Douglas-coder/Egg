@@ -71,6 +71,7 @@ public class Raices {
     //?Metodo para mostrar las dos posibles soluciones(Raices)
     //Formula ecuación 2o grado: (-b±√((b^2)-(4*a*c)))/(2*a)
     public void obtenerRaices() {
+        System.out.println("El valor de la discriminante es: " + getDiscriminante());
         if (tieneRaices()) {
             double solucion1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             double solucion2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
@@ -85,6 +86,7 @@ public class Raices {
     //?Metodo para mostrar la solucion unica(Raices)
     //Formula ecuación 2o grado: (-b+√((b^2)-(4*a*c)))/(2*a)
     public void obtenerRaiz() {
+        System.out.println("El valor de la discriminante es: " + getDiscriminante());
         if (tieneRaiz()) {
             double solucionunica = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             System.out.println("Raiz: ");
