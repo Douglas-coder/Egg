@@ -7,7 +7,7 @@ public class Test {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String[] alumnosHard = {"Douglas", "Juan", "Lucas", "Jose", "Maria"};
+        String[] alumnosHard = {"A", "R", "C", "D", "E", "F", "G"};
         String[] alumnos = new String[5];
 
         for (int x = 0; x < 5; x++) {

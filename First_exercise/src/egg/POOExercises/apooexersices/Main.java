@@ -3,6 +3,7 @@ package egg.POOExercises.apooexersices;
 import egg.POOExercises.BonusExercises.*;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.Sentidad.PersonasGuia;
+import egg.POOExercises.Servicio.AhorcadoService;
 import egg.POOExercises.Servicio.MesesService;
 import egg.POOExercises.Servicio.NIFService;
 import egg.POOExercises.Servicio.PersonaService;
@@ -207,8 +208,9 @@ public class Main {
                             mesesService.crearMeses();
                             mesesService.adivinar();
                             break;
-                        case 6:
-                            System.out.println("Opcion 6 ejercicios extra");
+                        case 6://Ahorcado
+                            AhorcadoService ahorcadoService = new AhorcadoService();
+                            ahorcadoService.buscar();
                             break;
 
                         //! ********** Retos **********

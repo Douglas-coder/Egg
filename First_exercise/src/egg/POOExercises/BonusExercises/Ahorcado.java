@@ -5,15 +5,15 @@ Juego Ahorcado: Crear una clase Ahorcado (como el juego), la cual deberá conten
 como atributos, un vector con la palabra a buscar, la cantidad de letras encontradas y la
 cantidad jugadas máximas que puede realizar el usuario. Definir los siguientes métodos
 con los parámetros que sean necesarios:
- Constructores, tanto el vacío como el parametrizado.
- Metodo crearJuego(): le pide la palabra al usuario y cantidad de jugadas máxima.
+* Constructores, tanto el vacío como el parametrizado.
+* Metodo crearJuego(): le pide la palabra al usuario y cantidad de jugadas máxima.
 Con la palabra del usuario, pone la longitud de la palabra, como la longitud del
 vector. Después ingresa la palabra en el vector, letra por letra, quedando cada letra
 de la palabra en un índice del vector. Y también, guarda en cantidad de jugadas
 máximas, el valor que ingresó el usuario y encontradas en 0.
- Método longitud(): muestra la longitud de la palabra que se debe encontrar. Nota:
+* Método longitud(): muestra la longitud de la palabra que se debe encontrar. Nota:
 buscar como se usa el vector.length.
- Método buscar(letra): este método recibe una letra dada por el usuario y busca sila
+* Método buscar(letra): este método recibe una letra dada por el usuario y busca sila
 letra ingresada es parte de la palabra o no. También informará si la letra estaba o no.
  Método encontradas(letra): que reciba una letra ingresada por el usuario y muestre
 cuantas letras han sido encontradas y cuantas le faltan. Este método además deberá
@@ -62,4 +62,51 @@ Mensaje: Lo sentimos, no hay más oportunidades
 */
 
 public class Ahorcado {
+
+    private String[] palabraSecreta;
+    private String[] palabraOculta;
+    private int letrasEncontradas;
+    private int vidas;
+
+    public Ahorcado(String[] palabra, String[] palabraOculta, int letrasEncontradas, int vidas) {
+        this.palabraSecreta = palabra;
+        this.palabraOculta = palabraOculta;
+        this.letrasEncontradas = letrasEncontradas;
+        this.vidas = vidas;
+    }
+
+    public Ahorcado() {
+    }
+
+    public String[] getPalabraSecreta() {
+        return palabraSecreta;
+    }
+
+    public void setPalabraSecreta(String[] palabraSecreta) {
+        this.palabraSecreta = palabraSecreta;
+    }
+
+    public String[] getPalabraOculta() {
+        return palabraOculta;
+    }
+
+    public void setPalabraOculta(String[] palabraOculta) {
+        this.palabraOculta = palabraOculta;
+    }
+
+    public int getLetrasEncontradas() {
+        return letrasEncontradas;
+    }
+
+    public void setLetrasEncontradas(int letrasEncontradas) {
+        this.letrasEncontradas = letrasEncontradas;
+    }
+
+    public int getVidas() {
+        return vidas;
+    }
+
+    public void setVidas(int vidas) {
+        this.vidas = vidas;
+    }
 }
