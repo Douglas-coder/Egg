@@ -28,7 +28,14 @@ public class Circunferencia {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el radio");
         setRadio(sc.nextInt());
+        System.out.println();
 
+    }
+
+    @Override
+    public String toString() {
+        return "El area es: " + area() + '\n' +
+                "El perimetro es: " + perimetro() + '\n';
     }
 
     //Se debe de llamar calcularArea por buena practica

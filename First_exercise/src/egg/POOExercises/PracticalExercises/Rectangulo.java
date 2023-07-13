@@ -25,8 +25,9 @@ public class Rectangulo {
 
     public Rectangulo() {
         crearRectangulo();
-        System.out.println("");
+        System.out.println();
         dibujarRectangulo();
+        System.out.println();
     }
 
     public void crearRectangulo() {
@@ -37,6 +38,12 @@ public class Rectangulo {
         System.out.println("Por favor ingrese la altura del rectangulo");
         setAltura(sc.nextInt());
 
+    }
+
+    @Override
+    public String toString() {
+        return "La superficie del rectangulo con base " + base + " y altura " + altura + " es: " + superficie() + '\n' +
+                "El perimetro del rectangulo con base " + base + " y altura " + altura + " es " + perimetro() + '\n';
     }
 
     //?Metodo para hallar superficie

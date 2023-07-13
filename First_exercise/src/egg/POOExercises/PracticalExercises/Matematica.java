@@ -25,6 +25,8 @@ public class Matematica {
     }
 
     public Matematica() {
+        setNum1(Math.random()*100);
+        setNum2(Math.random()*100);
     }
 
     //?Metodo para hallar el numero mayor
@@ -59,6 +61,15 @@ public class Matematica {
 
         return Math.sqrt(menor);
 
+    }
+
+    @Override
+    public String toString() {
+        return "Numero 1: " + num1 + '\n' +
+                "Numero 2: " + num2 + '\n' +
+                "El mayor es: " + devolverMayor() + '\n' +
+                "La potencia del mayor elevada al menor es: " + calcularPotencia() + '\n' +
+                "La raiz cuadrada del menor es: " + calcularRaiz() + '\n';
     }
 
     public double getNum1() {

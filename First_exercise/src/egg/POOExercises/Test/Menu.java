@@ -1,4 +1,4 @@
-package egg.POOExercises.apooexersices;
+package egg.POOExercises.Test;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class Menu {
                 case 1://*Ejercicios practicos
 
                     System.out.println("Ejercicios Practicos");
-                    System.out.println("Indique un numero del 1 al 14");
+                    System.out.println("Indique un numero del 1 al 14 y 15 para salir");
                     int submenu = sc.nextInt();
                     System.out.println("");
 
@@ -72,8 +72,11 @@ public class Menu {
                         case 14:
                             System.out.println("Opcion 14 ejercicios practicos");
                             break;
+                        case 15:
+                            break;
                         default:
                             System.out.println("Opcion erronea");
+                            continue;
                     }
 
                     break;

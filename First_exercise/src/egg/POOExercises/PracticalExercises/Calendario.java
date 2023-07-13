@@ -31,9 +31,13 @@ public class Calendario {
     }
 
     public Calendario() {
+        ingresarFecha();
+        System.out.println();
+        mostrarInformacion();
+        System.out.println();
     }
 
-    public void getIngresarFecha() {
+    public void ingresarFecha() {
 
         System.out.println("Ingresa tu fecha de nacimiento:");
         System.out.println("Día: ");
@@ -74,7 +78,7 @@ public class Calendario {
 
     }
 
-    public void getMostrarInformacion() {
+    public void mostrarInformacion() {
 
         //Creacion Objeto Date
         Date fecha = new Date(anio, mes, dia);

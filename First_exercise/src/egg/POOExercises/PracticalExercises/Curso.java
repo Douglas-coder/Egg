@@ -52,11 +52,15 @@ public class Curso {
     }
 
     public Curso() {
+        getCrearCurso();
+        System.out.println();
+        getMostrarDatos();
+        System.out.println();
     }
 
     //?Metodo para Crear los alumnos
     public void getCargarAlumnos() {
-        for (int x = 0; x < 5; x++) {
+        for (int x = 0; x <= 5; x++) {
             System.out.println("Alumno # " + (x + 1));
             setAlumnos(new String[]{alumnos[x] = sc.nextLine()});
         }

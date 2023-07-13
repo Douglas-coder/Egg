@@ -1,13 +1,13 @@
-package egg.POOExercises.apooexersices;
+package egg.POOExercises.MainProgram;
 
 import egg.POOExercises.BonusExercises.*;
 import egg.POOExercises.PracticalExercises.*;
-import egg.POOExercises.Sentidad.Gym.Cliente;
-import egg.POOExercises.Sentidad.PersonasGuia;
+import egg.POOExercises.PracticalExercises.Banco.CuentaBancaria;
+import egg.POOExercises.PracticalExercises.Cafetera.Cafetera;
+import egg.POOExercises.PracticalExercises.Celulares.Celular;
 import egg.POOExercises.Servicio.AhorcadoService;
 import egg.POOExercises.Servicio.MesesService;
 import egg.POOExercises.Servicio.NIFService;
-import egg.POOExercises.Servicio.PersonaService;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -30,7 +30,6 @@ public class Main {
             System.out.println("Seleccione el ejercicio a ejecutar:");
             System.out.println("1- Ejercicios practicos");
             System.out.println("2- Ejercicios extra");
-            System.out.println("3- Ejercicios guia");
             int menu = sc.nextInt();
             System.out.println("");
 
@@ -149,14 +148,14 @@ public class Main {
                             break;
                         case 11://Date\Fecha
                             Calendario calendario = new Calendario();
-                            calendario.getIngresarFecha();
-                            calendario.getMostrarInformacion();
+                            calendario.ingresarFecha();
+                            calendario.mostrarInformacion();
                             break;
                         case 12://?Union ejercicio 7 y 11.
                             Persona persona = new Persona();
                             Calendario calendario1 = new Calendario();
                             persona.getIngresarDatos();
-                            calendario1.getIngresarFecha();
+                            calendario1.ingresarFecha();
                             System.out.println("Hola " + persona.getNombre());
                             calendario1.getCalcularEdad();
                             calendario1.getMenorQue();
@@ -181,7 +180,7 @@ public class Main {
                 case 2://*Ejercicios extra
 
                     System.out.println("Ejercicios Extra");
-                    System.out.println("Indique un numero del 1 al 10 (7 en adelante retos)");
+                    System.out.println("Indique un numero del 1 al 9 (7 en adelante retos)");
                     int submenu2 = sc.nextInt();
                     System.out.println("");
 
@@ -259,23 +258,7 @@ public class Main {
                             MenuPelis menuPelis = new MenuPelis();
                             menuPelis.getMenuPelis();
                             break;
-                        case 10:
-                            Cliente cliente = new Cliente();
-                            System.out.println("Por favor ingrese una opcion");
-                            System.out.println("1- Clientes");
-                            System.out.println("2- Rutina");
-                            break;
-                        default:
-                            System.out.println("Opcion erronea");
                     }
-
-                    break;
-
-                case 3://*Ejercicios guia
-
-                    PersonaService primeraPersona = new PersonaService();
-                    PersonasGuia personasGuia = primeraPersona.crearPersona();
-                    System.out.println("Hola " + personasGuia.getName());
 
                     break;
 

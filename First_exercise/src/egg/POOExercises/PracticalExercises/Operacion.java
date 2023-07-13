@@ -40,8 +40,16 @@ public class Operacion {
         setNum1(sc.nextDouble());
         System.out.println("Por favor ingrese el 2 numero");
         setNum2(sc.nextDouble());
+        System.out.println();
     }
 
+    @Override
+    public String toString() {
+        return "La suma de: " + (int) num1 + " + " + (int) num2 + " = " + (int) sumar() + '\n' +
+                "La resta de: " + (int) num1 + " - " + (int) num2 + " = " + (int) restar() + '\n' +
+                "La multiplicación de: " + (int) num1 + " * " + (int) num2 + " = " + (int) multiplicar() + '\n' +
+                "La division de: " + (int) num1 + " / " + (int) num2 + " = " + dividir() + '\n';
+    }
 
     //?Metodo para sumar los valores
     public double sumar() {

@@ -1,4 +1,4 @@
-package egg.POOExercises.PracticalExercises;
+package egg.POOExercises.PracticalExercises.Cafetera;
 
 /*
 Programa Nespresso. Desarrolle una clase Cafetera con los atributos capacidadMaxima
@@ -35,44 +35,6 @@ public class Cafetera {
 
     public Cafetera() {
 
-        int continuar = 1;
-
-        while (continuar == 1) {
-
-            System.out.println("Por favor indique que desea realizar");
-            System.out.println("1- Llenar cafetera");
-            System.out.println("2- Servir taza");
-            System.out.println("3- Vaciar cafetera");
-            System.out.println("4- Agregar cafe");
-            int menu = sc.nextInt();
-            System.out.println("");
-
-            switch (menu) {
-                case 1:
-                    llenarCafetera();
-                    System.out.println("La cafetera contiene: " + cantidadActual + " ml de cafe");
-                    break;
-                case 2:
-                    servirTaza();
-                    System.out.println("La cantidad de cafe actual es: " + cantidadActual + " ml de cafe");
-                    break;
-                case 3:
-                    vaciarCafetera();
-                    System.out.println("La cafetera contiene: " + cantidadActual + " ml de cafe");
-                    break;
-                case 4:
-                    agregarCafe();
-                    break;
-                default:
-                    System.out.println("Por favor seleccione una opcion valida.");
-            }
-
-            System.out.println("");
-            System.out.println("Para realizar otra accion (1)");
-            System.out.println("Salir (0)");
-            continuar = sc.nextInt();
-
-        }
 
     }
 
@@ -90,20 +52,26 @@ public class Cafetera {
 
         System.out.println("Por favor indique el tamaño de la taza en ml (Max 177ml)");
         tamTaza = sc.nextInt();
+        System.out.println();
 
 
         if (cantidadActual == 0) {
             System.out.println("La cafetera no contiene cafe");
+            System.out.println();
         } else if (tamTaza > 177) {
             System.out.println("El tamaño de la taza no puede superar los 177 ml");
+            System.out.println();
         } else if (cantidadActual < tamTaza) {
             System.out.println("La taza no se alcanzo a llenar y quedo con: " + cantidadActual + " ml de cafe");
+            System.out.println();
             setCantidadActual(0);
         } else if (cantidadActual == tamTaza) {
             System.out.println("Su taza se lleno con la cantidad justa de cafe");
+            System.out.println();
             setCantidadActual(0);
         } else {
             System.out.println("Su taza se lleno con: " + tamTaza + " ml de cafe");
+            System.out.println();
             setCantidadActual(cantidadActual - tamTaza);
         }
 
@@ -125,6 +93,7 @@ public class Cafetera {
 
         System.out.println("Por favor indique la cantidad de cafe a rellenar");
         cantCafe = sc.nextInt();
+        System.out.println();
 
         if ((cantCafe + cantidadActual) > capacidadMaxima) {
             System.out.println("La cantidad ingresada supera la cantidad maxima que es: " + capacidadMaxima);

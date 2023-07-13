@@ -1,4 +1,4 @@
-package egg.POOExercises.PracticalExercises;
+package egg.POOExercises.PracticalExercises.Celulares;
 
 /*
 Una tienda que vende teléfonos móviles quiere tener registro de cada producto que
@@ -98,7 +98,7 @@ public class Celular {
                 "Memoria Ram: " + memoriaRam + "GB" + '\n' +
                 "Almacenamiento: " + almacenamiento + "GB" + '\n' +
                 "Precio: $" + precio + '\n' +
-                "Codigo: " + Arrays.toString(Arrays.copyOf(codigo, 7));
+                "Codigo: " + Arrays.toString(Arrays.copyOf(codigo, 7)) + '\n';
     }
 
     public int getSelecMarca() {

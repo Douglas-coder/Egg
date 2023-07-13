@@ -12,6 +12,7 @@ import java.util.Scanner;
 
 public class Libro {
 
+    Scanner sc = new Scanner(System.in);
     private String titulo;
     private String autor;
     private int numPaginas;
@@ -26,8 +27,11 @@ public class Libro {
 
     public Libro() {
 
-        Scanner sc = new Scanner(System.in);
+        crearLibro(sc);
 
+    }
+
+    private void crearLibro(Scanner sc) {
         System.out.println("Por favor ingrese el titulo del libro");
         setTitulo(sc.nextLine());
         System.out.println("Por favor ingrese el autor del libro");
@@ -36,7 +40,15 @@ public class Libro {
         setNumPaginas(sc.nextInt());
         System.out.println("Por favor ingrese el ISBN del libro");
         setISBN(sc.nextInt());
+        System.out.println();
+    }
 
+    @Override
+    public String toString() {
+        return  "ISBN: " + ISBN + '\n' +
+                "Titulo: " + titulo + '\n' +
+                "Autor: " + autor + '\n' +
+                "Numero de paginas: " + numPaginas + '\n';
     }
 
     public String getTitulo() {

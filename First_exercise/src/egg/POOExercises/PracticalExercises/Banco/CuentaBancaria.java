@@ -1,4 +1,4 @@
-package egg.POOExercises.PracticalExercises;
+package egg.POOExercises.PracticalExercises.Banco;
 
 /*
 *Realizar una clase llamada Cuenta (bancaria) que debe tener como mínimo los atributos:
@@ -37,9 +37,8 @@ public class CuentaBancaria {
     public CuentaBancaria() {
 
         crearCuenta();
-        //System.out.println("");
 
-        int continuar = 1;
+        /*int continuar = 1;
 
         while (continuar == 1) {
 
@@ -78,7 +77,7 @@ public class CuentaBancaria {
             System.out.println("Salir (0)");
             continuar = sc.nextInt();
 
-        }
+        }*/
 
     }
 
@@ -86,7 +85,7 @@ public class CuentaBancaria {
 
         /*System.out.println("Por favor ingrese el numero de cuenta");
         setNumeroCuenta(sc.nextInt());*/
-        setNumeroCuenta(543502);
+        setNumeroCuenta((int) (Math.random()*1000000000));
         /*System.out.println("Por favor ingrese su DNI");
         setDNICliente(sc.nextInt());*/
         setDNICliente(1037639137);
@@ -100,6 +99,7 @@ public class CuentaBancaria {
         double ingreso = sc.nextDouble();
 
         setSaldoActual((int) (saldoActual + ingreso));
+        System.out.println();
 
     }
 
@@ -114,6 +114,7 @@ public class CuentaBancaria {
         } else {
             setSaldoActual((int) (saldoActual - retiro));
         }
+        System.out.println();
 
     }
 
@@ -136,6 +137,7 @@ public class CuentaBancaria {
         } else {
             System.out.println("Gracias.");
         }
+        System.out.println();
 
     }
 
@@ -143,6 +145,7 @@ public class CuentaBancaria {
     public void consultarSaldo() {
 
         System.out.println("Su saldo es: " + saldoActual);
+        System.out.println();
 
     }
 
@@ -151,6 +154,7 @@ public class CuentaBancaria {
 
         System.out.println("Numero de cuenta: " + numeroCuenta);
         System.out.println("DNI usuario: " + DNICliente);
+        System.out.println();
 
     }
 

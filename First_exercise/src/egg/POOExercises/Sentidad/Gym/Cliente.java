@@ -1,7 +1,5 @@
 package egg.POOExercises.Sentidad.Gym;
 
-import java.util.Objects;
-
 public class Cliente {
 
     private int id;
@@ -70,29 +68,4 @@ public class Cliente {
     public void setObjetivo(String objetivo) {
         this.objetivo = objetivo;
     }
-
-
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Cliente cliente = (Cliente) o;
-        return id == cliente.id && edad == cliente.edad && Double.compare(cliente.altura, altura) == 0 && Double.compare(cliente.peso, peso) == 0 && Objects.equals(nombre, cliente.nombre) && Objects.equals(objetivo, cliente.objetivo);
-    }
-
-
-    public int hashCode() {
-        return Objects.hash(id, nombre, edad, altura, peso, objetivo);
-    }
-
-
-    public String toString() {
-        return "id=" + id + '\n' +
-                "nombre= " + nombre + '\n' +
-                "edad= " + edad + '\n' +
-                "altura= " + altura + '\n' +
-                "peso= " + peso + '\n' +
-                "objetivo= " + objetivo + '\n' +
-                "________________________________";
-    }
-
 }

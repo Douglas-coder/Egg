@@ -33,12 +33,13 @@ public class ArraysAyB {
     public ArraysAyB() {
 
         System.out.println("◖►********** Primera forma **********◄◗");
-        System.out.println("");
+        System.out.println();
         Listas();
-        System.out.println("");
+        System.out.println();
         System.out.println("◖►********** Segunda forma **********◄◗");
-        System.out.println("");
+        System.out.println();
         Vectores();
+        System.out.println();
 
     }
 
