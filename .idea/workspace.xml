@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicios extra 6 completado con algunas correcciones.">
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="cambios minimos ejercicios 3 y 6 de los extra">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Gym/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Gym/Rutina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/GymServices/ServicioCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/GymServices/ServicioRutina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/AhorcadoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/AhorcadoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Raices.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Raices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/NIFService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/NIFService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Raices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Raices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/CuentaBancaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/CuentaBancaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/NIFService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/NIFService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "E:/QA/java/Egg/Egg",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/QA/java/Egg/Egg&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="CambioVocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="egg.JavaExample.CambioVocal" />
@@ -498,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688567779635</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="cambios minimos ejercicios 3 y 6 de los extra">
+      <option name="closed" value="true" />
+      <created>1688596596632</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1688596596632</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +530,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Menu poo exercises" />
     <MESSAGE value="Culminacion ejercicio 6, comienzo ejercicio 7" />
     <MESSAGE value="Avance ejercicio 7 (Imprimir array con datos requeridos)." />
     <MESSAGE value="Ejercicio 7 Resuelto" />
@@ -539,7 +554,8 @@
     <MESSAGE value="Ejercicios extra 4 y 5 completados" />
     <MESSAGE value="Ejercicios extra 6 completado (mejorable)" />
     <MESSAGE value="Ejercicios extra 6 completado con algunas correcciones." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios extra 6 completado con algunas correcciones." />
+    <MESSAGE value="cambios minimos ejercicios 3 y 6 de los extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios minimos ejercicios 3 y 6 de los extra" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

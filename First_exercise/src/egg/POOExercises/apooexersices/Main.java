@@ -2,6 +2,7 @@ package egg.POOExercises.apooexersices;
 
 import egg.POOExercises.BonusExercises.*;
 import egg.POOExercises.PracticalExercises.*;
+import egg.POOExercises.Sentidad.Gym.Cliente;
 import egg.POOExercises.Sentidad.PersonasGuia;
 import egg.POOExercises.Servicio.AhorcadoService;
 import egg.POOExercises.Servicio.MesesService;
@@ -180,7 +181,7 @@ public class Main {
                 case 2://*Ejercicios extra
 
                     System.out.println("Ejercicios Extra");
-                    System.out.println("Indique un numero del 1 al 9 (7 en adelante retos)");
+                    System.out.println("Indique un numero del 1 al 10 (7 en adelante retos)");
                     int submenu2 = sc.nextInt();
                     System.out.println("");
 
@@ -213,7 +214,7 @@ public class Main {
                             ahorcadoService.buscar();
                             break;
 
-                        //! ********** Retos **********
+                            //! ********** Retos **********
 
                         case 7://?  *********** Vehiculos ***********
                             System.out.println("🚗🚲🛵 Reto 1 🚗🚲🛵");
@@ -248,7 +249,6 @@ public class Main {
 
                             System.out.println("");
                             System.out.println("El vehiculo (" + tipo + ") Fue el que mas recorrio con " + mayor + " metros en 5 minutos.");
-
                             break;
                         case 8:
                             System.out.println("Δ▢○◇ Reto 2 Δ▢○◇");
@@ -258,6 +258,12 @@ public class Main {
                             System.out.println("🎞🎞🎞 Reto 3 🎞🎞🎞");
                             MenuPelis menuPelis = new MenuPelis();
                             menuPelis.getMenuPelis();
+                            break;
+                        case 10:
+                            Cliente cliente = new Cliente();
+                            System.out.println("Por favor ingrese una opcion");
+                            System.out.println("1- Clientes");
+                            System.out.println("2- Rutina");
                             break;
                         default:
                             System.out.println("Opcion erronea");

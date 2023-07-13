@@ -75,6 +75,11 @@ public class Raices {
         if (tieneRaices()) {
             double solucion1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             double solucion2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
+            /*System.out.println(
+                    "RAICES\n" +
+                            "SOLUCION 1 es igual " + solucion1 + '\n' +
+                            "SOLUCION2 es igual " + solucion2 + '\n'
+            );*/
             System.out.println("Raices: ");
             System.out.println("Solucion1 = " + solucion1);
             System.out.println("Solucion2 = " + solucion2);
