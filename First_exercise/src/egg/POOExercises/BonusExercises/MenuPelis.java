@@ -1,9 +1,9 @@
 package egg.POOExercises.BonusExercises;
 
-import egg.POOExercises.Sentidad.Peliculas.Alquiler;
-import egg.POOExercises.Sentidad.Peliculas.Peliculas;
-import egg.POOExercises.Servicio.AlquilerService;
-import egg.POOExercises.Servicio.PeliculaService;
+import egg.POOExercises.Retos.Entidades.Peliculas.Alquiler;
+import egg.POOExercises.Retos.Entidades.Peliculas.Peliculas;
+import egg.POOExercises.Retos.servicios.AlquilerService;
+import egg.POOExercises.Retos.servicios.PeliculaService;
 
 import java.util.ArrayList;
 import java.util.Objects;

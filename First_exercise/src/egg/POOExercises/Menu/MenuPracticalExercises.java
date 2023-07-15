@@ -5,7 +5,7 @@ import egg.POOExercises.PracticalExercises.Banco.CuentaBancaria;
 import egg.POOExercises.PracticalExercises.Banco.MenuBanco;
 import egg.POOExercises.PracticalExercises.Cafetera.MenuCafetera;
 import egg.POOExercises.PracticalExercises.Celulares.MenuCelular;
-import egg.POOExercises.Servicio.PersonaService;
+import egg.POOExercises.PracticalExercises.Servicios.PersonaService;
 
 import java.util.Scanner;
 
@@ -13,20 +13,7 @@ public class MenuPracticalExercises {
 
     private static Scanner sc = new Scanner(System.in);
 
-    public void practicalMenu(){
-
-        int opc;
-
-        do {
-            showPracticalOptions();
-            opc = selectOption();
-            System.out.println();
-            options(opc);
-        }while (opc != 15);
-
-    }
-
-    private static void showPracticalOptions(){
+    private static void showPracticalOptions() {
         System.out.println(
                 "👌🏼👌🏼👌🏼 Practical Exercises 👌🏼👌🏼👌🏼" + '\n' +
                         "1 ⇒ Libro          " + " | 8 ⇒ Cadenna" + '\n' +
@@ -40,13 +27,26 @@ public class MenuPracticalExercises {
         );
     }
 
-    private static int selectOption(){
+    private static int selectOption() {
         System.out.println("Seleccione una opción");
         return sc.nextInt();
     }
 
-    private void options(int opc){
-        switch (opc){
+    public void practicalMenu() {
+
+        int opc;
+
+        do {
+            showPracticalOptions();
+            opc = selectOption();
+            System.out.println();
+            options(opc);
+        } while (opc != 15);
+
+    }
+
+    private void options(int opc) {
+        switch (opc) {
             case 1://Libro
                 Libro libro = new Libro();
                 System.out.println(libro.toString());

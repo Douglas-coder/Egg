@@ -1,13 +1,18 @@
 package egg.POOExercises.MainProgram;
 
-import egg.POOExercises.BonusExercises.*;
+import egg.POOExercises.BonusExercises.Cancion;
+import egg.POOExercises.BonusExercises.MenuPelis;
+import egg.POOExercises.BonusExercises.Puntos;
+import egg.POOExercises.BonusExercises.Raices;
+import egg.POOExercises.BonusExercises.Servicios.AhorcadoService;
+import egg.POOExercises.BonusExercises.Servicios.MesesService;
+import egg.POOExercises.BonusExercises.Servicios.NIFService;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.PracticalExercises.Banco.CuentaBancaria;
 import egg.POOExercises.PracticalExercises.Cafetera.Cafetera;
 import egg.POOExercises.PracticalExercises.Celulares.Celular;
-import egg.POOExercises.Servicio.AhorcadoService;
-import egg.POOExercises.Servicio.MesesService;
-import egg.POOExercises.Servicio.NIFService;
+import egg.POOExercises.Retos.FigurasGeometricas;
+import egg.POOExercises.Retos.Vehiculo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -213,7 +218,7 @@ public class Main {
                             ahorcadoService.buscar();
                             break;
 
-                            //! ********** Retos **********
+                        //! ********** Retos **********
 
                         case 7://?  *********** Vehiculos ***********
                             System.out.println("🚗🚲🛵 Reto 1 🚗🚲🛵");
@@ -234,7 +239,7 @@ public class Main {
 
                             //Mostramos por pantalla los datos de los vehiculos creados
                             for (x = 0; x < vehiculos.size(); x++) {
-                                System.out.println(vehiculos.get(x).mostrarDatos());
+                                System.out.println(vehiculos.get(x).toString());
                             }
 
                             //Ciclo for para hallar el vehiuculo que mas avanzo despues de frenar

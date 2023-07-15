@@ -27,6 +27,10 @@ public class Puntos {
     }
 
     public Puntos() {
+        getCrearPuntos();
+        System.out.println();
+        getCalcularDistancia();
+        System.out.println();
     }
 
     //?Metodo para crear los puntos

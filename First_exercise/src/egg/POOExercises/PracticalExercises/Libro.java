@@ -43,9 +43,18 @@ public class Libro {
         System.out.println();
     }
 
+    /*    @Override
+        public String toString() {
+            return "Libro{" +
+                    ", titulo='" + titulo + '\'' +
+                    ", autor='" + autor + '\'' +
+                    ", numPaginas=" + numPaginas +
+                    ", ISBN=" + ISBN +
+                    '}';
+        }*/
     @Override
     public String toString() {
-        return  "ISBN: " + ISBN + '\n' +
+        return "ISBN: " + ISBN + '\n' +
                 "Titulo: " + titulo + '\n' +
                 "Autor: " + autor + '\n' +
                 "Numero de paginas: " + numPaginas + '\n';

@@ -46,6 +46,9 @@ public class Raices {
         setB(sc.nextDouble());
         System.out.println("Por favor ingrese el valor de 'C': ");
         setC(sc.nextDouble());
+        System.out.println();
+        getCalcular();
+        System.out.println();
     }
 
     //?Metodo para obtener discriminante
@@ -72,6 +75,7 @@ public class Raices {
     //Formula ecuación 2o grado: (-b±√((b^2)-(4*a*c)))/(2*a)
     public void obtenerRaices() {
         System.out.println("El valor de la discriminante es: " + getDiscriminante());
+        System.out.println();
         if (tieneRaices()) {
             double solucion1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
             double solucion2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);

@@ -1,6 +1,5 @@
 package egg.POOExercises.Menu;
 
-import java.security.PrivateKey;
 import java.util.Scanner;
 
 //"📋1️⃣2️⃣3️⃣4️⃣🔢🟡🟠🔴🟢"
@@ -12,20 +11,7 @@ public class MenuPrincipal {
     private MenuBonusExercises bonus = new MenuBonusExercises();
     private MenuChallenge challenge = new MenuChallenge();
 
-    public void run(){
-
-        int opc;
-
-        do {
-            showOptions();
-            opc = selectOption();
-            System.out.println();
-            options(opc);
-        }while (opc != 4);
-
-    }
-
-    private static void showOptions(){
+    private static void showOptions() {
         System.out.println(
                 "📋📋📋 MENU 📋📋📋" + '\n' +
                         "1 ⇒ Ejercicios practicos" + '\n' +
@@ -35,13 +21,26 @@ public class MenuPrincipal {
         );
     }
 
-    private static int selectOption(){
+    private static int selectOption() {
         System.out.println("Seleccione una opción");
         return sc.nextInt();
     }
 
-    private void options(int opc){
-        switch (opc){
+    public void run() {
+
+        int opc;
+
+        do {
+            showOptions();
+            opc = selectOption();
+            System.out.println();
+            options(opc);
+        } while (opc != 4);
+
+    }
+
+    private void options(int opc) {
+        switch (opc) {
             case 1:
                 practical.practicalMenu();
                 break;

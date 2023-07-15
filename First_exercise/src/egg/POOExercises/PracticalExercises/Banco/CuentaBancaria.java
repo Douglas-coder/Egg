@@ -85,7 +85,7 @@ public class CuentaBancaria {
 
         /*System.out.println("Por favor ingrese el numero de cuenta");
         setNumeroCuenta(sc.nextInt());*/
-        setNumeroCuenta((int) (Math.random()*1000000000));
+        setNumeroCuenta((int) (Math.random() * 1000000000));
         /*System.out.println("Por favor ingrese su DNI");
         setDNICliente(sc.nextInt());*/
         setDNICliente(1037639137);

@@ -6,7 +6,20 @@ public class MenuCafetera extends Cafetera {
 
     private static Scanner sc = new Scanner(System.in);
 
-    public void coffeeMenu(){
+    private static void showOptions() {
+        System.out.println(
+                "1 ⇒ Llenar cafetera " + " | 2 ⇒ Servir taza" + '\n' +
+                        "3 ⇒ Vaciar cafetera " + " | 4 ⇒ Agregar cafe" + '\n' +
+                        "5 ⇒ Menu ejercicios practicos " + '\n'
+        );
+    }
+
+    private static int selectOption() {
+        System.out.println("Seleccione una opción");
+        return sc.nextInt();
+    }
+
+    public void coffeeMenu() {
 
         int opc;
 
@@ -15,25 +28,12 @@ public class MenuCafetera extends Cafetera {
             opc = selectOption();
             System.out.println();
             options(opc);
-        }while (opc != 5);
+        } while (opc != 5);
 
     }
 
-    private static void showOptions(){
-        System.out.println(
-                        "1 ⇒ Llenar cafetera " + " | 2 ⇒ Servir taza" + '\n' +
-                        "3 ⇒ Vaciar cafetera " + " | 4 ⇒ Agregar cafe" + '\n' +
-                        "5 ⇒ Menu ejercicios practicos " + '\n'
-        );
-    }
-
-    private static int selectOption(){
-        System.out.println("Seleccione una opción");
-        return sc.nextInt();
-    }
-
-    private void options(int opc){
-        switch (opc){
+    private void options(int opc) {
+        switch (opc) {
             case 1:
                 llenarCafetera();
                 System.out.println("La cafetera contiene: " + getCantidadActual() + " ml de cafe");

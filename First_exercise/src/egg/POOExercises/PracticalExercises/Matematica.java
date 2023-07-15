@@ -25,8 +25,8 @@ public class Matematica {
     }
 
     public Matematica() {
-        setNum1(Math.random()*100);
-        setNum2(Math.random()*100);
+        setNum1(Math.random() * 100);
+        setNum2(Math.random() * 100);
     }
 
     //?Metodo para hallar el numero mayor

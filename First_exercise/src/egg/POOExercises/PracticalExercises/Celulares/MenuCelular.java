@@ -6,7 +6,19 @@ public class MenuCelular extends Celular {
 
     private static Scanner sc = new Scanner(System.in);
 
-    public  void celularMenu(){
+    private static void showCelularOptions() {
+        System.out.println(
+                "1 ⇒ Apple   " + " | 2 ⇒ Xiaomi" + '\n' +
+                        "3 ⇒ Samsung " + " | 4 ⇒ Menu ejercicios practicos" + '\n'
+        );
+    }
+
+    private static int selectOption() {
+        System.out.println("Seleccione una opción");
+        return sc.nextInt();
+    }
+
+    public void celularMenu() {
 
         int opc;
 
@@ -15,24 +27,12 @@ public class MenuCelular extends Celular {
             opc = selectOption();
             System.out.println();
             options(opc);
-        }while (opc != 4);
+        } while (opc != 4);
 
     }
 
-    private static void showCelularOptions(){
-        System.out.println(
-                        "1 ⇒ Apple   " + " | 2 ⇒ Xiaomi" + '\n' +
-                        "3 ⇒ Samsung " + " | 4 ⇒ Menu ejercicios practicos" + '\n'
-        );
-    }
-
-    private static int selectOption(){
-        System.out.println("Seleccione una opción");
-        return sc.nextInt();
-    }
-
-    private void options(int opc){
-        switch (opc){
+    private void options(int opc) {
+        switch (opc) {
             case 1:
                 setMarca("Apple");
                 setModelo("iPhone 14 Pro Max");

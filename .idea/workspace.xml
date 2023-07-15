@@ -4,52 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio grupal extra 3 comienzo">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/MainProgram/RefactorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuBonusExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPracticalExercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/MenuBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera/MenuCafetera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Celulares/MenuCelular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Test/Test.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Refactorizacion menu ejercicios extra.">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/servicios/ServicioRutina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/servicios/VehiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Servicios/AhorcadoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Servicios/MesesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Servicios/NIFService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/MainProgram/RefactorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuBonusExercises.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuChallenge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuPracticalExercises.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Banco/CuentaBancaria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Banco/MenuBanco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cafetera/Cafetera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cafetera/MenuCafetera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Celulares/Celular.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Celulares/MenuCelular.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Servicios/PersonaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Cilindro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Cuadrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Cubo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Hexagono.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Pentagono.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Rectangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Rombo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Figuras/Triangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/GYM/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/GYM/Rutina.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Peliculas/Alquiler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Entidades/Peliculas/Peliculas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/FigurasGeometricas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/servicios/AlquilerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/servicios/PeliculaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/servicios/ServicioCliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/servicios/ServicioRutina.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Test/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Test/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/ArraysAyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/ArraysAyB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/FigurasGeometricas.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/FigurasGeometricas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/MenuPelis.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/MenuPelis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Puntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Puntos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Raices.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Raices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/MainProgram/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/MainProgram/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuBonusExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuBonusExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPracticalExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPracticalExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/CuentaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/MenuBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/MenuBanco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cadena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera/Cafetera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Calendario.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Calendario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Celular.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Celulares/Celular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Circunferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Circunferencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera/MenuCafetera.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Cafetera/MenuCafetera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Celulares/MenuCelular.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Celulares/MenuCelular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Matematica.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Matematica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Operacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Rectangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Gym/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Gym/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/PersonasGuia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/MainProgram/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Test/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/apooexersices/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/ArraysAyB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/ArraysAyB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cadena.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cadena.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Cafetera.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Calendario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Calendario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Celular.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Circunferencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Circunferencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/CuentaBancaria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Cilindro.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Cilindro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Cuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Cubo.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Cubo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Hexagono.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Hexagono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Pentagono.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Pentagono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Rombo.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Rombo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Figuras/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Figuras/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Gym/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/GYM/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Gym/Rutina.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/GYM/Rutina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Peliculas/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Peliculas/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Sentidad/Peliculas/Peliculas.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Entidades/Peliculas/Peliculas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AhorcadoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Servicios/AhorcadoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AlquilerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/servicios/AlquilerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/GymServices/ServicioCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/servicios/ServicioCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/GymServices/ServicioRutina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/MesesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Servicios/MesesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/NIFService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Servicios/NIFService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PeliculaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/servicios/PeliculaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Servicios/PersonaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/FigurasGeometricas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/MenuPelis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/MenuPelis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Puntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Puntos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Raices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Raices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/BonusExercises/Vehiculo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Libro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Matematica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Matematica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Operacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Operacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Rectangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Rectangulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/PersonasGuia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/PersonaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/PersonaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/apooexersices/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Cilindro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Cuadrado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Cubo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Hexagono.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Pentagono.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Rectangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Rombo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Figuras/Triangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Peliculas/Alquiler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/SEntidad/Peliculas/Peliculas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/AhorcadoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/AlquilerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/MesesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/NIFService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/PeliculaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Servicio/PersonaService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,14 +496,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00038" summary="Utilizacion de toString() en el ejercicio 13 para imprimir los atributos.">
-      <option name="closed" value="true" />
-      <created>1687909927384</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1687909927384</updated>
-    </task>
     <task id="LOCAL-00039" summary="Utilizacion de toString() en el ejercicio 13 para imprimir los atributos.">
       <option name="closed" value="true" />
       <created>1687915907140</created>
@@ -548,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689208494473</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Refactorizacion menu pricipal y menu ejercicios practicos.">
+      <option name="closed" value="true" />
+      <created>1689291101997</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689291101997</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,8 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Avance ejercicio 7 (Imprimir array con datos requeridos)." />
-    <MESSAGE value="Ejercicio 7 Resuelto" />
     <MESSAGE value="Comienzo ejercicio 8" />
     <MESSAGE value="Comentarios en ejercicio matriz dentro matriz y sopa de letras 2" />
     <MESSAGE value="Reto Vehiculos solucionado." />
@@ -589,7 +639,9 @@
     <MESSAGE value="Ejercicios extra 6 completado con algunas correcciones." />
     <MESSAGE value="cambios minimos ejercicios 3 y 6 de los extra" />
     <MESSAGE value="Ejercicio grupal extra 3 comienzo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio grupal extra 3 comienzo" />
+    <MESSAGE value="Refactorizacion menu pricipal y menu ejercicios practicos." />
+    <MESSAGE value="Refactorizacion menu ejercicios extra." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorizacion menu ejercicios extra." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,8 +677,8 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Servicio/AhorcadoService.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/BonusExercises/Servicios/AhorcadoService.java</url>
+          <line>61</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

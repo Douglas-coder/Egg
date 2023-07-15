@@ -177,9 +177,9 @@ public class Cadena {
 
     @Override
     public String toString() {
-        return  '\n' +"La palabra o frase contiene: " + mostrarVocales() + " vocales." + '\n' +
+        return '\n' + "La palabra o frase contiene: " + mostrarVocales() + " vocales." + '\n' +
                 "Palabra o frase invertida: " + '\n' + invertirFrase() + '\n' +
-                "La letra seleccionada se encuentra repetida: "  + vecesRepetido() + " veces." + '\n' +
+                "La letra seleccionada se encuentra repetida: " + vecesRepetido() + " veces." + '\n' +
                 getCompararLongitud() + '\n' +
                 "La frase 1 tiene: " + longitud + '\n' +
                 "La frase 2 tiene: " + longitud2 + '\n' +
