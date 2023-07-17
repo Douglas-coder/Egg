@@ -1,7 +1,6 @@
 package egg.POOExercises.MainProgram;
 
 import egg.POOExercises.BonusExercises.Cancion;
-import egg.POOExercises.BonusExercises.MenuPelis;
 import egg.POOExercises.BonusExercises.Puntos;
 import egg.POOExercises.BonusExercises.Raices;
 import egg.POOExercises.BonusExercises.Servicios.AhorcadoService;
@@ -11,8 +10,9 @@ import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.PracticalExercises.Banco.CuentaBancaria;
 import egg.POOExercises.PracticalExercises.Cafetera.Cafetera;
 import egg.POOExercises.PracticalExercises.Celulares.Celular;
-import egg.POOExercises.Retos.FigurasGeometricas;
-import egg.POOExercises.Retos.Vehiculo;
+import egg.POOExercises.Retos.Figuras.FigurasGeometricas;
+import egg.POOExercises.Retos.Peliculas.CrearPeliculas;
+import egg.POOExercises.Retos.Vehiculos.Vehiculo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -260,8 +260,7 @@ public class Main {
                             break;
                         case 9:
                             System.out.println("🎞🎞🎞 Reto 3 🎞🎞🎞");
-                            MenuPelis menuPelis = new MenuPelis();
-                            menuPelis.getMenuPelis();
+                            CrearPeliculas crearPeliculas = new CrearPeliculas();
                             break;
                     }
 

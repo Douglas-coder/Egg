@@ -1,17 +1,27 @@
 package egg.POOExercises.Menu;
 
-import java.util.Scanner;
-
-//"📋1️⃣2️⃣3️⃣4️⃣🔢🟡🟠🔴🟢"
+import egg.POOExercises.MainProgram.RefactorMain;
 
 public class MenuPrincipal {
 
-    private static Scanner sc = new Scanner(System.in);
     private MenuPracticalExercises practical = new MenuPracticalExercises();
     private MenuBonusExercises bonus = new MenuBonusExercises();
     private MenuChallenge challenge = new MenuChallenge();
 
-    private static void showOptions() {
+    public void run() {
+
+        int opc;
+
+        do {
+            showMenuOptions();
+            opc = selectOption();
+            System.out.println();
+            showOptions(opc);
+        } while (opc != 4);
+
+    }
+
+    private static void showMenuOptions() {
         System.out.println(
                 "📋📋📋 MENU 📋📋📋" + '\n' +
                         "1 ⇒ Ejercicios practicos" + '\n' +
@@ -23,38 +33,16 @@ public class MenuPrincipal {
 
     private static int selectOption() {
         System.out.println("Seleccione una opción");
-        return sc.nextInt();
+        return RefactorMain.sc.nextInt();
     }
 
-    public void run() {
-
-        int opc;
-
-        do {
-            showOptions();
-            opc = selectOption();
-            System.out.println();
-            options(opc);
-        } while (opc != 4);
-
-    }
-
-    private void options(int opc) {
+    private void showOptions(int opc) {
         switch (opc) {
-            case 1:
-                practical.practicalMenu();
-                break;
-            case 2:
-                bonus.bonusMenu();
-                break;
-            case 3:
-                challenge.challengeMenu();
-                break;
-            case 4:
-                System.out.println("👋🏼👋🏼Adios!👋🏼👋🏼");
-                break;
-            default:
-                System.out.println("❌❌Opción invalida❌❌" + '\n');
+            case 1 -> practical.practicalMenu();
+            case 2 -> bonus.bonusMenu();
+            case 3 -> challenge.challengeMenu();
+            case 4 -> System.out.println("👋🏼👋🏼Adios!👋🏼👋🏼");
+            default -> System.out.println("❌❌Opción invalida❌❌" + '\n');
         }
     }
 

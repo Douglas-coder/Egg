@@ -1,5 +1,6 @@
 package egg.POOExercises.Menu;
 
+import egg.POOExercises.MainProgram.RefactorMain;
 import egg.POOExercises.PracticalExercises.*;
 import egg.POOExercises.PracticalExercises.Banco.CuentaBancaria;
 import egg.POOExercises.PracticalExercises.Banco.MenuBanco;
@@ -7,30 +8,7 @@ import egg.POOExercises.PracticalExercises.Cafetera.MenuCafetera;
 import egg.POOExercises.PracticalExercises.Celulares.MenuCelular;
 import egg.POOExercises.PracticalExercises.Servicios.PersonaService;
 
-import java.util.Scanner;
-
 public class MenuPracticalExercises {
-
-    private static Scanner sc = new Scanner(System.in);
-
-    private static void showPracticalOptions() {
-        System.out.println(
-                "👌🏼👌🏼👌🏼 Practical Exercises 👌🏼👌🏼👌🏼" + '\n' +
-                        "1 ⇒ Libro          " + " | 8 ⇒ Cadenna" + '\n' +
-                        "2 ⇒ Circunferencia " + " | 9 ⇒ Matematica" + '\n' +
-                        "3 ⇒ Operaciones    " + " | 10 ⇒ Arrays" + '\n' +
-                        "4 ⇒ Rectangulo     " + " | 11 ⇒ Date / fecha" + '\n' +
-                        "5 ⇒ Cuenta bancaria" + " | 12 ⇒ Union ejercicios 7 y 11" + '\n' +
-                        "6 ⇒ Cafetera       " + " | 13 ⇒ Curso" + '\n' +
-                        "7 ⇒ Persona        " + " | 14 ⇒ Tienda celulares" + '\n' +
-                        "15 ⇒ Volver al menu principal" + '\n'
-        );
-    }
-
-    private static int selectOption() {
-        System.out.println("Seleccione una opción");
-        return sc.nextInt();
-    }
 
     public void practicalMenu() {
 
@@ -40,12 +18,31 @@ public class MenuPracticalExercises {
             showPracticalOptions();
             opc = selectOption();
             System.out.println();
-            options(opc);
+            showOptions(opc);
         } while (opc != 15);
 
     }
 
-    private void options(int opc) {
+    private static void showPracticalOptions() {
+        System.out.println(
+                "👌🏼👌🏼👌🏼 Practical Exercises 👌🏼👌🏼👌🏼" + '\n' +
+                        "🟢1 ⇒ Libro          " + " | 🟡8 ⇒ Cadenna" + '\n' +
+                        "🟢2 ⇒ Circunferencia " + " | 🟡9 ⇒ Matematica" + '\n' +
+                        "🟢3 ⇒ Operaciones    " + " | 🟡10 ⇒ Arrays" + '\n' +
+                        "🟢4 ⇒ Rectangulo     " + " | 🟡11 ⇒ Date / fecha" + '\n' +
+                        "🟢5 ⇒ Cuenta bancaria" + " | 🟡12 ⇒ Union ejercicios 7 y 11" + '\n' +
+                        "🟢6 ⇒ Cafetera       " + " | 🟡13 ⇒ Curso" + '\n' +
+                        "🟡7 ⇒ Persona        " + " | 🟡14 ⇒ Tienda celulares" + '\n' +
+                        "15 ⇒ Volver al menu principal" + '\n'
+        );
+    }
+
+    private static int selectOption() {
+        System.out.println("Seleccione una opción");
+        return RefactorMain.sc.nextInt();
+    }
+
+    private void showOptions(int opc) {
         switch (opc) {
             case 1://Libro
                 Libro libro = new Libro();

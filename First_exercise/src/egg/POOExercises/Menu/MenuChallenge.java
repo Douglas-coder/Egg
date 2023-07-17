@@ -1,12 +1,11 @@
 package egg.POOExercises.Menu;
 
-import egg.POOExercises.Retos.servicios.VehiculoService;
-
-import java.util.Scanner;
+import egg.POOExercises.MainProgram.RefactorMain;
+import egg.POOExercises.Retos.Figuras.FigurasGeometricas;
+import egg.POOExercises.Retos.Peliculas.CrearPeliculas;
+import egg.POOExercises.Retos.Vehiculos.Servicios.VehiculoService;
 
 public class MenuChallenge {
-
-    private static Scanner sc = new Scanner(System.in);
 
     private static void showChallengeOptions() {
         System.out.println(
@@ -18,7 +17,7 @@ public class MenuChallenge {
 
     private static int selectOption() {
         System.out.println("Seleccione una opción");
-        return sc.nextInt();
+        return RefactorMain.sc.nextInt();
     }
 
     public void challengeMenu() {
@@ -29,22 +28,27 @@ public class MenuChallenge {
             showChallengeOptions();
             opc = selectOption();
             System.out.println();
-            options(opc);
+            showOptions(opc);
         } while (opc != 5);
 
     }
 
-    private void options(int opc) {
+    private void showOptions(int opc) {
         switch (opc) {
             case 1:// Vehiculos
-                System.out.println("🚗🛵🚲 Vehiculos 🚗🛵🚲" + '\n');
+                System.out.println("🚗🛵🚲 Vehiculos 🚲🛵🚗" + '\n');
                 VehiculoService vehiculoService = new VehiculoService();
                 break;
-            case 2:
+            case 2://Figuras geometricas
+                System.out.println("🟡🟨🔶🔺 Figuras geometricas 🔺🔶🟨🟡");
+                FigurasGeometricas figuras = new FigurasGeometricas();
                 break;
-            case 3:
+            case 3://Peliculas
+                System.out.println("🎥🎬📼 Peliculas 📼🎬🎥");
+                CrearPeliculas.mostrarMenu();
                 break;
             case 4:
+                System.out.println("💪🏼💪🏼💪🏼 GYM 💪🏼💪🏼💪🏼");
                 break;
             case 5:
                 break;
