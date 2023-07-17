@@ -1,7 +1,6 @@
 package egg.POOExercises.Retos.Peliculas.Entidades;
 
 import java.time.LocalDate;
-import java.util.Scanner;
 
 public class Alquiler {
 

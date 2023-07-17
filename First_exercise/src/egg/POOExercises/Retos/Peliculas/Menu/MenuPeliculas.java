@@ -20,19 +20,6 @@ public class MenuPeliculas {
         CrearPeliculas.listaAlquiler = listaAlquiler;
     }
 
-    public void peliMenu() {
-
-        int opc;
-
-        do {
-            showPeliOptions();
-            opc = selectOption();
-            System.out.println();
-            showOptions(opc);
-        }while (opc != 6);
-
-    }
-
     private static void showPeliOptions() {
         System.out.println(
                 "1 ⇒ Ingresar pelicula " + " | 2 ⇒ Ver catalogo" + '\n' +
@@ -44,6 +31,19 @@ public class MenuPeliculas {
     private static int selectOption() {
         System.out.println("Seleccione una opción");
         return RefactorMain.sc.nextInt();
+    }
+
+    public void peliMenu() {
+
+        int opc;
+
+        do {
+            showPeliOptions();
+            opc = selectOption();
+            System.out.println();
+            showOptions(opc);
+        } while (opc != 6);
+
     }
 
     private void showOptions(int opc) {

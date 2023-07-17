@@ -13,8 +13,8 @@ public class CrearPeliculas {
     public static List<Peliculas> listaPeliculas = new ArrayList<>();
     public static List<Alquiler> listaAlquiler = new ArrayList<>();
 
-    public static void mostrarMenu(){
-        MenuPeliculas peliculasMenu = new MenuPeliculas(listaPeliculas,listaAlquiler);
+    public static void mostrarMenu() {
+        MenuPeliculas peliculasMenu = new MenuPeliculas(listaPeliculas, listaAlquiler);
         peliculasMenu.peliMenu();
     }
 

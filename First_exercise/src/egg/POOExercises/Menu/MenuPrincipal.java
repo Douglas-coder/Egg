@@ -8,19 +8,6 @@ public class MenuPrincipal {
     private MenuBonusExercises bonus = new MenuBonusExercises();
     private MenuChallenge challenge = new MenuChallenge();
 
-    public void run() {
-
-        int opc;
-
-        do {
-            showMenuOptions();
-            opc = selectOption();
-            System.out.println();
-            showOptions(opc);
-        } while (opc != 4);
-
-    }
-
     private static void showMenuOptions() {
         System.out.println(
                 "📋📋📋 MENU 📋📋📋" + '\n' +
@@ -34,6 +21,19 @@ public class MenuPrincipal {
     private static int selectOption() {
         System.out.println("Seleccione una opción");
         return RefactorMain.sc.nextInt();
+    }
+
+    public void run() {
+
+        int opc;
+
+        do {
+            showMenuOptions();
+            opc = selectOption();
+            System.out.println();
+            showOptions(opc);
+        } while (opc != 4);
+
     }
 
     private void showOptions(int opc) {

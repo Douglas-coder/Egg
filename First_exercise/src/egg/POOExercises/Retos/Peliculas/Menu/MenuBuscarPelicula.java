@@ -8,6 +8,18 @@ import java.util.Scanner;
 
 public class MenuBuscarPelicula {
 
+    private static void showSearchOptions() {
+        System.out.println(
+                "1 ⇒ Por titulo   " + " | 2 ⇒ Por genero" + '\n' +
+                        "3 ⇒ Por alquiler " + " | 4 ⇒ Menu peliculas" + '\n'
+        );
+    }
+
+    private static int selectOption() {
+        System.out.println("Seleccione una opción");
+        return RefactorMain.sc.nextInt();
+    }
+
     public void searchMenu() {
 
         int opc;
@@ -21,18 +33,6 @@ public class MenuBuscarPelicula {
 
     }
 
-    private static void showSearchOptions() {
-        System.out.println(
-                "1 ⇒ Por titulo   " + " | 2 ⇒ Por genero" + '\n' +
-                        "3 ⇒ Por alquiler " + " | 4 ⇒ Menu peliculas" + '\n'
-        );
-    }
-
-    private static int selectOption() {
-        System.out.println("Seleccione una opción");
-        return RefactorMain.sc.nextInt();
-    }
-
     private void searchOptions(int opc) {
         Scanner buscar = new Scanner(System.in);
         switch (opc) {
@@ -42,7 +42,7 @@ public class MenuBuscarPelicula {
                 System.out.println();
 
                 for (int x = 0; x < CrearPeliculas.listaPeliculas.size(); x++) {
-                    while ((Objects.equals(CrearPeliculas.listaPeliculas.get(x).getTitulo(), tituloPelicula))){
+                    while ((Objects.equals(CrearPeliculas.listaPeliculas.get(x).getTitulo(), tituloPelicula))) {
                         System.out.println("La pelicula si se encuentra.");
                         break;
                     }

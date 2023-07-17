@@ -10,18 +10,6 @@ import egg.POOExercises.MainProgram.RefactorMain;
 
 public class MenuBonusExercises {
 
-    public void bonusMenu() {
-
-        int opc;
-
-        do {
-            showBonusOptions();
-            opc = selectOption();
-            System.out.println();
-            showOptions(opc);
-        } while (opc != 7);
-    }
-
     private static void showBonusOptions() {
         System.out.println(
                 "🟢1 ⇒ Cancion     " + " | 🟢2 ⇒ Puntos" + '\n' +
@@ -34,6 +22,18 @@ public class MenuBonusExercises {
     private static int selectOption() {
         System.out.println("Seleccione una opción");
         return RefactorMain.sc.nextInt();
+    }
+
+    public void bonusMenu() {
+
+        int opc;
+
+        do {
+            showBonusOptions();
+            opc = selectOption();
+            System.out.println();
+            showOptions(opc);
+        } while (opc != 7);
     }
 
     private void showOptions(int opc) {

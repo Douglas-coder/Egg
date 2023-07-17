@@ -1,9 +1,6 @@
 package egg.POOExercises.Retos.Figuras;
 
-import egg.POOExercises.Retos.Figuras.Entidades.*;
 import egg.POOExercises.Retos.Figuras.Menu.MenuFiguras;
-
-import java.util.Scanner;
 
 public class FigurasGeometricas {
 

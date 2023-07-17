@@ -5,6 +5,21 @@ import egg.POOExercises.Retos.Figuras.Entidades.*;
 
 public class MenuFiguras {
 
+    private static void showBankOptions() {
+        System.out.println(
+                "1 ⇒ Cuadrado  " + " | 2 ⇒ Rectangulo" + '\n' +
+                        "3 ⇒ Triangulo " + " | 4 ⇒ Cubo" + '\n' +
+                        "5 ⇒ Cilindro  " + " | 6 ⇒ Hexagono" + '\n' +
+                        "7 ⇒ Pentagono " + " | 8 ⇒ Rombo" + '\n' +
+                        "9 ⇒ Menu retos" + '\n'
+        );
+    }
+
+    private static int selectOption() {
+        System.out.println("Seleccione una opción");
+        return RefactorMain.sc.nextInt();
+    }
+
     public void figurasMenu() {
 
         int opc;
@@ -16,21 +31,6 @@ public class MenuFiguras {
             showOptions(opc);
         } while (opc != 9);
 
-    }
-
-    private static void showBankOptions() {
-        System.out.println(
-                        "1 ⇒ Cuadrado  " + " | 2 ⇒ Rectangulo" + '\n' +
-                        "3 ⇒ Triangulo " + " | 4 ⇒ Cubo" + '\n' +
-                        "5 ⇒ Cilindro  " + " | 6 ⇒ Hexagono" + '\n' +
-                        "7 ⇒ Pentagono " + " | 8 ⇒ Rombo" + '\n' +
-                        "9 ⇒ Menu retos" + '\n'
-        );
-    }
-
-    private static int selectOption() {
-        System.out.println("Seleccione una opción");
-        return RefactorMain.sc.nextInt();
     }
 
     private void showOptions(int opc) {

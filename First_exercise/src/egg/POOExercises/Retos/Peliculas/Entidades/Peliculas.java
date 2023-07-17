@@ -1,7 +1,5 @@
 package egg.POOExercises.Retos.Peliculas.Entidades;
 
-import java.util.Scanner;
-
 public class Peliculas {
 
     private String titulo;
