@@ -1,10 +1,21 @@
 package egg.POOExercises.PracticalExercises.Banco;
 
-import java.util.Scanner;
+import egg.POOExercises.MainProgram.RefactorMain;
 
 public class MenuBanco extends CuentaBancaria {
 
-    private static Scanner sc = new Scanner(System.in);
+    public void bankMenu() {
+
+        int opc;
+
+        do {
+            showBankOptions();
+            opc = selectOption();
+            System.out.println();
+            showOptions(opc);
+        } while (opc != 6);
+
+    }
 
     private static void showBankOptions() {
         System.out.println(
@@ -16,23 +27,10 @@ public class MenuBanco extends CuentaBancaria {
 
     private static int selectOption() {
         System.out.println("Seleccione una opción");
-        return sc.nextInt();
+        return RefactorMain.sc.nextInt();
     }
 
-    public void bankMenu() {
-
-        int opc;
-
-        do {
-            showBankOptions();
-            opc = selectOption();
-            System.out.println();
-            options(opc);
-        } while (opc != 6);
-
-    }
-
-    private void options(int opc) {
+    private void showOptions(int opc) {
         switch (opc) {
             case 1:
                 ingresarSaldo();

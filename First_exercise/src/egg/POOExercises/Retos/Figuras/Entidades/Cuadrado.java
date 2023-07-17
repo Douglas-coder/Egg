@@ -1,5 +1,7 @@
 package egg.POOExercises.Retos.Figuras.Entidades;
 
+import egg.POOExercises.MainProgram.RefactorMain;
+
 public class Cuadrado {
 
     private double lado;

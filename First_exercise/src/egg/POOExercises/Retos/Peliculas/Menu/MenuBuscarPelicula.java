@@ -2,7 +2,6 @@ package egg.POOExercises.Retos.Peliculas.Menu;
 
 import egg.POOExercises.MainProgram.RefactorMain;
 import egg.POOExercises.Retos.Peliculas.CrearPeliculas;
-import egg.POOExercises.Retos.Peliculas.Entidades.Peliculas;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -43,10 +42,9 @@ public class MenuBuscarPelicula {
                 System.out.println();
 
                 for (int x = 0; x < CrearPeliculas.listaPeliculas.size(); x++) {
-                    if ((Objects.equals(CrearPeliculas.listaPeliculas.get(x).getTitulo(), tituloPelicula))) {
+                    while ((Objects.equals(CrearPeliculas.listaPeliculas.get(x).getTitulo(), tituloPelicula))){
                         System.out.println("La pelicula si se encuentra.");
-                    } else {
-                        System.out.println("La pelicula no se encuentra.");
+                        break;
                     }
                 }
                 System.out.println();

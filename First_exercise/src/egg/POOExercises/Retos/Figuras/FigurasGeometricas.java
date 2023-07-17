@@ -1,14 +1,18 @@
 package egg.POOExercises.Retos.Figuras;
 
 import egg.POOExercises.Retos.Figuras.Entidades.*;
+import egg.POOExercises.Retos.Figuras.Menu.MenuFiguras;
 
 import java.util.Scanner;
 
 public class FigurasGeometricas {
 
-    public FigurasGeometricas() {
+    public static void FigurasGeometricas() {
 
-        //Se crea un Scanner general para poder pedir por consola el valor requerido.
+        MenuFiguras menuFiguras = new MenuFiguras();
+        menuFiguras.figurasMenu();
+
+        /*//Se crea un Scanner general para poder pedir por consola el valor requerido.
         Scanner sc = new Scanner(System.in);
 
         //Se crea una funcion para poder ejecutar el while.
@@ -181,7 +185,7 @@ public class FigurasGeometricas {
             System.out.println("Escribe 1 para repetir");
             System.out.println("Escribe 0 para salir");
             seguir = sc.nextInt();
-        }
+        }*/
 
 
     }

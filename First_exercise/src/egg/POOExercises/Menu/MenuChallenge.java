@@ -7,19 +7,6 @@ import egg.POOExercises.Retos.Vehiculos.Servicios.VehiculoService;
 
 public class MenuChallenge {
 
-    private static void showChallengeOptions() {
-        System.out.println(
-                "1 ⇒ Vehiculos " + " | 2 ⇒ Figuras geometricas" + '\n' +
-                        "3 ⇒ Peliculas " + " | 4 ⇒ GYM" + '\n' +
-                        "5 ⇒ Volver al menu principal" + '\n'
-        );
-    }
-
-    private static int selectOption() {
-        System.out.println("Seleccione una opción");
-        return RefactorMain.sc.nextInt();
-    }
-
     public void challengeMenu() {
 
         int opc;
@@ -33,6 +20,19 @@ public class MenuChallenge {
 
     }
 
+    private static void showChallengeOptions() {
+        System.out.println(
+                "1 ⇒ Vehiculos " + " | 2 ⇒ Figuras geometricas" + '\n' +
+                        "3 ⇒ Peliculas " + " | 4 ⇒ GYM" + '\n' +
+                        "5 ⇒ Volver al menu principal" + '\n'
+        );
+    }
+
+    private static int selectOption() {
+        System.out.println("Seleccione una opción");
+        return RefactorMain.sc.nextInt();
+    }
+
     private void showOptions(int opc) {
         switch (opc) {
             case 1:// Vehiculos
@@ -41,7 +41,7 @@ public class MenuChallenge {
                 break;
             case 2://Figuras geometricas
                 System.out.println("🟡🟨🔶🔺 Figuras geometricas 🔺🔶🟨🟡");
-                FigurasGeometricas figuras = new FigurasGeometricas();
+                FigurasGeometricas.FigurasGeometricas();
                 break;
             case 3://Peliculas
                 System.out.println("🎥🎬📼 Peliculas 📼🎬🎥");
