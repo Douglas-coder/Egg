@@ -1,7 +1,7 @@
 package egg.JUnit.Entities;
 
-import egg.JUnit.Rectangulo.Entities.Rectangulo;
-import egg.JUnit.Rectangulo.Services.RectanguloServices;
+import JUnit.Rectangulo.Entities.Rectangulo;
+import JUnit.Rectangulo.Services.RectanguloServices;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
