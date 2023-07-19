@@ -10,6 +10,19 @@ import egg.POOExercises.PracticalExercises.Servicios.PersonaService;
 
 public class MenuPracticalExercises {
 
+    public void practicalMenu() {
+
+        int opc;
+
+        do {
+            showPracticalOptions();
+            opc = selectOption();
+            System.out.println();
+            showOptions(opc);
+        } while (opc != 15);
+
+    }
+
     private static void showPracticalOptions() {
         System.out.println(
                 "👌🏼👌🏼👌🏼 Practical Exercises 👌🏼👌🏼👌🏼" + '\n' +
@@ -27,19 +40,6 @@ public class MenuPracticalExercises {
     private static int selectOption() {
         System.out.println("Seleccione una opción");
         return RefactorMain.sc.nextInt();
-    }
-
-    public void practicalMenu() {
-
-        int opc;
-
-        do {
-            showPracticalOptions();
-            opc = selectOption();
-            System.out.println();
-            showOptions(opc);
-        } while (opc != 15);
-
     }
 
     private void showOptions(int opc) {

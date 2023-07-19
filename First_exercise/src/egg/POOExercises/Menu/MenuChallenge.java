@@ -51,6 +51,8 @@ public class MenuChallenge {
                 System.out.println("💪🏼💪🏼💪🏼 GYM 💪🏼💪🏼💪🏼");
                 break;
             case 5:
+                MenuPrincipal menuPrincipal = new MenuPrincipal();
+                menuPrincipal.run();
                 break;
             default:
                 System.out.println("❌❌Opción invalida❌❌" + '\n');

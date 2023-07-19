@@ -24,7 +24,9 @@ día, el precio por hora, la cantidad de alumnos y la cantidad de días a la sem
 se repite el encuentro.
 */
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Curso {
@@ -38,7 +40,8 @@ public class Curso {
     private int precioPorHora;
     //Creacion variable Harcode para ahorra el ingreso de datos por pantalla
     private String[] alumnosHard = {"Douglas", "Laura", "Juan", "Sofia", "Robin"};
-    private String[] alumnos = new String[5];
+    private List alumnos= new ArrayList<>();
+    //private String[] alumnos = new String[6];
 
     public Curso(String nombreCurso, int cantidadHorasPorDia, int cantidadHorasPorSemana, String turno, int selecTurno, int precioPorHora, String[] alumnos, String[] alumnosHard) {
         this.nombreCurso = nombreCurso;
@@ -48,21 +51,20 @@ public class Curso {
         this.selecTurno = selecTurno;
         this.precioPorHora = precioPorHora;
         this.alumnosHard = alumnosHard;
-        this.alumnos = alumnos;
+        this.alumnos = List.of(alumnos);
     }
 
     public Curso() {
         getCrearCurso();
         System.out.println();
         getMostrarDatos();
-        System.out.println();
     }
 
     //?Metodo para Crear los alumnos
     public void getCargarAlumnos() {
-        for (int x = 0; x <= 5; x++) {
+        for (int x = 0; x <= 4; x++) {
             System.out.println("Alumno # " + (x + 1));
-            setAlumnos(new String[]{alumnos[x] = sc.nextLine()});
+            alumnos.add(sc.nextLine());
         }
     }
 
@@ -103,30 +105,20 @@ public class Curso {
     @Override
     public String toString() {
         // se usa '\n' para hacer un salto de linea
-        return "Lista alumnos: " + Arrays.toString(alumnosHard) + '\n' +
+        return "Lista alumnos: " + Arrays.toString(new List[]{alumnos}) + '\n' +
                 "Nombre curso: " + nombreCurso + '\n' +
                 "Horas por día: " + cantidadHorasPorDia + '\n' +
                 "Días por semana: " + cantidadHorasPorSemana + '\n' +
                 "Turno: " + turno + '\n' +
                 "Precio por hora: " + precioPorHora + '\n' +
-                "Total: " + getCalcularGananciaSemanal();
+                "Total: " + getCalcularGananciaSemanal() + '\n';
     }
 
     //?Metodo para mostrar los datos
     public void getMostrarDatos() {
 
-        /*for (int x = 0; x < alumnos.length; x++) {
-            System.out.println("Nombre alumno: " + alumnos[x]);
-            System.out.println("Nombre del curso: " + getNombreCurso());
-            System.out.println("Horas por día: " + getCantidadHorasPorDia());
-            System.out.println("Días por semana: " + getCantidadHorasPorSemana());
-            System.out.println("Turno: " + getTurno());
-            System.out.println("Total: " + getCalcularGananciaSemanal());
-            System.out.println("");
-        }*/
-
-        for (int x = 0; x < alumnosHard.length; x++) {
-            System.out.println("Nombre alumno: " + alumnosHard[x]);
+        for (int x = 0; x < alumnos.size(); x++) {
+            System.out.println("Nombre alumno: " + alumnos.get(x));
             System.out.println("Nombre del curso: " + getNombreCurso());
             System.out.println("Horas por día: " + getCantidadHorasPorDia());
             System.out.println("Días por semana: " + getCantidadHorasPorSemana());
@@ -134,6 +126,16 @@ public class Curso {
             System.out.println("Total: " + getCalcularGananciaSemanal());
             System.out.println("");
         }
+
+        /*for (int x = 0; x < alumnosHard.length; x++) {
+            System.out.println("Nombre alumno: " + alumnosHard[x]);
+            System.out.println("Nombre del curso: " + getNombreCurso());
+            System.out.println("Horas por día: " + getCantidadHorasPorDia());
+            System.out.println("Días por semana: " + getCantidadHorasPorSemana());
+            System.out.println("Turno: " + getTurno());
+            System.out.println("Total: " + getCalcularGananciaSemanal());
+            System.out.println("");
+        }*/
 
     }
 
@@ -198,11 +200,11 @@ public class Curso {
         this.precioPorHora = precioPorHora;
     }
 
-    public String[] getAlumnos() {
+    public List getAlumnos() {
         return alumnos;
     }
 
     public void setAlumnos(String[] alumnos) {
-        this.alumnos = alumnos;
+        this.alumnos = List.of(alumnos);
     }
 }

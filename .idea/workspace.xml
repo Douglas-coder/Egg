@@ -4,18 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Refactorizacion menu retos y reto de peliculas.">
-      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Figuras/Menu/MenuFiguras.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Codigo organizado">
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/CalcularDescuento/Entities/DiscountCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/CalcularDescuento/Services/DiscountServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/ConversionTemperatura/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/ConversionTemperatura/TemperatureServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/Rectangulo/Entities/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/Rectangulo/Services/RectanguloServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/JUnit/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Vehiculos/Menu/VehiculosMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/test/egg/JUnit/CalcularDescuento/Entities/DiscountCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/test/egg/JUnit/CalcularTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/test/egg/JUnit/ConversionTemperatura/TemperatureConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/First_exercise/test/egg/JUnit/Entities/RectanguloTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/First_exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/First_exercise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/MainProgram/RefactorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/MainProgram/RefactorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/MenuBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Banco/MenuBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Figuras/Entidades/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Figuras/Entidades/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Figuras/FigurasGeometricas.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Figuras/FigurasGeometricas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPracticalExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPracticalExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Menu/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/MainProgram/RefactorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/MainProgram/RefactorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuBonusExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuBonusExercises.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Menu/MenuPrincipal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Banco/MenuBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Banco/MenuBanco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/PracticalExercises/Curso.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Figuras/Entidades/Cuadrado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Figuras/Entidades/Cuadrado.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Figuras/FigurasGeometricas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Figuras/FigurasGeometricas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Entidades/Alquiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Entidades/Alquiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Entidades/Peliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Entidades/Peliculas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Menu/MenuPeliculas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First_exercise/egg/POOExercises/Retos/Peliculas/Menu/MenuPeliculas.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +45,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="editable-svg" />
+        <option value="package-info" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,49 +78,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/QA/java/Egg/Practica&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "E:/QA/java/Egg/Practica",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.RefactorMain">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg.POOExercises.MainProgram.Main" />
-      <module name="First_exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="egg.POOExercises.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg.POOExercises.Test.Menu" />
-      <module name="First_exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="egg.POOExercises.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="egg.JUnit" />
+      <recent name="egg.JUnit.ConversionTemperatura" />
+      <recent name="egg.JUnit.CalcularDescuento.Entities" />
+      <recent name="egg.JUnit.Entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TemperatureConverterTest">
     <configuration name="RefactorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="egg.POOExercises.MainProgram.RefactorMain" />
       <module name="First_exercise" />
@@ -113,39 +125,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SopaDeLetras2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg.ExtraExercises.SopaDeLetras2" />
+    <configuration name="DiscountCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First_exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="egg.ExtraExercises.*" />
+          <option name="PATTERN" value="egg.JUnit.CalcularDescuento.Entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="egg.JUnit.CalcularDescuento.Entities" />
+      <option name="MAIN_CLASS_NAME" value="egg.JUnit.CalcularDescuento.Entities.DiscountCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="egg.POOExercises.Test.Test" />
+    <configuration name="DiscountCalculatorTest.deberiaCalcularDescuentos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First_exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="egg.POOExercises.Test.*" />
+          <option name="PATTERN" value="egg.JUnit.CalcularDescuento.Entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="egg.JUnit.CalcularDescuento.Entities" />
+      <option name="MAIN_CLASS_NAME" value="egg.JUnit.CalcularDescuento.Entities.DiscountCalculatorTest" />
+      <option name="METHOD_NAME" value="deberiaCalcularDescuentos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountCalculatorTest.deberiaInizializarConProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="egg.JUnit.CalcularDescuento.Entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="egg.JUnit.CalcularDescuento.Entities" />
+      <option name="MAIN_CLASS_NAME" value="egg.JUnit.CalcularDescuento.Entities.DiscountCalculatorTest" />
+      <option name="METHOD_NAME" value="deberiaInizializarConProducto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperatureConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First_exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="egg.JUnit.ConversionTemperatura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="egg.JUnit.ConversionTemperatura" />
+      <option name="MAIN_CLASS_NAME" value="egg.JUnit.ConversionTemperatura.TemperatureConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TemperatureConverterTest" />
         <item itemvalue="Application.RefactorMain" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SopaDeLetras2" />
-        <item itemvalue="Application.Menu" />
+        <item itemvalue="JUnit.DiscountCalculatorTest.deberiaCalcularDescuentos" />
+        <item itemvalue="JUnit.DiscountCalculatorTest" />
+        <item itemvalue="JUnit.DiscountCalculatorTest.deberiaInizializarConProducto" />
       </list>
     </recent_temporary>
   </component>
@@ -410,22 +458,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00041" summary="comentarios en el ejercicio extra 3 para los test">
-      <option name="closed" value="true" />
-      <created>1687996183815</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1687996183815</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Reto 2 (Se encuentra en los extra Opc 9) Se crearon servicios y entidades ademas de un menu para el alquiler de peliculas">
-      <option name="closed" value="true" />
-      <created>1688084612702</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1688084612702</updated>
-    </task>
     <task id="LOCAL-00043" summary="Reto 2 (Se encuentra en los extra Opc 9), correcion en el uso de los servicios e implementacion de las busquedas.">
       <option name="closed" value="true" />
       <created>1688091682800</created>
@@ -514,7 +546,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689617621023</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Refactorizacion retos">
+      <option name="closed" value="true" />
+      <created>1689630039032</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1689630039032</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Codigo organizado">
+      <option name="closed" value="true" />
+      <created>1689630089587</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1689630089587</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,8 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Comentarios en ejercicio matriz dentro matriz y sopa de letras 2" />
-    <MESSAGE value="Reto Vehiculos solucionado." />
     <MESSAGE value="Reto figuras geometricas solucionado." />
     <MESSAGE value="Ejercicios 8 y 9 resueltos" />
     <MESSAGE value="Ejercicio 10 resuelto" />
@@ -555,7 +601,9 @@
     <MESSAGE value="Refactorizacion menu pricipal y menu ejercicios practicos." />
     <MESSAGE value="Refactorizacion menu ejercicios extra." />
     <MESSAGE value="Refactorizacion menu retos y reto de peliculas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactorizacion menu retos y reto de peliculas." />
+    <MESSAGE value="Refactorizacion retos" />
+    <MESSAGE value="Codigo organizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codigo organizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,6 +648,16 @@
           <line>43</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/First_exercise/test/egg/JUnit/CalcularDescuento/Entities/DiscountCalculatorTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="32" />
@@ -608,6 +666,15 @@
           <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="35" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/First_exercise/src/egg/POOExercises/PracticalExercises/Curso.java</url>
+          <line>206</line>
+          <properties class="egg.POOExercises.PracticalExercises.Curso" method="setAlumnos">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
