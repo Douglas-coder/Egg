@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Inicio Colecciones">
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Rename Module">
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/MenuExample/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +89,10 @@
       <recent name="egg.JUnit.CalcularDescuento.Entities" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.POOExercises.MainProgram.RefactorMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ejemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecciones.Ejemplos.Ejemplo1" />
-      <module name="First_exercise" />
+      <module name="JavaExcercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Colecciones.Ejemplos.*" />
@@ -102,7 +105,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecciones.Main" />
-      <module name="First_exercise" />
+      <module name="JavaExcercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Colecciones.*" />
@@ -115,7 +118,7 @@
     </configuration>
     <configuration name="POOExercises.MainProgram.RefactorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="POOExercises.MainProgram.RefactorMain" />
-      <module name="First_exercise" />
+      <module name="JavaExcercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="POOExercises.MainProgram.*" />
@@ -128,7 +131,7 @@
     </configuration>
     <configuration name="RefactorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="egg.POOExercises.MainProgram.RefactorMain" />
-      <module name="First_exercise" />
+      <module name="JavaExcercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="egg.POOExercises.MainProgram.*" />
@@ -140,7 +143,7 @@
       </method>
     </configuration>
     <configuration name="DiscountCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="First_exercise" />
+      <module name="JavaExcercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="egg.JUnit.CalcularDescuento.Entities.*" />
@@ -154,10 +157,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaExcercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaExcercises" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.POOExercises.MainProgram.RefactorMain" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.POOExercises.MainProgram.RefactorMain" />
         <item itemvalue="Application.Ejemplo1" />
         <item itemvalue="Application.RefactorMain" />
         <item itemvalue="JUnit.DiscountCalculatorTest" />
@@ -425,22 +441,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00046" summary="Ejercicios extra 4 y 5 completados">
-      <option name="closed" value="true" />
-      <created>1688432468276</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1688432468276</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Ejercicios extra 6 completado (mejorable)">
-      <option name="closed" value="true" />
-      <created>1688515598288</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1688515598288</updated>
-    </task>
     <task id="LOCAL-00048" summary="Ejercicios extra 6 completado con algunas correcciones.">
       <option name="closed" value="true" />
       <created>1688567779635</created>
@@ -529,7 +529,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689891502498</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Inicio Colecciones">
+      <option name="closed" value="true" />
+      <created>1689891937151</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1689891937152</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Rename Module">
+      <option name="closed" value="true" />
+      <created>1689892243805</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1689892243805</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,7 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ejercicios 11 y 12 resueltos" />
     <MESSAGE value="Pequeñas correciones clase(calendario, persona,rectangulo)" />
     <MESSAGE value="Explicacion y mejora de codigo" />
     <MESSAGE value="Ejercicio 13 completado" />
@@ -570,63 +585,64 @@
     <MESSAGE value="JUnit primero 2 ejercicios" />
     <MESSAGE value="JUnit inicio 3 ejercicio" />
     <MESSAGE value="Inicio Colecciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio Colecciones" />
+    <MESSAGE value="Rename Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename Module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/JavaExercises/MatrizAntiSimetrica.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/FirstJavaExercises/MatrizAntiSimetrica.java</url>
           <line>33</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/PracticalExercises/Operacion.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/PracticalExercises/Operacion.java</url>
           <line>89</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/PracticalExercises/Persona.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/PracticalExercises/Persona.java</url>
           <line>120</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/ExtraExercises/SopaDeLetras.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/ExtraExercises/SopaDeLetras.java</url>
           <line>74</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/ExtraExercises/SopaDeLetras.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/ExtraExercises/SopaDeLetras.java</url>
           <line>78</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/ExtraExercises/SopaDeLetras.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/ExtraExercises/SopaDeLetras.java</url>
           <line>83</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/BonusExercises/Servicios/AhorcadoService.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/BonusExercises/Servicios/AhorcadoService.java</url>
           <line>61</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java</url>
           <line>43</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/Retos/Peliculas/Menu/MenuBuscarPelicula.java</url>
           <line>56</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/test/egg/JUnit/GestorTareas/TaskManagerTest.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/test/egg/JUnit/GestorTareas/TaskManagerTest.java</url>
           <line>32</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/Menu/MenuChallenge.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/Menu/MenuChallenge.java</url>
           <line>52</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
@@ -643,7 +659,7 @@
           <option name="timeStamp" value="91" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/First_exercise/src/POOExercises/PracticalExercises/Curso.java</url>
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/PracticalExercises/Curso.java</url>
           <line>206</line>
           <properties class="POOExercises.PracticalExercises.Curso" method="setAlumnos">
             <option name="EMULATED" value="true" />
