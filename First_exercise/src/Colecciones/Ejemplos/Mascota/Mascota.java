@@ -6,6 +6,7 @@ public class Mascota {
     private String nombre;
     private String apodo;
     private String tipo;
+    private String raza;
 
     public Mascota(String nombre, String apodo, String tipo) {
         this.nombre = nombre;
