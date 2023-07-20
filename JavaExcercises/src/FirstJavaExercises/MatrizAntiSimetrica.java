@@ -1,4 +1,4 @@
-package JavaExercises;
+package FirstJavaExercises;
 
 /*Realice un programa que compruebe si una matriz dada es anti simétrica. Se dice que
 una matriz A es anti simétrica cuando ésta es igual a su propia traspuesta, pero cambiada
