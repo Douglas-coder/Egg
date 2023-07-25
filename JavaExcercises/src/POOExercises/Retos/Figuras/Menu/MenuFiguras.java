@@ -2,7 +2,6 @@ package POOExercises.Retos.Figuras.Menu;
 
 import POOExercises.MainProgram.RefactorMain;
 import POOExercises.Retos.Figuras.Entidades.*;
-import POOExercises.Retos.Figuras.Entidades.*;
 
 public class MenuFiguras {
 

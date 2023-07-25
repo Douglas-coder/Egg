@@ -2,7 +2,7 @@ package Colecciones.Ejemplos.Mascota;
 
 public class Mascota {
 
-    MascotaServices mascotaServices = new MascotaServices();
+    MascotaServices mascoServ = new MascotaServices();
     private String nombre;
     private String apodo;
     private String tipo;
@@ -15,11 +15,17 @@ public class Mascota {
     }
 
     public Mascota() {
-        mascotaServices.fabricaKiro(3);
 
-        mascotaServices.fabricaMascota(2);
+        mascoServ.fabricaKiro(2);
+        mascoServ.fabricaMascota(1);
+        mascoServ.mostrarMascotas();
+        mascoServ.mostrarMascotasOrdenadas();
+        mascoServ.actualizarMascota(1);
+        mascoServ.desordenarListaMascotas();
+        //mascoServ.eliminarMascota(0);
+        mascoServ.eliminarPorNombre("Simon");
+        mascoServ.mostrarMascotasOrdenadas();
 
-        mascotaServices.mostrarMascotas();
     }
 
     @Override

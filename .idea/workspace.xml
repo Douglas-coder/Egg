@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Rename Module">
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/MenuExample/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Creacion del paquete (Menu)">
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/BonusMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/PracticalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Perros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/PerrosServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Utilities/Comparadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Ejemplo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/Mascota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/MascotaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/MascotaServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/ExampleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/ExampleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Ejemplo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Ejemplo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/Mascota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/Mascota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/MascotaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/MascotaServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/ExampleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/ExampleMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/MainMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,19 +167,6 @@
       <option name="PACKAGE_NAME" value="egg.JUnit.CalcularDescuento.Entities" />
       <option name="MAIN_CLASS_NAME" value="egg.JUnit.CalcularDescuento.Entities.DiscountCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="JavaExcercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="JavaExcercises" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -441,14 +442,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00048" summary="Ejercicios extra 6 completado con algunas correcciones.">
-      <option name="closed" value="true" />
-      <created>1688567779635</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1688567779635</updated>
-    </task>
     <task id="LOCAL-00049" summary="cambios minimos ejercicios 3 y 6 de los extra">
       <option name="closed" value="true" />
       <created>1688596596632</created>
@@ -545,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689892243805</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Creacion del paquete (Menu)">
+      <option name="closed" value="true" />
+      <created>1689894517355</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1689894517355</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +562,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Pequeñas correciones clase(calendario, persona,rectangulo)" />
     <MESSAGE value="Explicacion y mejora de codigo" />
     <MESSAGE value="Ejercicio 13 completado" />
     <MESSAGE value="Utilizacion de toString() en el ejercicio 13 para imprimir los atributos." />
@@ -586,7 +586,8 @@
     <MESSAGE value="JUnit inicio 3 ejercicio" />
     <MESSAGE value="Inicio Colecciones" />
     <MESSAGE value="Rename Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename Module" />
+    <MESSAGE value="Creacion del paquete (Menu)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion del paquete (Menu)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

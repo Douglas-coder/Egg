@@ -1,17 +1,15 @@
 package Colecciones.Menu;
 
-import Colecciones.Ejemplos.Ejemplo1;
-import Colecciones.Ejemplos.Mascota.Mascota;
 import Colecciones.Main;
 
-public class ExampleMenu {
+public class BonusMenu {
 
     private static void showOptions() {
         System.out.println(
                 "📑📑📑 Example Menu 📑📑📑" + '\n' +
-                        "1 ⇒ Mascotas" + '\n' +
-                        "2 ⇒ Ejemplo 1" + '\n' +
-                        "3 ⇒ Menu principal" + '\n'
+                        "🟡1 ⇒ Opc 1" + " | 🟡2 ⇒ Opc 2" + '\n' +
+                        "🟡3 ⇒ Opc 3" + " | 🟡4 ⇒ Opc 4" + '\n' +
+                        "🔙5 ⇒ Menu principal" + '\n'
         );
     }
 
@@ -20,7 +18,7 @@ public class ExampleMenu {
         return Main.sc.nextInt();
     }
 
-    public void menuExample() {
+    public void menuBonus() {
 
         int opc;
 
@@ -29,19 +27,25 @@ public class ExampleMenu {
             opc = selecOption();
             System.out.println();
             runOptions(opc);
-        } while (opc != 3);
+        } while (opc != 5);
 
     }
 
     private void runOptions(int opc) {
         switch (opc) {
             case 1:
-                new Mascota();
+                System.out.println("Opc 1" + '\n');
                 break;
             case 2:
-                new Ejemplo1();
+                System.out.println("Opc 2" + '\n');
                 break;
             case 3:
+                System.out.println("Opc 3" + '\n');
+                break;
+            case 4:
+                System.out.println("Opc 4" + '\n');
+                break;
+            case 5:
                 break;
             default:
                 System.out.println("❌❌ Opción invalida ❌❌" + '\n');

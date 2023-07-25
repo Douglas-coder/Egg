@@ -44,33 +44,33 @@ public class PasswordServices extends PasswordValidator {
 
     //Se hace la logica para validar la existencia de un caracter especial
     public boolean comprobarCaracterEspecial() {
-        if (hasEspecial.find()){
+        if (hasEspecial.find()) {
             setEspecial(true);
         }
 
         return isEspecial();
     }
 
-    public  boolean comprobarContrasenia(){
+    public boolean comprobarContrasenia() {
 
-        for (int x = 0; x < getPassword().length(); x++){
+        for (int x = 0; x < getPassword().length(); x++) {
             tiene = getPassword().charAt(x);
-            if (Character.isUpperCase(tiene)){
+            if (Character.isUpperCase(tiene)) {
                 setMayus(true);
             }
-            if (Character.isDigit(tiene)){
+            if (Character.isDigit(tiene)) {
                 setNum(true);
             }
-            if (hasEspecial.find()){
+            if (hasEspecial.find()) {
                 setEspecial(true);
             }
         }
 
         if (isMayus() && isNum() && isEspecial()) {
-                setCorrectPassword(true);
-            } else {
-                setCorrectPassword(false);
-            }
+            setCorrectPassword(true);
+        } else {
+            setCorrectPassword(false);
+        }
 
         return isCorrectPassword();
     }

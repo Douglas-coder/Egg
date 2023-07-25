@@ -4,11 +4,11 @@ import Colecciones.Main;
 
 public class MainMenu {
 
-    private ExampleMenu example = new ExampleMenu();
-
     private static void showOptions() {
         System.out.println(
                 "📋📋📋 MENU 📋📋📋" + '\n' +
+                        "1 ⇒ Ejercicios practicos" + '\n' +
+                        "2 ⇒ Ejercicios extra" + '\n' +
                         "3 ⇒ Ejemplos" + '\n' +
                         "4 ⇒ Salir" + '\n'
         );
@@ -34,7 +34,9 @@ public class MainMenu {
 
     private void runOptions(int opc) {
         switch (opc) {
-            case 3 -> example.menuExample();
+            case 1 -> new PracticalMenu().menuPractical();
+            case 2 -> new BonusMenu().menuBonus();
+            case 3 -> new ExampleMenu().menuExample();
             case 4 -> System.out.println("👋🏼👋🏼 Adios! 👋🏼👋🏼");
             default -> System.out.println("❌❌ Opción invalida ❌❌" + '\n');
         }

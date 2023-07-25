@@ -3,21 +3,21 @@ package MenuExample;
 import java.util.Scanner;
 
 /*
-*
-* ❗❗❗❗❗❗❗❗❗ IMPORTANTE ❗❗❗❗❗❗❗❗❗
-*
-* Para generar los emojis que estan en este menu
-* solo es que preciones las teclas
-*
-*       win + .
-*
-* en tu teclado para poder desplegar una ventana emergente
-* con emojis, caras y simbolos del sistema.
-*
-* Se puede hacer uso de esta funcion en windows en cualquier
-* editor de texto.
-*
-* */
+ *
+ * ❗❗❗❗❗❗❗❗❗ IMPORTANTE ❗❗❗❗❗❗❗❗❗
+ *
+ * Para generar los emojis que estan en este menu
+ * solo es que preciones las teclas
+ *
+ *       win + .
+ *
+ * en tu teclado para poder desplegar una ventana emergente
+ * con emojis, caras y simbolos del sistema.
+ *
+ * Se puede hacer uso de esta funcion en windows en cualquier
+ * editor de texto.
+ *
+ * */
 
 public class MenuDecorado {
 
@@ -37,26 +37,8 @@ public class MenuDecorado {
      *
      * */
 
-    //Metodo utilizado para correr el menu.
-    public void run(){
-
-        int opc;
-
-        //Ciclo do/while para ejecutar el menu hasta cumplir la condición del while
-        do {
-
-            showOptions();
-            opc = selecOption();
-            System.out.println();
-            runOptions(opc);
-
-            //Valor que cambia (4) segun la opcion salir del menu.
-        }while (opc != 4);
-
-    }
-
     //Metodo para mostrar todas las opciones del menu
-    private static void showOptions(){
+    private static void showOptions() {
 
         /*
          *
@@ -75,17 +57,35 @@ public class MenuDecorado {
     }
 
     //Metodo para seleccionar la opcion del menu
-    private static int selecOption(){
+    private static int selecOption() {
 
         System.out.println("Por favor seleccione una opción 👆🏼");
         return sc.nextInt();
 
     }
 
-    //Metodo para ejecutar la opcion seleccionada.
-    private void runOptions(int opc){
+    //Metodo utilizado para correr el menu.
+    public void run() {
 
-        switch (opc){
+        int opc;
+
+        //Ciclo do/while para ejecutar el menu hasta cumplir la condición del while
+        do {
+
+            showOptions();
+            opc = selecOption();
+            System.out.println();
+            runOptions(opc);
+
+            //Valor que cambia (4) segun la opcion salir del menu.
+        } while (opc != 4);
+
+    }
+
+    //Metodo para ejecutar la opcion seleccionada.
+    private void runOptions(int opc) {
+
+        switch (opc) {
 
             /*
              *

@@ -3,11 +3,10 @@ package POOExercises.Menu;
 import POOExercises.MainProgram.RefactorMain;
 import POOExercises.PracticalExercises.*;
 import POOExercises.PracticalExercises.Banco.CuentaBancaria;
+import POOExercises.PracticalExercises.Banco.MenuBanco;
 import POOExercises.PracticalExercises.Cafetera.MenuCafetera;
 import POOExercises.PracticalExercises.Celulares.MenuCelular;
 import POOExercises.PracticalExercises.Servicios.PersonaService;
-import POOExercises.PracticalExercises.*;
-import POOExercises.PracticalExercises.Banco.MenuBanco;
 
 public class MenuPracticalExercises {
 
