@@ -10,7 +10,8 @@ public class MainMenu {
                         "1 ⇒ Ejercicios practicos" + '\n' +
                         "2 ⇒ Ejercicios extra" + '\n' +
                         "3 ⇒ Ejemplos" + '\n' +
-                        "4 ⇒ Salir" + '\n'
+                        "4 ⇒ Desafios" + '\n' +
+                        "5 ⇒ Salir" + '\n'
         );
     }
 
@@ -28,7 +29,7 @@ public class MainMenu {
             opc = selecOption();
             System.out.println();
             runOptions(opc);
-        } while (opc != 4);
+        } while (opc != 5);
 
     }
 
@@ -37,7 +38,8 @@ public class MainMenu {
             case 1 -> new PracticalMenu().menuPractical();
             case 2 -> new BonusMenu().menuBonus();
             case 3 -> new ExampleMenu().menuExample();
-            case 4 -> System.out.println("👋🏼👋🏼 Adios! 👋🏼👋🏼");
+            case 4 -> new MenuTienda().menuTienda();
+            case 5 -> System.out.println("👋🏼👋🏼 Adios! 👋🏼👋🏼");
             default -> System.out.println("❌❌ Opción invalida ❌❌" + '\n');
         }
     }

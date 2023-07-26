@@ -69,7 +69,7 @@ public class PerrosServices {
         String nombre;
         Iterator<Perros> it = dogList.iterator();
 
-        System.out.println("Indique el nombre del perro que desea eliminar");
+        System.out.println("Indique el nombre del perro que desea eliminar" + '\n');
         nombre = Main.sc.next();
 
         while (it.hasNext()) {
@@ -77,7 +77,7 @@ public class PerrosServices {
             if (aux.getNombre().equals(nombre)) {
                 it.remove();
             } else {
-                System.out.println("El perro no se encuntra en la lista");
+                System.out.println("El perro no se encuntra en la lista" + '\n');
             }
         }
 

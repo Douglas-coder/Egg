@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Creacion del paquete (Menu)">
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/BonusMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/PracticalMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Perros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/PerrosServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Utilities/Comparadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MenuTienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/TiendaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_18_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Ejemplo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/MascotaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Ejemplos/Mascota/MascotaServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/ExampleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/ExampleMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Ejemplo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Ejemplo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/PerrosServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/PerrosServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/Mascota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/Mascota.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/MascotaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/MascotaServices.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/ExampleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/ExampleMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/JUnit/GestorTareas/TaskServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/JUnit/GestorTareas/TaskServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/MenuDecorado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/MenuDecorado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/MainProgram/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/MainProgram/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Menu/MenuPracticalExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Menu/MenuPracticalExercises.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Retos/Figuras/Menu/MenuFiguras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Retos/Figuras/Menu/MenuFiguras.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Q9eF314MKcoEIGaQggTz5x2WD2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,9 +83,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/QA/java/Egg/Practica&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dou/Egg&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
