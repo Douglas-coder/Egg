@@ -22,12 +22,12 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "-------------------------" + '\n' +
+        return "⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶" + '\n' +
                 "Nombre de Producto: " + nombre + '\n' +
                 "Categoría: " + categoria + '\n' +
                 "Precio: " + precio + '\n' +
                 "Cantidad en inventario: " + cantInventario + '\n' +
-                "-------------------------" + '\n' ;
+                "⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶" + '\n' ;
     }
 
     public String getNombre() {

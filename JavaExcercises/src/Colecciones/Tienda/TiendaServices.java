@@ -39,17 +39,17 @@ public class TiendaServices extends Producto {
 
     //Metodo para generar un producto
     public void fabricaProductos(){
-        int salir;
+        String salir;
 
         do {
             for (int i = 0; i < 1; i++) {
                 Producto crearProductos = crearProducto();
                 agregarProductos(crearProductos);
             }
-            System.out.println("Desea agregar mas productos?" + '\n' +
-                    "(1 ⇒ si)" + "(0 ⇒ no)");
-            salir = Main.sc.nextInt();
-        }while (salir != 0);
+            System.out.println("Desea agregar mas productos? (S/N)");
+            salir = Main.sc.next();
+            System.out.println();
+        }while (!salir.equalsIgnoreCase("N") );
 
     }
 

@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Reto 1 (Tienda)">
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/MainTienda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/Menu/MenuTienda.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Cambio de carpeta principal">
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/AlumnoServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_18_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/JavaExcercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/JavaExcercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/PracticalMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/PracticalMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Perros/Perros.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Perros/Perros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Perros/PerrosServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Perros/PerrosServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/TiendaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/TiendaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/BonusMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/BonusMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/PracticalExercices/Perros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/PracticalExercices/PerrosServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Tienda/TiendaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Tienda/TiendaServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +54,14 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/Character.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/CharacterDataLatin1.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/StringLatin1.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-20/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,7 +92,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dou/Egg&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/QA/Egg&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -430,14 +453,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00050" summary="Ejercicio grupal extra 3 comienzo">
-      <option name="closed" value="true" />
-      <created>1689208494473</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1689208494473</updated>
-    </task>
     <task id="LOCAL-00051" summary="Refactorizacion menu pricipal y menu ejercicios practicos.">
       <option name="closed" value="true" />
       <created>1689291101997</created>
@@ -534,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690415693334</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Cambio de carpeta principal">
+      <option name="closed" value="true" />
+      <created>1690482755568</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1690482755569</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ejercicio 13 completado" />
     <MESSAGE value="Utilizacion de toString() en el ejercicio 13 para imprimir los atributos." />
     <MESSAGE value="Ejercicio 14 resuelto." />
     <MESSAGE value="Ejercicios 1,2 y 3 de los extra resueltos." />
@@ -575,7 +597,8 @@
     <MESSAGE value="Rename Module" />
     <MESSAGE value="Creacion del paquete (Menu)" />
     <MESSAGE value="Reto 1 (Tienda)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reto 1 (Tienda)" />
+    <MESSAGE value="Cambio de carpeta principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio de carpeta principal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,6 +657,11 @@
           <url>file://$PROJECT_DIR$/JavaExcercises/src/POOExercises/Menu/MenuChallenge.java</url>
           <line>52</line>
           <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/AlumnoServices.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

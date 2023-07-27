@@ -39,7 +39,7 @@ public class PerrosServices {
     }
 
     public void fabricaPerros() {
-        int salir;
+        String salir;
 
         do {
             for (int i = 0; i < 1; i++) {
@@ -47,16 +47,16 @@ public class PerrosServices {
                 agregarPerro(crearPerro);
             }
             System.out.println(
-                    "Desea agregar otro perro" + '\n' +
-                            "(1 ⇒ Si)" + "(0 ⇒ No)" + '\n'
+                    "Desea agregar otro perro? (S/N)"
             );
-            salir = Main.sc.nextInt();
+            salir = Main.sc.next();
+            System.out.println();
 
-            if (salir == 0) {
+            if (salir.equalsIgnoreCase("N")) {
                 mostrarListaOrdenada();
             }
 
-        } while (salir != 0);
+        } while (!salir.equalsIgnoreCase("N"));
 
     }
 

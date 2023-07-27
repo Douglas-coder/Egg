@@ -18,7 +18,10 @@ public class Perros {
 
     @Override
     public String toString() {
-        return "Nombre: " + nombre + ", Raza: " + raza + '\n';
+        return "⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶" + '\n' +
+                "Nombre: " + nombre + '\n' +
+                "Raza: " + raza + '\n' +
+                "⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶" + '\n';
     }
 
     public String getNombre() {

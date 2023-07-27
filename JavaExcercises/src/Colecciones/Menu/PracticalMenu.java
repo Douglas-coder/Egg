@@ -1,6 +1,7 @@
 package Colecciones.Menu;
 
 import Colecciones.Main;
+import Colecciones.PracticalExercices.Alumnos.Alumno;
 import Colecciones.PracticalExercices.Perros.Perros;
 
 public class PracticalMenu {
@@ -8,7 +9,7 @@ public class PracticalMenu {
     private static void showOptions() {
         System.out.println(
                 "💪💪💪 Practical Menu 💪💪💪" + '\n' +
-                        "🟡1 & 2 ⇒ Razas de perros " + " | 🟡3 ⇒ Opc 3" + '\n' +
+                        "🟡1 & 2 ⇒ Razas de perros " + " | 🟡3 ⇒ Nota alumnos" + '\n' +
                         "🟡4 ⇒ Opc 4               " + " | 🟡5 ⇒ Opc 5" + '\n' +
                         "🟡6 ⇒ Opc 6               " + " 🔙7 ⇒ Menu principal" + '\n'
         );
@@ -39,7 +40,8 @@ public class PracticalMenu {
                 new Perros();
                 break;
             case 3:
-                System.out.println("Opc 3" + '\n');
+                System.out.println("👨🏼‍🎓👩🏼‍🎓👨🏼‍🎓👩🏼‍🎓 Notas alumnos 👩🏼‍🎓👨🏼‍🎓👩🏼‍🎓👨🏼‍🎓" + '\n');
+                new Alumno();
                 break;
             case 4:
                 System.out.println("Opc 4" + '\n');
