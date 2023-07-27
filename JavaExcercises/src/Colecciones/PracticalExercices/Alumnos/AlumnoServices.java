@@ -3,14 +3,13 @@ package Colecciones.PracticalExercices.Alumnos;
 import Colecciones.Main;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-public class AlumnoServices{
+public class AlumnoServices {
 
     List<Alumno> listaAlumno = new ArrayList<>();
 
-    public Alumno crearAlumnos(){
+    public Alumno crearAlumnos() {
         System.out.println("Ingrese el nombre del alumno");
         String nombre = Main.sc.next();
         List<Integer> listaNotas = new ArrayList<>();
@@ -20,19 +19,21 @@ public class AlumnoServices{
             listaNotas.add(notas);
         }
 
-        return new Alumno(listaNotas,nombre);
+        return new Alumno(listaNotas, nombre);
     }
 
-    public void agregarAlumnos(Alumno a){ listaAlumno.add(a); }
+    public void agregarAlumnos(Alumno a) {
+        listaAlumno.add(a);
+    }
 
-    public void mostrarAlumnos(){
+    public void mostrarAlumnos() {
         System.out.println("Los alumnos son:" + '\n');
         for (Alumno aux : listaAlumno) {
             System.out.println(aux.toString());
         }
     }
 
-    public void fabricaAlumnos(){
+    public void fabricaAlumnos() {
         String salir;
 
         do {
@@ -44,30 +45,30 @@ public class AlumnoServices{
             salir = Main.sc.next();
             System.out.println();
 
-            if (salir.equalsIgnoreCase("N")){
+            if (salir.equalsIgnoreCase("N")) {
                 mostrarAlumnos();
             }
 
-        }while (!salir.equalsIgnoreCase("N"));
+        } while (!salir.equalsIgnoreCase("N"));
     }
 
-    public void notaFinal(String nombre){
+    public void notaFinal(String nombre) {
         Alumno notaAlumno = null;
         int promedio = 0;
         int index = 0;
 
         //Validar que el alumno se encuentre
         for (Alumno aux : listaAlumno) {
-            if (aux.getNombre().equalsIgnoreCase(nombre)){
+            if (aux.getNombre().equalsIgnoreCase(nombre)) {
                 notaAlumno = aux;
                 break;
             }
             index++;
         }
 
-        if (notaAlumno == null){
+        if (notaAlumno == null) {
             System.out.println("El alumno '" + nombre + "' no se encuentra registrado" + '\n');
-        }else {
+        } else {
             int suma = 0;
             List<Integer> notasAlumnoIngresado = listaAlumno.get(index).getNotas();
             for (int i = 0; i < notasAlumnoIngresado.size(); i++) {
