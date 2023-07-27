@@ -1,7 +1,7 @@
 package Colecciones.Menu;
 
 import Colecciones.Main;
-import Colecciones.PracticalExercices.Perros;
+import Colecciones.PracticalExercices.Perros.Perros;
 
 public class PracticalMenu {
 

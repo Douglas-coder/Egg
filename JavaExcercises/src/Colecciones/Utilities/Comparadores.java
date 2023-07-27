@@ -1,7 +1,7 @@
 package Colecciones.Utilities;
 
 import Colecciones.Ejemplos.Mascota.Mascota;
-import Colecciones.PracticalExercices.Perros;
+import Colecciones.PracticalExercices.Perros.Perros;
 
 import java.util.Comparator;
 

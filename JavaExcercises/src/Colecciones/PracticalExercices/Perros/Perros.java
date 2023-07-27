@@ -1,4 +1,4 @@
-package Colecciones.PracticalExercices;
+package Colecciones.PracticalExercices.Perros;
 
 public class Perros {
 
