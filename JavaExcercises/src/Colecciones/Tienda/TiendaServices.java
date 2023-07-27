@@ -118,7 +118,7 @@ public class TiendaServices extends Producto {
             System.out.println("El producto '" + nombreProducto + "' no se encuentra en la tienda.");
         } else {
             listaProductos.remove(productoEliminar);
-            System.out.println("Eliminacion éxitosa.");
+            System.out.println("Eliminacion éxitosa." + '\n');
         }
     }
 

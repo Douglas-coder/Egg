@@ -6,7 +6,7 @@ public class BonusMenu {
 
     private static void showOptions() {
         System.out.println(
-                "📑📑📑 Example Menu 📑📑📑" + '\n' +
+                "🎁🎁🎁 Bonus Menu 🎁🎁🎁" + '\n' +
                         "🟡1 ⇒ Opc 1" + " | 🟡2 ⇒ Opc 2" + '\n' +
                         "🟡3 ⇒ Opc 3" + " | 🟡4 ⇒ Opc 4" + '\n' +
                         "🔙5 ⇒ Menu principal" + '\n'

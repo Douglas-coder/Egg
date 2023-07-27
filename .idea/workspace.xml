@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Creacion del paquete (Menu)">
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MenuTienda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/TiendaServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_18_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_20_2023_5_18_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/PerrosServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/PerrosServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/Mascota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/Mascota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/MascotaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Ejemplos/Mascota/MascotaServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/JUnit/GestorTareas/TaskServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/JUnit/GestorTareas/TaskServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/MenuDecorado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/MenuExample/MenuDecorado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/MainProgram/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/MainProgram/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Menu/MenuPracticalExercises.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Menu/MenuPracticalExercises.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Retos/Figuras/Menu/MenuFiguras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/POOExercises/Retos/Figuras/Menu/MenuFiguras.class" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Reto 1 (Tienda)">
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/MainTienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/Menu/MenuTienda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +34,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="e11b2ec2-1a9a-48c2-840d-dc0674c9061c" />
-        <option name="url" value="https://github.com/Dagurasu5/Egg.git" />
+        <option name="accountId" value="5274aea5-e04e-439d-9334-7c4ebf02023d" />
+        <option name="url" value="https://github.com/Douglas-coder/Egg.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -447,14 +430,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00049" summary="cambios minimos ejercicios 3 y 6 de los extra">
-      <option name="closed" value="true" />
-      <created>1688596596632</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1688596596632</updated>
-    </task>
     <task id="LOCAL-00050" summary="Ejercicio grupal extra 3 comienzo">
       <option name="closed" value="true" />
       <created>1689208494473</created>
@@ -551,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689894517355</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Reto 1 (Tienda)">
+      <option name="closed" value="true" />
+      <created>1690415693333</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1690415693334</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Explicacion y mejora de codigo" />
     <MESSAGE value="Ejercicio 13 completado" />
     <MESSAGE value="Utilizacion de toString() en el ejercicio 13 para imprimir los atributos." />
     <MESSAGE value="Ejercicio 14 resuelto." />
@@ -592,7 +574,8 @@
     <MESSAGE value="Inicio Colecciones" />
     <MESSAGE value="Rename Module" />
     <MESSAGE value="Creacion del paquete (Menu)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion del paquete (Menu)" />
+    <MESSAGE value="Reto 1 (Tienda)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reto 1 (Tienda)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

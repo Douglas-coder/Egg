@@ -7,7 +7,7 @@ public class PracticalMenu {
 
     private static void showOptions() {
         System.out.println(
-                "📑📑📑 Example Menu 📑📑📑" + '\n' +
+                "💪💪💪 Practical Menu 💪💪💪" + '\n' +
                         "🟡1 & 2 ⇒ Razas de perros " + " | 🟡3 ⇒ Opc 3" + '\n' +
                         "🟡4 ⇒ Opc 4               " + " | 🟡5 ⇒ Opc 5" + '\n' +
                         "🟡6 ⇒ Opc 6               " + " 🔙7 ⇒ Menu principal" + '\n'
