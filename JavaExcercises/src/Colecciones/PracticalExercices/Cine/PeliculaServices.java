@@ -37,7 +37,7 @@ public class PeliculaServices {
     public void fabricarPeliculas() {
         String salir;
 
-        listaPeliculas.add(new Pelicula("Titanic", "Cameeron", 3));
+        listaPeliculas.add(new Pelicula("Titanic", "Cameron", 3));
         listaPeliculas.add(new Pelicula("Rambo1", "Cotcher", 1.5));
         listaPeliculas.add(new Pelicula("Roky", "Silvester Stalon", 2));
         listaPeliculas.add(new Pelicula("Harry Potter", "JK Rowling", 0.5));

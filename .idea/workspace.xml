@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio 3 Collecciones">
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/CineMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Cine/Pelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Cine/PeliculaServices.java" afterDir="false" />
+    <list default="true" id="befe71f5-dda5-47aa-bfc5-69c07d555b81" name="Changes" comment="Ejercicio 4 Collecciones">
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Paices/Pais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Paices/PaisServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/PracticalMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Menu/PracticalMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/AlumnoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/AlumnoServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Utilities/Comparadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Utilities/Comparadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Cine/PeliculaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Cine/PeliculaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/TiendaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExcercises/src/Colecciones/Tienda/TiendaServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Menu/PracticalMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Tienda/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Tienda/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Utilities/Comparadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/PracticalExercices/Alumnos/AlumnoServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/PracticalExercices/Alumnos/AlumnoServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Tienda/TiendaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaExcercises/Colecciones/Tienda/TiendaServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +107,25 @@
       <recent name="egg.JUnit.ConversionTemperatura" />
       <recent name="egg.JUnit.CalcularDescuento.Entities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Colecciones.PracticalExercices.Cine.Utilidades" />
+      <recent name="Colecciones.PracticalExercices.Cine.Menu" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Colecciones.PracticalExercices.Cine.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecciones.PracticalExercices.Cine.Main" />
+      <module name="JavaExcercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Colecciones.PracticalExercices.Cine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ejemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecciones.Ejemplos.Ejemplo1" />
       <module name="JavaExcercises" />
@@ -162,28 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscountCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaExcercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="egg.JUnit.CalcularDescuento.Entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="egg.JUnit.CalcularDescuento.Entities" />
-      <option name="MAIN_CLASS_NAME" value="egg.JUnit.CalcularDescuento.Entities.DiscountCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Colecciones.PracticalExercices.Cine.Main" />
         <item itemvalue="Application.POOExercises.MainProgram.RefactorMain" />
         <item itemvalue="Application.Ejemplo1" />
         <item itemvalue="Application.RefactorMain" />
-        <item itemvalue="JUnit.DiscountCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -448,14 +449,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687824507236</updated>
     </task>
-    <task id="LOCAL-00052" summary="Refactorizacion menu ejercicios extra.">
-      <option name="closed" value="true" />
-      <created>1689385129506</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1689385129507</updated>
-    </task>
     <task id="LOCAL-00053" summary="Refactorizacion menu retos y reto de peliculas.">
       <option name="closed" value="true" />
       <created>1689617621023</created>
@@ -552,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690491656252</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Ejercicio 4 Collecciones">
+      <option name="closed" value="true" />
+      <created>1690500587825</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1690500587825</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +569,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ejercicio 14 resuelto." />
     <MESSAGE value="Ejercicios 1,2 y 3 de los extra resueltos." />
     <MESSAGE value="comentarios en el ejercicio extra 3 para los test" />
     <MESSAGE value="Reto 2 (Se encuentra en los extra Opc 9) Se crearon servicios y entidades ademas de un menu para el alquiler de peliculas" />
@@ -593,7 +593,8 @@
     <MESSAGE value="Reto 1 (Tienda)" />
     <MESSAGE value="Cambio de carpeta principal" />
     <MESSAGE value="Ejercicio 3 Collecciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 3 Collecciones" />
+    <MESSAGE value="Ejercicio 4 Collecciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 4 Collecciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,7 +656,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/JavaExcercises/src/Colecciones/PracticalExercices/Alumnos/AlumnoServices.java</url>
-          <line>74</line>
+          <line>75</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

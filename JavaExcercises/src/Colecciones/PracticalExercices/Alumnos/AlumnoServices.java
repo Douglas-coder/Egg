@@ -8,6 +8,7 @@ import java.util.List;
 public class AlumnoServices {
 
     List<Alumno> listaAlumno = new ArrayList<>();
+    //List<Integer> listaNotas = new ArrayList<>();
 
     public Alumno crearAlumnos() {
         System.out.println("Ingrese el nombre del alumno");

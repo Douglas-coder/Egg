@@ -1,4 +1,4 @@
-package Colecciones.Menu;
+package Colecciones.Tienda.Menu;
 
 import Colecciones.Main;
 import Colecciones.Tienda.Producto;

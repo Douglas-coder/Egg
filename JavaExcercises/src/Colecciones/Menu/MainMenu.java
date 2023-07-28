@@ -1,6 +1,7 @@
 package Colecciones.Menu;
 
 import Colecciones.Main;
+import Colecciones.Tienda.Menu.MenuTienda;
 
 public class MainMenu {
 

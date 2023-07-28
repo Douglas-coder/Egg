@@ -2,7 +2,8 @@ package Colecciones.Menu;
 
 import Colecciones.Main;
 import Colecciones.PracticalExercices.Alumnos.Alumno;
-import Colecciones.PracticalExercices.Cine.Pelicula;
+import Colecciones.PracticalExercices.Cine.Menu.CineMenu;
+import Colecciones.PracticalExercices.Paices.Pais;
 import Colecciones.PracticalExercices.Perros.Perros;
 
 public class PracticalMenu {
@@ -48,7 +49,7 @@ public class PracticalMenu {
                 new CineMenu().menuCine();
                 break;
             case 5:
-                System.out.println("Opc 5" + '\n');
+                new Pais();
                 break;
             case 6:
                 System.out.println("Opc 6" + '\n');

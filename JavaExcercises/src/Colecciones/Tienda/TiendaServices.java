@@ -41,6 +41,11 @@ public class TiendaServices extends Producto {
     public void fabricaProductos(){
         String salir;
 
+        listaProductos.add(new Producto("Leche","Lacteos",5000,5));
+        listaProductos.add(new Producto("Queso","Lacteos",3000,7));
+        listaProductos.add(new Producto("Manzana","Frutas",2000,10));
+        listaProductos.add(new Producto("Lechuga","Verduras",7000,8));
+
         do {
             for (int i = 0; i < 1; i++) {
                 Producto crearProductos = crearProducto();

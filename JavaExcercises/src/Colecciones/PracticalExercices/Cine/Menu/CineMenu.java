@@ -1,4 +1,4 @@
-package Colecciones.Menu;
+package Colecciones.PracticalExercices.Cine.Menu;
 
 import Colecciones.Main;
 import Colecciones.PracticalExercices.Cine.PeliculaServices;
