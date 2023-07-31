@@ -10,7 +10,6 @@ import java.util.List;
 public class PeliculaServices {
 
     List<Pelicula> listaPeliculas = new ArrayList<>();
-    List<Pelicula> listaHardCode = new ArrayList<>();
 
     public Pelicula crearPeliculas() {
         System.out.println("Ingresa el titulo de la pelicula");
@@ -75,10 +74,10 @@ public class PeliculaServices {
         mostrarPeliculas();
     }
 
-    public void mostrar1HoraEnAdelante(){
+    public void mostrar1HoraEnAdelante() {
 
         for (Pelicula aux : listaPeliculas) {
-            if (aux.getDuracion() >= 1){
+            if (aux.getDuracion() >= 1) {
                 //Collections.sort(listaPeliculas, Comparadores.ordenarMenorAMayor);
                 System.out.println(aux.toString());
             }

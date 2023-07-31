@@ -1,5 +1,6 @@
 package Colecciones.Menu;
 
+import Colecciones.BonusExercises.ArrayNumeros.ArrayNumeros;
 import Colecciones.Main;
 
 public class BonusMenu {
@@ -7,8 +8,8 @@ public class BonusMenu {
     private static void showOptions() {
         System.out.println(
                 "🎁🎁🎁 Bonus Menu 🎁🎁🎁" + '\n' +
-                        "🟡1 ⇒ Opc 1" + " | 🟡2 ⇒ Opc 2" + '\n' +
-                        "🟡3 ⇒ Opc 3" + " | 🟡4 ⇒ Opc 4" + '\n' +
+                        "🟡1 ⇒ Array numeros " + " | 🟡2 ⇒ Opc 2" + '\n' +
+                        "🟡3 ⇒ Opc 3         " + " | 🟡4 ⇒ Opc 4" + '\n' +
                         "🔙5 ⇒ Menu principal" + '\n'
         );
     }
@@ -34,7 +35,8 @@ public class BonusMenu {
     private void runOptions(int opc) {
         switch (opc) {
             case 1:
-                System.out.println("Opc 1" + '\n');
+                System.out.println("🧾🧾🧾 Array de numeros 🧾🧾🧾" + '\n');
+                new ArrayNumeros();
                 break;
             case 2:
                 System.out.println("Opc 2" + '\n');

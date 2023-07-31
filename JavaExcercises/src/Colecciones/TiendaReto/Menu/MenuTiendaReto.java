@@ -1,18 +1,18 @@
-package Colecciones.Tienda.Menu;
+package Colecciones.TiendaReto.Menu;
 
 import Colecciones.Main;
-import Colecciones.Tienda.Producto;
-import Colecciones.Tienda.TiendaServices;
+import Colecciones.TiendaReto.ProductoReto;
+import Colecciones.TiendaReto.TiendaServicesReto;
 
-public class MenuTienda {
+public class MenuTiendaReto {
 
-    TiendaServices tienda = new TiendaServices();
-    Producto producto = new Producto();
+    TiendaServicesReto tienda = new TiendaServicesReto();
+    ProductoReto productoReto = new ProductoReto();
 
     private static void showOptions() {
         System.out.println(
-                "🛒🛒🛒 TIENDA 🛒🛒🛒" + '\n' +
-                        "1 ⇒ Anadir producto" + '\n' +
+                "🛒🛒🛒 TIENDA RETO 🛒🛒🛒" + '\n' +
+                        "1 ⇒ Añadir producto" + '\n' +
                         "2 ⇒ Vender producto" + '\n' +
                         "3 ⇒ Reponer producto" + '\n' +
                         "4 ⇒ Mostrar lista productos" + '\n' +
@@ -26,7 +26,7 @@ public class MenuTienda {
         return Main.sc.nextInt();
     }
 
-    public void menuTienda() {
+    public void menuTiendaReto() {
 
         int opc;
 
@@ -58,7 +58,8 @@ public class MenuTienda {
                 String nombre = Main.sc.next();
                 tienda.eliminarProducto(nombre);
             }
-            case 6 -> {}
+            case 6 -> {
+            }
             default -> System.out.println("❌❌ Opción invalida ❌❌" + '\n');
         }
     }

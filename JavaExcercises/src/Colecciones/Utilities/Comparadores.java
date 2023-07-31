@@ -28,8 +28,7 @@ public class Comparadores {
 
 
     // __________________ Cine ________________________
-
- /*   //*Comparador para ordenar peliculas +1 Hora
+    /*   //*Comparador para ordenar peliculas +1 Hora
     public static Comparator<Pelicula> oredenar1Hora = new Comparator<Pelicula>() {
         @Override
         public int compare(Pelicula o1, Pelicula o2) {
@@ -68,6 +67,5 @@ public class Comparadores {
             return o1.getDirector().compareTo(o2.getDirector());
         }
     };
-
 
 }

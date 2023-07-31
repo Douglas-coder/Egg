@@ -1,8 +1,6 @@
-package Colecciones.Tienda;
+package Colecciones.TiendaReto;
 
-import java.util.List;
-
-public class Producto {
+public class ProductoReto {
 
     protected String nombre;
     protected String categoria;
@@ -10,14 +8,14 @@ public class Producto {
 
     protected int cantInventario;
 
-    public Producto(String nombre, String categoria, int precio, int cantInventario) {
+    public ProductoReto(String nombre, String categoria, int precio, int cantInventario) {
         this.nombre = nombre;
         this.categoria = categoria;
         this.precio = precio;
         this.cantInventario = cantInventario;
     }
 
-    public Producto() {
+    public ProductoReto() {
     }
 
     @Override
@@ -27,7 +25,7 @@ public class Producto {
                 "Categoría: " + categoria + '\n' +
                 "Precio: " + precio + '\n' +
                 "Cantidad en inventario: " + cantInventario + '\n' +
-                "⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶" + '\n' ;
+                "⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶" + '\n';
     }
 
     public String getNombre() {

@@ -1,7 +1,7 @@
 package Colecciones.Menu;
 
 import Colecciones.Main;
-import Colecciones.Tienda.Menu.MenuTienda;
+import Colecciones.TiendaReto.Menu.MenuTiendaReto;
 
 public class MainMenu {
 
@@ -39,7 +39,7 @@ public class MainMenu {
             case 1 -> new PracticalMenu().menuPractical();
             case 2 -> new BonusMenu().menuBonus();
             case 3 -> new ExampleMenu().menuExample();
-            case 4 -> new MenuTienda().menuTienda();
+            case 4 -> new MenuTiendaReto().menuTiendaReto();
             case 5 -> System.out.println("👋🏼👋🏼 Adios! 👋🏼👋🏼");
             default -> System.out.println("❌❌ Opción invalida ❌❌" + '\n');
         }

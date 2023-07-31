@@ -5,6 +5,7 @@ import Colecciones.PracticalExercices.Alumnos.Alumno;
 import Colecciones.PracticalExercices.Cine.Menu.CineMenu;
 import Colecciones.PracticalExercices.Paices.Pais;
 import Colecciones.PracticalExercices.Perros.Perros;
+import Colecciones.PracticalExercices.Tienda.Menu.MenuTienda;
 
 public class PracticalMenu {
 
@@ -12,8 +13,8 @@ public class PracticalMenu {
         System.out.println(
                 "💪💪💪 Practical Menu 💪💪💪" + '\n' +
                         "🟡1 & 2 ⇒ Razas de perros " + " | 🟡3 ⇒ Nota alumnos" + '\n' +
-                        "🟡4 ⇒ Cine                " + " | 🟡5 ⇒ Opc 5" + '\n' +
-                        "🟡6 ⇒ Opc 6               " + " 🔙7 ⇒ Menu principal" + '\n'
+                        "🟡4 ⇒ Cine                " + " | 🟡5 ⇒ Paises" + '\n' +
+                        "🟡6 ⇒ Tienda              " + " 🔙7 ⇒ Menu principal" + '\n'
         );
     }
 
@@ -49,10 +50,11 @@ public class PracticalMenu {
                 new CineMenu().menuCine();
                 break;
             case 5:
+                System.out.println("🌎🌏🌍 Países 🌎🌏🌍");
                 new Pais();
                 break;
             case 6:
-                System.out.println("Opc 6" + '\n');
+                new MenuTienda().tiendaMenu();
                 break;
             case 7:
                 break;
