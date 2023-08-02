@@ -1,6 +1,9 @@
 package Colecciones.Menu;
 
 import Colecciones.BonusExercises.ArrayNumeros.ArrayNumeros;
+import Colecciones.BonusExercises.CantanteFamoso.Menu.MenuFamosos;
+import Colecciones.BonusExercises.CodigosPostales.Menu.MenuCodigoPostal;
+import Colecciones.BonusExercises.Libreria.Menu.MenuLibreria;
 import Colecciones.Main;
 
 public class BonusMenu {
@@ -8,8 +11,8 @@ public class BonusMenu {
     private static void showOptions() {
         System.out.println(
                 "🎁🎁🎁 Bonus Menu 🎁🎁🎁" + '\n' +
-                        "🟡1 ⇒ Array numeros " + " | 🟡2 ⇒ Opc 2" + '\n' +
-                        "🟡3 ⇒ Opc 3         " + " | 🟡4 ⇒ Opc 4" + '\n' +
+                        "🟡1 ⇒ Array numeros " + " | 🟡2 ⇒ Famosos" + '\n' +
+                        "🟡3 ⇒ Libreria      " + " | 🟡4 ⇒ Codigos postales" + '\n' +
                         "🔙5 ⇒ Menu principal" + '\n'
         );
     }
@@ -35,17 +38,17 @@ public class BonusMenu {
     private void runOptions(int opc) {
         switch (opc) {
             case 1:
-                System.out.println("🧾🧾🧾 Array de numeros 🧾🧾🧾" + '\n');
+                System.out.println("🧾🧾🧾 Array de numeros 🧾🧾🧾");
                 new ArrayNumeros();
                 break;
             case 2:
-                System.out.println("Opc 2" + '\n');
+                new MenuFamosos().menuFamosos();
                 break;
             case 3:
-                System.out.println("Opc 3" + '\n');
+                new MenuLibreria().menuLibreria();
                 break;
             case 4:
-                System.out.println("Opc 4" + '\n');
+                new MenuCodigoPostal().menuCodigoPostal();
                 break;
             case 5:
                 break;

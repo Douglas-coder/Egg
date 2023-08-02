@@ -10,8 +10,7 @@ public class RefactorMain {
 
     public static void main(String[] args) {
 
-        MenuPrincipal menu = new MenuPrincipal();
-        menu.run();
+        new MenuPrincipal().run();
 
     }
 }
