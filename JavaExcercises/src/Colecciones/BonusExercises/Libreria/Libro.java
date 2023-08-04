@@ -1,5 +1,7 @@
 package Colecciones.BonusExercises.Libreria;
 
+import java.util.Objects;
+
 public class Libro {
 
     private String titulo;
@@ -23,6 +25,19 @@ public class Libro {
                 "Autor: " + autor + '\n' +
                 "Numero ejemplares: " + ejemplares + '\n' +
                 "Ejemplares prestados: " + ejemplaresPrestados + '\n';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Libro libro = (Libro) o;
+        return Objects.equals(titulo, libro.titulo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(titulo);
     }
 
     public int getEjemplaresPrestados() {

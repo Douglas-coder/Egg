@@ -10,11 +10,9 @@ public class MenuTienda {
     private static void showOptions() {
         System.out.println(
                 "🛒🛒🛒 TIENDA 🛒🛒🛒" + '\n' +
-                        "1 ⇒ Añadir producto" + '\n' +
-                        "2 ⇒ Actualizar precio" + '\n' +
-                        "3 ⇒ Eliminar producto" + '\n' +
-                        "4 ⇒ Mostrar lista productos" + '\n' +
-                        "5 ⇒ Menu principal" + '\n'
+                        "1 ⇒ Añadir producto   " + " | 2 ⇒ Actualizar precio" + '\n' +
+                        "3 ⇒ Eliminar producto " + " | 4 ⇒ Mostrar lista productos" + '\n' +
+                        "5 ⇒ Practical menu" + '\n'
         );
     }
 

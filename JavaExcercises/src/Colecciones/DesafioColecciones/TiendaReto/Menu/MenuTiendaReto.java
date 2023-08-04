@@ -1,8 +1,8 @@
-package Colecciones.TiendaReto.Menu;
+package Colecciones.DesafioColecciones.TiendaReto.Menu;
 
+import Colecciones.DesafioColecciones.TiendaReto.TiendaServicesReto;
 import Colecciones.Main;
-import Colecciones.TiendaReto.ProductoReto;
-import Colecciones.TiendaReto.TiendaServicesReto;
+import Colecciones.DesafioColecciones.TiendaReto.ProductoReto;
 
 public class MenuTiendaReto {
 
@@ -12,12 +12,9 @@ public class MenuTiendaReto {
     private static void showOptions() {
         System.out.println(
                 "🛒🛒🛒 TIENDA RETO 🛒🛒🛒" + '\n' +
-                        "1 ⇒ Añadir producto" + '\n' +
-                        "2 ⇒ Vender producto" + '\n' +
-                        "3 ⇒ Reponer producto" + '\n' +
-                        "4 ⇒ Mostrar lista productos" + '\n' +
-                        "5 ⇒ Eliminar Productos" + '\n' +
-                        "6 ⇒ Menu principal" + '\n'
+                        "1 ⇒ Añadir producto     " + " | 2 ⇒ Vender producto" + '\n' +
+                        "3 ⇒ Reponer producto  " + " | 4 ⇒ Mostrar lista productos" + '\n' +
+                        "5 ⇒ Eliminar Productos " + " | 6 ⇒ Menu challenge" + '\n'
         );
     }
 

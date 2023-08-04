@@ -11,8 +11,8 @@ public class MenuLibreria {
         System.out.println(
                 "📔📕📗📚 Libreria 📚📗📕📔" + '\n' +
                         "1 ⇒ Ingresar Libro " + " | 2 ⇒ Mostrar libros" + '\n' +
-                        "3 ⇒ Prestar Libro  " + " | 4 ⇒ Devolver libro" + '\n' +
-                        "5 ⇒ Menu principal " + '\n'
+                        "3 ⇒ Prestar Libro   " + " | 4 ⇒ Devolver libro" + '\n' +
+                        "5 ⇒ Bonus menu " + '\n'
         );
     }
 

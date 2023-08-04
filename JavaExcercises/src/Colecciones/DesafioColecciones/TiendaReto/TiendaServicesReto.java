@@ -1,4 +1,4 @@
-package Colecciones.TiendaReto;
+package Colecciones.DesafioColecciones.TiendaReto;
 
 import Colecciones.Main;
 

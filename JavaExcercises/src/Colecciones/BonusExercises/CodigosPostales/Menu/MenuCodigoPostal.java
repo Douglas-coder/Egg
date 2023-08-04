@@ -10,9 +10,9 @@ public class MenuCodigoPostal {
     private static void showOptions() {
         System.out.println(
                 "🌎🌏🌍 Codigo postal paises 🌎🌏🌍" + '\n' +
-                        "1 ⇒ Ingresar pais            " + " | 2 ⇒ Mostrar paises" + '\n' +
+                        "1 ⇒ Ingresar pais                   " + " | 2 ⇒ Mostrar paises" + '\n' +
                         "3 ⇒ Mostrar pais por codigo  " + " | 4 ⇒ Eliminar paises" + '\n' +
-                        "5 ⇒ Menu principal " + '\n'
+                        "5 ⇒ Bonus menu " + '\n'
         );
     }
 

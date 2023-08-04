@@ -12,7 +12,7 @@ public class BonusMenu {
         System.out.println(
                 "🎁🎁🎁 Bonus Menu 🎁🎁🎁" + '\n' +
                         "🟡1 ⇒ Array numeros " + " | 🟡2 ⇒ Famosos" + '\n' +
-                        "🟡3 ⇒ Libreria      " + " | 🟡4 ⇒ Codigos postales" + '\n' +
+                        "🟡3 ⇒ Libreria             " + " | 🟡4 ⇒ Codigos postales" + '\n' +
                         "🔙5 ⇒ Menu principal" + '\n'
         );
     }

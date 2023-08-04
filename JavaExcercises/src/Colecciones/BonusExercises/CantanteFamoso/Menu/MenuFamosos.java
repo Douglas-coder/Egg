@@ -11,7 +11,7 @@ public class MenuFamosos {
         System.out.println(
                 "🎙🎤🎶🎼 Cantantes Famosos 🎙🎤🎶🎼" + '\n' +
                         "1 ⇒ Ingresar famoso " + " | 2 ⇒ Mostrar famosos" + '\n' +
-                        "3 ⇒ Eliminar famoso " + " | 4 ⇒ Menu principal" + '\n'
+                        "3 ⇒ Eliminar famoso  " + " | 4 ⇒ Bonus menu" + '\n'
         );
     }
 

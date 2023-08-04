@@ -14,4 +14,9 @@ public class Main {
 
     }
 
+    /*
+    * Instalar gradle y configurar la variable de entorno
+    * para volver a hacer el proyecto.
+    * */
+
 }

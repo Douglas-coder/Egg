@@ -10,10 +10,10 @@ public class CineMenu {
     private static void showOptions() {
         System.out.println(
                 "🎥🎬📼 Cine 📼🎬🎥" + '\n' +
-                        "1 ⇒ Ingresar pelicula               " + " | 2 ⇒ Mostrar peliculas" + '\n' +
+                        "1 ⇒ Ingresar pelicula                          " + " | 2 ⇒ Mostrar peliculas" + '\n' +
                         "3 ⇒ Organizar (+1 hora de duración) " + " | 4 ⇒ Organizar (mayor a menor)" + '\n' +
-                        "5 ⇒ Organizar (menor a mayor)       " + " | 6 ⇒ Organizar (titulo)" + '\n' +
-                        "7 ⇒ Organizar (director)            " + " | 8 ⇒ Menu principal" + '\n'
+                        "5 ⇒ Organizar (menor a mayor)         " + " | 6 ⇒ Organizar (titulo)" + '\n' +
+                        "7 ⇒ Organizar (director)                     " + " | 8 ⇒ Practical menu" + '\n'
         );
     }
 

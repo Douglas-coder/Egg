@@ -13,8 +13,8 @@ public class PracticalMenu {
         System.out.println(
                 "💪💪💪 Practical Menu 💪💪💪" + '\n' +
                         "🟡1 & 2 ⇒ Razas de perros " + " | 🟡3 ⇒ Nota alumnos" + '\n' +
-                        "🟡4 ⇒ Cine                " + " | 🟡5 ⇒ Paises" + '\n' +
-                        "🟡6 ⇒ Tienda              " + " 🔙7 ⇒ Menu principal" + '\n'
+                        "🟡4 ⇒ Cine                         " + " | 🟡5 ⇒ Paises" + '\n' +
+                        "🟡6 ⇒ Tienda                      " + " | 🔙7 ⇒ Menu principal" + '\n'
         );
     }
 

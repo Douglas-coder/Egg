@@ -1,18 +1,15 @@
 package Colecciones.Menu;
 
 import Colecciones.Main;
-import Colecciones.TiendaReto.Menu.MenuTiendaReto;
 
 public class MainMenu {
 
     private static void showOptions() {
         System.out.println(
                 "📋📋📋 MENU 📋📋📋" + '\n' +
-                        "1 ⇒ Ejercicios practicos" + '\n' +
-                        "2 ⇒ Ejercicios extra" + '\n' +
-                        "3 ⇒ Ejemplos" + '\n' +
-                        "4 ⇒ Desafios" + '\n' +
-                        "5 ⇒ Salir" + '\n'
+                        "1 ⇒ Ejercicios practicos  | " + "2 ⇒ Ejercicios extra" + '\n' +
+                        "3 ⇒ Ejemplos                | " + "4 ⇒ Desafios" + '\n' +
+                        "5 ⇒ Salir " + '\n'
         );
     }
 
@@ -39,7 +36,7 @@ public class MainMenu {
             case 1 -> new PracticalMenu().menuPractical();
             case 2 -> new BonusMenu().menuBonus();
             case 3 -> new ExampleMenu().menuExample();
-            case 4 -> new MenuTiendaReto().menuTiendaReto();
+            case 4 -> new ChallengeMenu().menuChallenge();
             case 5 -> System.out.println("👋🏼👋🏼 Adios! 👋🏼👋🏼");
             default -> System.out.println("❌❌ Opción invalida ❌❌" + '\n');
         }

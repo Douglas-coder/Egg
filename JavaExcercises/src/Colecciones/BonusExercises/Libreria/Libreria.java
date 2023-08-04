@@ -113,7 +113,6 @@ public class Libreria {
             System.out.println("El libro '" + nombre + "' no tiene ejemplares prestados" + '\n');
             return false;
         }
-
     }
 
 }

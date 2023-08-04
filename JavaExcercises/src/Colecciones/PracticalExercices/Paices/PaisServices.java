@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class PaisServices {
 
-    HashSet<String> listaPaises = new HashSet<String>();
+    HashSet<Pais> listaPaises = new HashSet();
 
     public Pais crearPais() {
 
@@ -18,7 +18,7 @@ public class PaisServices {
     }
 
     public void agregarPais(Pais p) {
-        listaPaises.add(String.valueOf(p));
+        listaPaises.add(p);
     }
 
     public void mostrarPaises() {
@@ -26,7 +26,7 @@ public class PaisServices {
                 "-----------------------" + '\n' +
                         "Los paises son: " + '\n'
         );
-        for (String aux : listaPaises) {
+        for (Pais aux : listaPaises) {
             System.out.println(aux.toString());
         }
     }
@@ -35,11 +35,11 @@ public class PaisServices {
 
         String salir;
 
-        listaPaises.add(String.valueOf(new Pais("Colombia")));
-        listaPaises.add(String.valueOf(new Pais("España")));
-        listaPaises.add(String.valueOf(new Pais("Mexico")));
-        listaPaises.add(String.valueOf(new Pais("Argentina")));
-        listaPaises.add(String.valueOf(new Pais("Republica Dominicana")));
+        listaPaises.add(new Pais("Colombia"));
+        listaPaises.add(new Pais("España"));
+        listaPaises.add(new Pais("Mexico"));
+        listaPaises.add(new Pais("Argentina"));
+        listaPaises.add(new Pais("Republica Dominicana"));
 
         do {
             for (int i = 0; i < 1; i++) {
@@ -58,22 +58,22 @@ public class PaisServices {
     }
 
     public void eliminarPais() {
-        String nombre;
         int cont = 0;
-        Iterator<String> it = listaPaises.iterator();
+        Iterator<Pais> it = listaPaises.iterator();
 
         System.out.println(
                 "-----------------------" + '\n' +
                         "Indique el pais que desea eliminar"
         );
-        nombre = Main.sc.next();
+        String nombre = Main.sc.next();
 
-        String aux = it.next();
-        if (aux.equals(String.valueOf(Pais.getNombre().equalsIgnoreCase(nombre)))) {
-            it.remove();
+        while (it.hasNext()) {
             cont++;
-        } else if (cont == 0) {
-            System.out.println("El Pais no se encuentra en la lista" + '\n');
+            if (it.next().getNombre().equalsIgnoreCase(nombre)) {
+                it.remove();
+            }else if (cont == listaPaises.size()) {
+                System.out.println("El pais no se encuentra en la lista");
+            }
         }
     }
 

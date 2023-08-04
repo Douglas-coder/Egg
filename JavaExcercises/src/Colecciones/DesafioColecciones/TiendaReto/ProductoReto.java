@@ -1,4 +1,4 @@
-package Colecciones.TiendaReto;
+package Colecciones.DesafioColecciones.TiendaReto;
 
 public class ProductoReto {
 
