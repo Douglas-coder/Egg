@@ -39,7 +39,7 @@ public class Fibonacci {
 
         for (int x = 0; x < num; x++) {
 
-            System.out.print(fibonacci + ",");
+            System.out.print(fibonacci + ", ");
 
             fibonacci = fibonacci1 + fibonacci2;
             fibonacci1 = fibonacci2;

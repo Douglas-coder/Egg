@@ -1,8 +1,13 @@
 package Colecciones.DesafioColecciones.Hotel.Menu;
 
+import Colecciones.DesafioColecciones.Hotel.Services.PersonaService;
+import Colecciones.DesafioColecciones.Hotel.Services.ReservaServices;
 import Colecciones.Main;
 
 public class MenuHotel {
+
+    PersonaService personas = new PersonaService();
+    ReservaServices reseva = new ReservaServices();
 
     private static void showOptions() {
         System.out.println(
@@ -33,8 +38,12 @@ public class MenuHotel {
 
     private void runOptions(int opc) {
         switch (opc) {
-            case 1 -> {}
-            case 2 -> {}
+            case 1 -> {
+                reseva.fabricarReservas();
+            }
+            case 2 -> {
+                reseva.mostrarReservas();
+            }
             case 3 -> {}
             case 4 -> {}
             case 5 -> {}

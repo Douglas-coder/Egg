@@ -2,14 +2,14 @@ package Colecciones.DesafioColecciones.Hotel.Entities;
 
 import java.util.Objects;
 
-public class Persona {
+public class PersonaHotel {
 
     private int dni;
     private String nombre;
     private int edad;
     private String  pais;
 
-    public Persona(int dni, String nombre, int edad, String pais) {
+    public PersonaHotel(int dni, String nombre, int edad, String pais) {
         this.dni = dni;
         this.nombre = nombre;
         this.edad = edad;
@@ -24,12 +24,7 @@ public class Persona {
                 "Pais: " + pais + '\n';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Persona persona = (Persona) o;
-        return dni == persona.dni;
+    public PersonaHotel() {
     }
 
     @Override
@@ -37,7 +32,12 @@ public class Persona {
         return Objects.hash(dni);
     }
 
-    public Persona() {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        PersonaHotel personaHotel = (PersonaHotel) o;
+        return dni == personaHotel.dni;
     }
 
     public int getDni() {
